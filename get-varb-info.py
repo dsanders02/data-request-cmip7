@@ -1,7 +1,6 @@
 from data_request_api.content import dump_transformation as dt
 from data_request_api.query import data_request as dr
 import warnings
-import pprint
 import re
 import json
 import argparse
