@@ -48,7 +48,7 @@ def get_varb_data(variable):
         processing_note = 'N/A'
 
     sampling_rate   = get_sampling_rate(variable)
-    horizontal_mesh = 68400
+    horizontal_mesh = 360*180
     if sampling_rate != '':
         size = sampling_rate * horizontal_mesh * 4
     else: 
