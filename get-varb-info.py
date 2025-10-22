@@ -5,6 +5,11 @@ import re
 import json
 import argparse
 import os
+import pprint
+import inspect
+from data_request_api.query.dreq_query import create_dreq_tables_for_variables, get_dimension_sizes
+from data_request_api.content import dreq_content as dc
+from data_request_api.query import dreq_query as dq
 
 warnings.simplefilter("ignore", UserWarning)
 
@@ -91,14 +96,41 @@ DR, variables = get_dr_info()
 varbInfoList = []
 varbInfo     = {}
 
-if variables != '':
-    for variable in variables:
-        varbInfo = get_varb_data(variable)
-        varbInfoList.append(varbInfo)
-    if output_option == 'all':
-        write_all_to_file(varbInfoList)
-    if output_option == 'each':
-        write_each_to_file(varbInfoList)
+# if variables != '':
+#     for variable in variables:
+#         varbInfo = get_varb_data(variable)
+#         varbInfoList.append(varbInfo)
+#     if output_option == 'all':
+#         write_all_to_file(varbInfoList)
+#     if output_option == 'each':
+#         write_each_to_file(varbInfoList)
 
-if variables == '':
-    print("Could not find variable information, check API connection.")
+# if variables == '':
+#     print("Could not find variable information, check API connection.")
+
+###################
+
+used_dreq_version = 'v1.2.2.2'
+dreq_content = dc.load(version=used_dreq_version)
+
+dreq_tables = dq.create_dreq_tables_for_request(dreq_version=used_dreq_version)
+path_to_content = dc._dreq_content_loaded['json_path']
+# print(path_to_content)
+
+# Get tables
+spatial_shapes = dreq_tables["Spatial Shape"]
+variables = dreq_tables["Variables"].records.values()
+dim_sizes = get_dimension_sizes({
+    "coordinates and dimensions": dreq_tables["Coordinates and Dimensions"],
+    "spatial shape": spatial_shapes
+})
+
+shape_to_vertical = {}
+for shape in spatial_shapes.records.values():
+    shape_name = shape.name
+    vert_dim = getattr(shape, 'vertical_mesh', None) 
+    if vert_dim:
+        shape_to_vertical[shape_name] = vert_dim
+
+pprint.pprint(shape_to_vertical)
+print(len(shape_to_vertical))
