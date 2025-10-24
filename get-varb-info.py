@@ -158,10 +158,10 @@ if variables != '':
     for variable in variables:
         varbInfo = get_varb_data(variable)
         varbInfoList.append(varbInfo)
-    # if output_option == 'all':
-    #     write_all_to_file(varbInfoList)
-    # if output_option == 'each':
-    #     write_each_to_file(varbInfoList)
+    if output_option == 'all':
+        write_all_to_file(varbInfoList)
+    if output_option == 'each':
+        write_each_to_file(varbInfoList)
 
 if variables == '':
     print("Could not find variable information, check API connection.")
