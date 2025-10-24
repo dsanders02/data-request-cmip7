@@ -21,6 +21,7 @@ def get_dr_info():
 def get_list_of_experiments(DR):
     dprint("Getting list of experiments...")
     experiments = DR.get_experiments()
+    # print(experiments[0].get('size_(years,_minimum)'))
     experiment_list = [str(exp.name) for exp in experiments]
     return experiment_list
 

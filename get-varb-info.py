@@ -1,15 +1,17 @@
 from data_request_api.content import dump_transformation as dt
 from data_request_api.query import data_request as dr
+from data_request_api.query.dreq_query import create_dreq_tables_for_variables, get_dimension_sizes
+from data_request_api.content import dreq_content as dc
+from data_request_api.query import dreq_query as dq
 import warnings
 import re
 import json
 import argparse
 import os
 import pprint
-import inspect
-from data_request_api.query.dreq_query import create_dreq_tables_for_variables, get_dimension_sizes
-from data_request_api.content import dreq_content as dc
-from data_request_api.query import dreq_query as dq
+import shutil
+from pathlib import Path
+
 
 warnings.simplefilter("ignore", UserWarning)
 
@@ -28,13 +30,29 @@ def get_dr_info():
         content_dic = dt.get_transformed_content(version='v1.2.2.2')
         DR          = dr.DataRequest.from_separated_inputs(**content_dic)
         variables   = DR.get_variables()
+        experiments = DR.get_experiments()
     except Exception as e:
-        variables = ''
+        variables   = ''
+        experiments = ''
         print(f"Error in accessing Data Request information: {e}")
-    return DR, variables
+    # experiment_list = [str(exp.name) for exp in experiments]
+    return DR, variables, experiments
+
+
+def load_tables():
+    dreq_version    = 'v1.2.2.2'
+    dreq_content    = dc.load(version=dreq_version)
+    dreq_tables     = dq.create_dreq_tables_for_request(dreq_content,dreq_version=dreq_version)
+    path_to_content = dc._dreq_content_loaded['json_path']
+    return dreq_tables, path_to_content
+
 
 def get_sampling_rate(variable):
+    print(variable)
+    print(type(variable))
+    frequency_str = variable.get('cmip7_frequency')
     frequency_str = str(getattr(variable, 'cmip7_frequency', None))
+    print(frequency_str)
     match = re.search(r':\s*(.*?)\s*\(', frequency_str)
     if match:
         frequency = match.group(1)
@@ -43,24 +61,60 @@ def get_sampling_rate(variable):
         rate = ''
     return rate
 
+def get_vertical_mesh(variable):
+    shape_to_vertical = {
+        shape.name: getattr(shape, "vertical_mesh", None)
+        for shape in dreq_tables["Spatial Shape"].records.values() }
+
+    spatial_shape_str = str(getattr(variable, 'spatial_shape', None))
+    match = re.search(r':\s*(.*?)\s*\(', spatial_shape_str)
+    if match:
+        spatial_shape = match.group(1)
+        vert_mesh = shape_to_vertical.get(spatial_shape)
+    else:
+        spatial_shape = ''
+        vert_mesh = ''
+        
+    return vert_mesh, spatial_shape
+    
+def get_varb_experiments(varb_uid, size):
+    exp_list = []
+    filter = {"variables": [varb_uid]}
+    varb_experiments = DR.find_experiments(operation='any', skip_if_missing=True, **filter)
+    for experiment in varb_experiments:
+        exp_name = experiment.name.value
+        run_time = experiment.get('size_(years,_minimum)')
+        size_for_varb_exp = size * run_time/10
+        exp_details = {'experiment name': exp_name, 'run time': run_time, 'size for given variable and expriment': size_for_varb_exp, 'size': size}
+        exp_list.append(exp_details)
+    return exp_list
+
 def get_varb_data(variable):
     name            = str(getattr(variable, 'cmip6_compound_name', None))
     title           = str(getattr(variable, 'title', None))
     description     = str(getattr(variable, 'description', None))
     processing_note = str(getattr(variable, 'processing_note', None))
-    
+    uid             = str(getattr(variable, 'uid', None))
+
     if processing_note == '':
         processing_note = 'N/A'
-
+     
+    vertical_mesh, spatial_shape  = get_vertical_mesh(variable)
     sampling_rate   = get_sampling_rate(variable)
-    horizontal_mesh = 360*180
+    horizontal_mesh = 68400 #360*180
+
     if sampling_rate != '':
-        size = sampling_rate * horizontal_mesh * 4
+        size = sampling_rate * horizontal_mesh * vertical_mesh # *4
     else: 
         size = 'sampling rate not available, cannot compute size'
 
-    varbInfo = {'name': name, 'title': title, 'description': description, 'processing note': processing_note, 'size': size }
+    # varb_experiments = get_varb_experiments(uid, size)       
+
+    varbInfo = {'name': name, 'title': title, 'description': description, 'processing note': processing_note, 
+                'spatial shape': spatial_shape, 'vertical mesh': vertical_mesh, 'horizontal mesh': horizontal_mesh, 'variable size per decade': size, 'uid': uid}
     return varbInfo
+
+
 
 def write_all_to_file(data):
     file_path = "variable-info-output.json"
@@ -91,46 +145,120 @@ if args.all:
 if args.each:
     output_option = 'each'
 
-DR, variables = get_dr_info()
+DR, variables, experiments    = get_dr_info()
+dreq_tables, path_to_content  = load_tables()
 
 varbInfoList = []
 varbInfo     = {}
 
-# if variables != '':
-#     for variable in variables:
-#         varbInfo = get_varb_data(variable)
-#         varbInfoList.append(varbInfo)
-#     if output_option == 'all':
-#         write_all_to_file(varbInfoList)
-#     if output_option == 'each':
-#         write_each_to_file(varbInfoList)
+variables = variables[:2]
 
-# if variables == '':
-#     print("Could not find variable information, check API connection.")
 
-###################
+if variables != '':
+    for variable in variables:
+        varbInfo = get_varb_data(variable)
+        varbInfoList.append(varbInfo)
+    # if output_option == 'all':
+    #     write_all_to_file(varbInfoList)
+    # if output_option == 'each':
+    #     write_each_to_file(varbInfoList)
 
-used_dreq_version = 'v1.2.2.2'
-dreq_content = dc.load(version=used_dreq_version)
+if variables == '':
+    print("Could not find variable information, check API connection.")
 
-dreq_tables = dq.create_dreq_tables_for_request(dreq_version=used_dreq_version)
-path_to_content = dc._dreq_content_loaded['json_path']
-# print(path_to_content)
 
-# Get tables
-spatial_shapes = dreq_tables["Spatial Shape"]
-variables = dreq_tables["Variables"].records.values()
-dim_sizes = get_dimension_sizes({
-    "coordinates and dimensions": dreq_tables["Coordinates and Dimensions"],
-    "spatial shape": spatial_shapes
-})
+##########################################################################
 
-shape_to_vertical = {}
-for shape in spatial_shapes.records.values():
-    shape_name = shape.name
-    vert_dim = getattr(shape, 'vertical_mesh', None) 
-    if vert_dim:
-        shape_to_vertical[shape_name] = vert_dim
+experiments = experiments[:3]
+expInfo = {}
+expInfoList = []
 
-pprint.pprint(shape_to_vertical)
-print(len(shape_to_vertical))
+def get_experiment_runtime(experiment): 
+    exp_name = experiment
+    run_time = experiment.get('size_(years,_minimum)')
+    print(runtime) 
+    return expInfo
+
+
+def get_list_of_experiments(DR):
+    print("Getting list of experiments...")
+    experiments = DR.get_experiments()
+    # print(experiments[0].get('size_(years,_minimum)'))
+    experiment_list = [str(exp.name) for exp in experiments]
+    return experiment_list
+
+def get_experiment_varbs(DR, experiment_name):
+    print(f"Getting variables for experiment")
+    filter = {"experiments": [experiment_name]}
+    try: 
+        experiment_varbs = DR.find_variables(operation='any', skip_if_missing=True, **filter)
+    except Exception as e:
+        print(f"Error occurred while fetching variables for experiment {experiment_name}: {e}")
+        experiment_varbs = []
+    return experiment_varbs
+
+def get_varb_name_list(experiment_varbs):
+    print("Getting variable names...")
+    varb_names = []
+    for varb in experiment_varbs:
+        varb_name = varb
+        varb_names.append(varb_name)
+    # if experiment_name == "all":
+    #     print(str(len(varb_names)) + " variables found for experiment " + exp)
+    # else:
+    #     print(str(len(varb_names)) + " variables found for experiment " + experiment_name)
+    return varb_names
+
+
+
+experiment_list = get_list_of_experiments(DR)
+experiment_list = experiment_list[:2]
+
+for experiment in experiments:
+    experiment_varbs = get_experiment_varbs(DR, experiment)
+    exp_name = experiment
+    run_time = experiment.get('size_(years,_minimum)')
+    # print(experiment, run_time) 
+    # print(experiment)
+    varb_names       = get_varb_name_list(experiment_varbs)
+    print(varb_names)
+    all_varb_sizes_per_exp = []
+    for variable in varb_names:
+        vertical_mesh, spatial_shape  = get_vertical_mesh(variable)
+        print('getting sampling rate...')
+
+        sampling_rate   = get_sampling_rate(variable)
+        horizontal_mesh = 68400 #360*180
+        if sampling_rate != '':
+            size = sampling_rate * horizontal_mesh * vertical_mesh # *4
+        else: 
+            size = 'sampling rate not available, cannot compute size'
+        print(size, run_time)
+        size_for_varb_exp = size * run_time / 10
+
+        all_varb_sizes_per_exp.append(size_for_varb_exp)
+        print(experiment, variable, run_time, size_for_varb_exp)
+
+    total_vol_size = sum(all_varb_sizes_per_exp)
+    print('total vol size for experiment ' + str(experiment.name) + '=' + str(total_vol_size))
+
+        # for i in range(len(varbInfoList)):
+        #     if variable == varbInfoList[i]['name']:
+        #         print(variable)
+        #         print(experiment)
+        #         print(run_time)
+
+                # size = varbInfoList[i]['size']
+                # if size is not None and run_time is not None and isinstance(size, (int, float)) and isinstance(run_time, (int, float)):
+                #     size_for_varb_exp = size * run_time / 10
+                # else:
+                #     size_for_varb_exp = 'Size or run_time not available'
+
+
+
+
+
+
+# cache_dir = Path.home() / ".CMIP7_data_request_api_cache"
+# if cache_dir.exists():
+#     shutil.rmtree(cache_dir)
