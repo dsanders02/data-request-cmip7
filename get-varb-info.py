@@ -39,6 +39,12 @@ def get_dr_info():
     return DR, variables, experiments
 
 
+def get_list_of_experiments(DR):
+    experiments = DR.get_experiments()
+    experiment_list = [str(exp.name) for exp in experiments]
+    return experiment_list
+
+
 def load_tables():
     dreq_version    = 'v1.2.2.2'
     dreq_content    = dc.load(version=dreq_version)
@@ -48,11 +54,11 @@ def load_tables():
 
 
 def get_sampling_rate(variable):
-    print(variable)
-    print(type(variable))
+    # print(variable)
+    # print(type(variable))
     frequency_str = variable.get('cmip7_frequency')
     frequency_str = str(getattr(variable, 'cmip7_frequency', None))
-    print(frequency_str)
+    # print(frequency_str)
     match = re.search(r':\s*(.*?)\s*\(', frequency_str)
     if match:
         frequency = match.group(1)
@@ -60,6 +66,7 @@ def get_sampling_rate(variable):
     else:
         rate = ''
     return rate
+
 
 def get_vertical_mesh(variable):
     shape_to_vertical = {
@@ -74,27 +81,15 @@ def get_vertical_mesh(variable):
     else:
         spatial_shape = ''
         vert_mesh = ''
-        
+
     return vert_mesh, spatial_shape
     
-def get_varb_experiments(varb_uid, size):
-    exp_list = []
-    filter = {"variables": [varb_uid]}
-    varb_experiments = DR.find_experiments(operation='any', skip_if_missing=True, **filter)
-    for experiment in varb_experiments:
-        exp_name = experiment.name.value
-        run_time = experiment.get('size_(years,_minimum)')
-        size_for_varb_exp = size * run_time/10
-        exp_details = {'experiment name': exp_name, 'run time': run_time, 'size for given variable and expriment': size_for_varb_exp, 'size': size}
-        exp_list.append(exp_details)
-    return exp_list
 
 def get_varb_data(variable):
     name            = str(getattr(variable, 'cmip6_compound_name', None))
     title           = str(getattr(variable, 'title', None))
     description     = str(getattr(variable, 'description', None))
     processing_note = str(getattr(variable, 'processing_note', None))
-    uid             = str(getattr(variable, 'uid', None))
 
     if processing_note == '':
         processing_note = 'N/A'
@@ -108,12 +103,51 @@ def get_varb_data(variable):
     else: 
         size = 'sampling rate not available, cannot compute size'
 
-    # varb_experiments = get_varb_experiments(uid, size)       
-
     varbInfo = {'name': name, 'title': title, 'description': description, 'processing note': processing_note, 
-                'spatial shape': spatial_shape, 'vertical mesh': vertical_mesh, 'horizontal mesh': horizontal_mesh, 'variable size per decade': size, 'uid': uid}
+                'spatial shape': spatial_shape, 'vertical mesh': vertical_mesh, 'horizontal mesh': horizontal_mesh, 'variable size per decade': size}
     return varbInfo
 
+
+def get_experiment_varbs(DR, experiment_name):
+    filter = {"experiments": [experiment_name]}
+    try: 
+        experiment_varbs = DR.find_variables(operation='any', skip_if_missing=True, **filter)
+    except Exception as e:
+        print(f"Error occurred while fetching variables for experiment {experiment_name}: {e}")
+        experiment_varbs = []
+    return experiment_varbs
+
+
+def get_varb_name_list(experiment_varbs):
+    varb_names = []
+    for varb in experiment_varbs:
+        varb_name = varb.cmip6_compound_name.value
+        varb_names.append(varb_name)
+    # if experiment_name == "all":
+    #     print(str(len(varb_names)) + " variables found for experiment " + exp)
+    # else:
+    #     print(str(len(varb_names)) + " variables found for experiment " + experiment_name)
+    return varb_names
+
+
+def calc_tot_vol_per_exp(DR, experiment):
+    experiment_varbs = get_experiment_varbs(DR, experiment)
+    run_time         = experiment.get('size_(years,_minimum)')
+    varb_names       = get_varb_name_list(experiment_varbs)
+
+    all_varb_sizes_per_exp = []
+    for variable in varb_names:
+        for item in varbInfoList:
+            if item['name'] == str(variable):
+                size_for_varb_exp = item['variable size per decade'] * run_time / 10
+                all_varb_sizes_per_exp.append(size_for_varb_exp)
+                # print(experiment.name, variable, run_time, size_for_varb_exp)
+
+    total_vol_size_per_exp = sum(all_varb_sizes_per_exp)
+
+    print('total volume size for ' + str(experiment.name) + ': ' + str(total_vol_size_per_exp))
+
+    return total_vol_size_per_exp
 
 
 def write_all_to_file(data):
@@ -121,6 +155,7 @@ def write_all_to_file(data):
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
     print(str(len(varbInfoList)) + " variables processed. Variable information can be found in 'variable-info-output.json'")
+
 
 def write_each_to_file(data):
     for values in data:
@@ -145,14 +180,15 @@ if args.all:
 if args.each:
     output_option = 'each'
 
-DR, variables, experiments    = get_dr_info()
-dreq_tables, path_to_content  = load_tables()
-
-varbInfoList = []
 varbInfo     = {}
+expInfo      = {}
+varbInfoList = []
+expInfoList  = []
+all_volumes  = []
 
-variables = variables[:2]
-
+DR, variables, experiments   = get_dr_info()
+dreq_tables, path_to_content = load_tables()
+experiment_list              = get_list_of_experiments(DR)
 
 if variables != '':
     for variable in variables:
@@ -162,102 +198,16 @@ if variables != '':
         write_all_to_file(varbInfoList)
     if output_option == 'each':
         write_each_to_file(varbInfoList)
-
 if variables == '':
     print("Could not find variable information, check API connection.")
 
 
-##########################################################################
-
-experiments = experiments[:3]
-expInfo = {}
-expInfoList = []
-
-def get_experiment_runtime(experiment): 
-    exp_name = experiment
-    run_time = experiment.get('size_(years,_minimum)')
-    print(runtime) 
-    return expInfo
-
-
-def get_list_of_experiments(DR):
-    print("Getting list of experiments...")
-    experiments = DR.get_experiments()
-    # print(experiments[0].get('size_(years,_minimum)'))
-    experiment_list = [str(exp.name) for exp in experiments]
-    return experiment_list
-
-def get_experiment_varbs(DR, experiment_name):
-    print(f"Getting variables for experiment")
-    filter = {"experiments": [experiment_name]}
-    try: 
-        experiment_varbs = DR.find_variables(operation='any', skip_if_missing=True, **filter)
-    except Exception as e:
-        print(f"Error occurred while fetching variables for experiment {experiment_name}: {e}")
-        experiment_varbs = []
-    return experiment_varbs
-
-def get_varb_name_list(experiment_varbs):
-    print("Getting variable names...")
-    varb_names = []
-    for varb in experiment_varbs:
-        varb_name = varb
-        varb_names.append(varb_name)
-    # if experiment_name == "all":
-    #     print(str(len(varb_names)) + " variables found for experiment " + exp)
-    # else:
-    #     print(str(len(varb_names)) + " variables found for experiment " + experiment_name)
-    return varb_names
-
-
-
-experiment_list = get_list_of_experiments(DR)
-experiment_list = experiment_list[:2]
-
 for experiment in experiments:
-    experiment_varbs = get_experiment_varbs(DR, experiment)
-    exp_name = experiment
-    run_time = experiment.get('size_(years,_minimum)')
-    # print(experiment, run_time) 
-    # print(experiment)
-    varb_names       = get_varb_name_list(experiment_varbs)
-    print(varb_names)
-    all_varb_sizes_per_exp = []
-    for variable in varb_names:
-        vertical_mesh, spatial_shape  = get_vertical_mesh(variable)
-        print('getting sampling rate...')
+    total_vol_size_per_exp = calc_tot_vol_per_exp(DR, experiment)
+    all_volumes.append(total_vol_size_per_exp)
 
-        sampling_rate   = get_sampling_rate(variable)
-        horizontal_mesh = 68400 #360*180
-        if sampling_rate != '':
-            size = sampling_rate * horizontal_mesh * vertical_mesh # *4
-        else: 
-            size = 'sampling rate not available, cannot compute size'
-        print(size, run_time)
-        size_for_varb_exp = size * run_time / 10
-
-        all_varb_sizes_per_exp.append(size_for_varb_exp)
-        print(experiment, variable, run_time, size_for_varb_exp)
-
-    total_vol_size = sum(all_varb_sizes_per_exp)
-    print('total vol size for experiment ' + str(experiment.name) + '=' + str(total_vol_size))
-
-        # for i in range(len(varbInfoList)):
-        #     if variable == varbInfoList[i]['name']:
-        #         print(variable)
-        #         print(experiment)
-        #         print(run_time)
-
-                # size = varbInfoList[i]['size']
-                # if size is not None and run_time is not None and isinstance(size, (int, float)) and isinstance(run_time, (int, float)):
-                #     size_for_varb_exp = size * run_time / 10
-                # else:
-                #     size_for_varb_exp = 'Size or run_time not available'
-
-
-
-
-
+total_vol_est = sum(all_volumes)
+print(total_vol_est)
 
 # cache_dir = Path.home() / ".CMIP7_data_request_api_cache"
 # if cache_dir.exists():
