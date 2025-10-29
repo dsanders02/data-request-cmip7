@@ -4,31 +4,24 @@ import json
 import warnings
 
 
-## This script creates a text file listing all the variable 
-## names associated with the 'Ocean' and 'Ocean Biogeochemistry' modeling realms.
+## This script creates a text file listing all the variable names associated
+## with the 'Ocean' (ocn) and 'Ocean Biogeochemistry' (ocnBgchem) primary 
+## modelingrealms, as well as 'Atmospheric' primary modelling realm (atmos).
 ## It pulls data from the data request API version v1.2.2.2.
 
 warnings.simplefilter("ignore", UserWarning)
 
-content_dic = dt.get_transformed_content(version='v1.2.2.2')
-DR          = dr.DataRequest.from_separated_inputs(**content_dic)
-
-get_all_variables = DR.get_variables()
-all_variables     = get_all_variables
-
-
-
-ocean_match     = '[modelling_realm: Ocean (id: ocean)'
-ocnBgchem_match = '[modelling_realm: Ocean Biogeochemistry (id: ocnBgchem)'
-atm_match       = '[modelling_realm: Atmospheric (id: atmos)'
-
-def get_ocn_realm_varbs(variable):
-    if str(variable.modelling_realm).startswith(ocean_match) or str(variable.modelling_realm).startswith(ocnBgchem_match):
-        ocean_varb_list.append(str(variable.cmip6_compound_name))
-    return ocean_varb_list
+def get_dr_info():
+    try: 
+        content_dic = dt.get_transformed_content(version='v1.2.2.2')
+        DR          = dr.DataRequest.from_separated_inputs(**content_dic)
+        all_variables = DR.get_variables()
+    except Exception as e:
+        print(f"Error in accessing Data Request information: {e}")
+    return DR, all_variables
 
 
-def get_atm_varbs(variable):
+def get_varb_info(variable):
     modelling_realm = str(variable.get('modelling_realm'))
     variable_name   = str(variable.get('cmip6_compound_name'))
     title           = str(variable.get('title'))
@@ -36,12 +29,11 @@ def get_atm_varbs(variable):
     if modelling_realm.startswith(atm_match):
         atmVarb = {'name': variable_name, 'title': title, 'description': description, 'modelling realm': modelling_realm }
         atmVarbInfo.append(atmVarb)
-    return atmVarbInfo
+    if modelling_realm.startswith(ocean_match) or modelling_realm.startswith(ocnBgchem_match):
+        ocnVarb = {'name': variable_name, 'title': title, 'description': description, 'modelling realm': modelling_realm }
+        ocnVarbInfo.append(ocnVarb)
+    return atmVarbInfo, ocnVarbInfo
 
-def write_text_to_file(file_name, varb_info):
-    with open(file_name, "w") as file_object:
-        file_object.write("\n".join(varb_info))
-    print(f"{len(varb_info)} variables were wriiten to {file_name}")
 
 def write_json_to_file(file_name, varb_info):
     with open(file_name, "w") as file_object:
@@ -50,13 +42,22 @@ def write_json_to_file(file_name, varb_info):
 
 
 ## MAIN ##
-ocean_varb_list = []
+ocean_match     = '[modelling_realm: Ocean (id: ocean)'
+ocnBgchem_match = '[modelling_realm: Ocean Biogeochemistry (id: ocnBgchem)'
+atm_match       = '[modelling_realm: Atmospheric (id: atmos)'
+
 atmVarb         = {}
 atmVarbInfo     = []
+ocnVarb         = {}
+ocnVarbInfo     = []
+
+DR, all_variables = get_dr_info()
+
 for variable in all_variables:
-    ocean_varb_list = get_ocn_realm_varbs(variable)
-    ocean_varb_list = sorted(ocean_varb_list)
-    atmVarbInfo     = get_atm_varbs(variable)
-    
-write_text_to_file('ocean_&_ocnBgchem_variables.txt', ocean_varb_list)
+    atmVarbInfo, ocnVarbInfo     = get_varb_info(variable)
+
+atmVarbInfo = sorted(atmVarbInfo, key=lambda x: x['name'])
+ocnVarbInfo = sorted(ocnVarbInfo, key=lambda x: x['name'])
+
+write_json_to_file('ocean_&_ocnBgchem_variables.txt', ocnVarbInfo)
 write_json_to_file('atm_variables.txt', atmVarbInfo)
