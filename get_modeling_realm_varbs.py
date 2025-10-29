@@ -27,10 +27,10 @@ def get_varb_info(variable):
     title           = str(variable.get('title'))
     description     = str(variable.get('description'))
     if modelling_realm.startswith(atm_match):
-        atmVarb = {'name': variable_name, 'title': title, 'description': description, 'modelling realm': modelling_realm }
+        atmVarb = {'name': variable_name, 'title': title, 'description': description}
         atmVarbInfo.append(atmVarb)
     if modelling_realm.startswith(ocean_match) or modelling_realm.startswith(ocnBgchem_match):
-        ocnVarb = {'name': variable_name, 'title': title, 'description': description, 'modelling realm': modelling_realm }
+        ocnVarb = {'name': variable_name, 'title': title, 'description': description}
         ocnVarbInfo.append(ocnVarb)
     return atmVarbInfo, ocnVarbInfo
 
@@ -59,5 +59,5 @@ for variable in all_variables:
 atmVarbInfo = sorted(atmVarbInfo, key=lambda x: x['name'])
 ocnVarbInfo = sorted(ocnVarbInfo, key=lambda x: x['name'])
 
-write_json_to_file('ocean_&_ocnBgchem_variables.txt', ocnVarbInfo)
+write_json_to_file('ocean_and_ocnBgchem_variables.txt', ocnVarbInfo)
 write_json_to_file('atm_variables.txt', atmVarbInfo)
