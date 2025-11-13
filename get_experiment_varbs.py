@@ -70,6 +70,7 @@ if args.verbose:
 
 DR = get_dr_info()
 experiment_list = get_list_of_experiments(DR)
+experiment_list = sorted(experiment_list)
 
 if experiment_name == "all":
     for exp in experiment_list:
