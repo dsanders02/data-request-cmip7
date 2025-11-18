@@ -1,0 +1,908 @@
+[
+    {
+        "CMIP6 Compund Name": "Amon.sbl",
+        "Standard Name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+        "Title": "Surface Snow and Ice Sublimation Flux",
+        "Description": "The snow and ice sublimation flux is the loss of snow and ice mass from the surface resulting from their conversion to water vapor that enters the atmosphere."
+    },
+    {
+        "CMIP6 Compund Name": "CFsubhr.sbl",
+        "Standard Name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+        "Title": "Surface Snow and Ice Sublimation Flux",
+        "Description": "The snow and ice sublimation flux is the loss of snow and ice mass from the surface resulting from their conversion to water vapor that enters the atmosphere."
+    },
+    {
+        "CMIP6 Compund Name": "Eday.hfdsn",
+        "Standard Name": "surface_downward_heat_flux_in_snow",
+        "Title": "Downward Heat Flux into Snow Where Land over Land",
+        "Description": "Downward heat flux at snow top"
+    },
+    {
+        "CMIP6 Compund Name": "Eday.lwsnl",
+        "Standard Name": "liquid_water_content_of_surface_snow",
+        "Title": "Liquid Water Content of Snow Layer",
+        "Description": "liquid\\_water\\_content\\_of\\_snow\\_layer"
+    },
+    {
+        "CMIP6 Compund Name": "Eday.pflw",
+        "Standard Name": "liquid_water_content_of_permafrost_layer",
+        "Title": "Liquid Water Content of Permafrost Layer",
+        "Description": "liquid\\_water\\_content\\_of\\_permafrost\\_layer"
+    },
+    {
+        "CMIP6 Compund Name": "Eday.sbl",
+        "Standard Name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+        "Title": "Surface Snow and Ice Sublimation Flux",
+        "Description": "surface upward flux of water vapor due to sublimation of surface snow and ice"
+    },
+    {
+        "CMIP6 Compund Name": "Eday.snd",
+        "Standard Name": "surface_snow_thickness",
+        "Title": "Snow Depth",
+        "Description": "where land over land, this is computed as the mean thickness of snow in the land portion of the grid cell (averaging over the entire land portion, including the snow-free fraction).  Reported as 0.0 where the land fraction is 0."
+    },
+    {
+        "CMIP6 Compund Name": "Eday.snm",
+        "Standard Name": "surface_snow_melt_flux",
+        "Title": "Surface Snow Melt",
+        "Description": "surface\\_snow\\_and\\_ice\\_melt\\_flux"
+    },
+    {
+        "CMIP6 Compund Name": "Eday.tpf",
+        "Standard Name": "permafrost_layer_thickness",
+        "Title": "Permafrost Layer Thickness",
+        "Description": "permafrost\\_layer\\_thickness"
+    },
+    {
+        "CMIP6 Compund Name": "Eday.tsn",
+        "Standard Name": "temperature_in_surface_snow",
+        "Title": "Snow Internal Temperature",
+        "Description": "This temperature is averaged over all the snow in the grid cell that rests on land or land ice.  When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.   Reported as \"missing in regions free of snow on land."
+    },
+    {
+        "CMIP6 Compund Name": "Efx.sftflf",
+        "Standard Name": "floating_ice_shelf_area_fraction",
+        "Title": "Floating Ice Shelf Area Percentage",
+        "Description": "This is needed to distinguish between grounded glaciated ice (grounded = ice sheet and glacier) and ice shelves (floating over sea water), since land\\_ice is by definition ice sheet, glacier and ice shelves"
+    },
+    {
+        "CMIP6 Compund Name": "Efx.sftgrf",
+        "Standard Name": "grounded_ice_sheet_area_fraction",
+        "Title": "Grounded Ice Sheet Area Percentage",
+        "Description": "This is needed to distinguish between grounded glaciated ice (grounded = ice sheet and glacier) and ice shelves (floating over sea water), since land\\_ice is by definition ice sheet, glacier and ice shelves"
+    },
+    {
+        "CMIP6 Compund Name": "IfxAnt.hfgeoubed",
+        "Standard Name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+        "Title": "Geothermal Heat Flux Beneath Land Ice",
+        "Description": "Geothermal Heat Flux Beneath Land Ice"
+    },
+    {
+        "CMIP6 Compund Name": "IfxAnt.lithk",
+        "Standard Name": "land_ice_thickness",
+        "Title": "Ice Sheet Thickness",
+        "Description": "The thickness of the ice sheet"
+    },
+    {
+        "CMIP6 Compund Name": "IfxAnt.topg",
+        "Standard Name": "bedrock_altitude",
+        "Title": "Bedrock Altitude",
+        "Description": "The bedrock topography beneath the land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IfxGre.hfgeoubed",
+        "Standard Name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+        "Title": "Geothermal Heat Flux Beneath Land Ice",
+        "Description": "Geothermal Heat Flux Beneath Land Ice"
+    },
+    {
+        "CMIP6 Compund Name": "IfxGre.lithk",
+        "Standard Name": "land_ice_thickness",
+        "Title": "Ice Sheet Thickness",
+        "Description": "The thickness of the ice sheet"
+    },
+    {
+        "CMIP6 Compund Name": "IfxGre.topg",
+        "Standard Name": "bedrock_altitude",
+        "Title": "Bedrock Altitude",
+        "Description": "The bedrock topography beneath the land ice"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.acabf",
+        "Standard Name": "land_ice_surface_specific_mass_balance_flux",
+        "Title": "Surface Mass Balance Flux",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods, and as forcing for ISM"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.icem",
+        "Standard Name": "land_ice_surface_melt_flux",
+        "Title": "Surface Ice Melt Flux",
+        "Description": "Loss of ice mass resulting from surface melting. Computed as the total surface melt water on the land ice portion of the grid cell divided by land ice area in the grid cell."
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.libmassbffl",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+        "Description": "quantity averaged over floating ice shelf"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.libmassbfgr",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded ice sheet"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.licalvf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving",
+        "Title": "Land Ice Calving Flux",
+        "Description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box."
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.lifmassbf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+        "Title": "Land Ice Vertical Front Mass Balance Flux",
+        "Description": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.litempbotfl",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Floating Ice Shelf",
+        "Description": "quantity averaged over floating ice shelf"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.litempbotgr",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded ice sheet"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.litemptop",
+        "Standard Name": "temperature_at_top_of_ice_sheet_model",
+        "Title": "Temperature at Top of Ice Sheet Model",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.mrroLi",
+        "Standard Name": "land_ice_runoff_flux",
+        "Title": "Land Ice Runoff Flux",
+        "Description": "Runoff flux over land ice is the difference between any available liquid water in the snowpack less any refreezing. Computed as the sum of rainfall and melt of snow or ice less any refreezing or water retained in the snowpack"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.sbl",
+        "Standard Name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+        "Title": "Surface Snow and Ice Sublimation Flux",
+        "Description": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere."
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.snc",
+        "Standard Name": "surface_snow_area_fraction",
+        "Title": "Snow Area Percentage",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.snicefreez",
+        "Standard Name": "surface_snow_and_ice_refreezing_flux",
+        "Title": "Surface Snow and Ice Refreeze Flux",
+        "Description": "Mass flux of surface meltwater which refreezes within the snowpack. Computed as the total refreezing on the land ice portion of the grid cell divided by land ice area in the grid cell."
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.snicem",
+        "Standard Name": "surface_snow_and_ice_melt_flux",
+        "Title": "Surface Snow and Ice Melt Flux",
+        "Description": "Loss of snow and ice mass resulting from surface melting. Computed as the total surface melt on the land ice portion of the grid cell divided by land ice area in the grid cell."
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.snm",
+        "Standard Name": "surface_snow_melt_flux",
+        "Title": "Surface Snow Melt",
+        "Description": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land."
+    },
+    {
+        "CMIP6 Compund Name": "ImonAnt.tsn",
+        "Standard Name": "temperature_in_surface_snow",
+        "Title": "Snow Internal Temperature on Land Ice",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.acabf",
+        "Standard Name": "land_ice_surface_specific_mass_balance_flux",
+        "Title": "Surface Mass Balance Flux",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods, and as forcing for ISM"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.icem",
+        "Standard Name": "land_ice_surface_melt_flux",
+        "Title": "Surface Ice Melt Flux",
+        "Description": "Loss of ice mass resulting from surface melting. Computed as the total surface melt water on the land ice portion of the grid cell divided by land ice area in the grid cell."
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.libmassbffl",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+        "Description": "quantity averaged over floating ice shelf"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.libmassbfgr",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded ice sheet"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.licalvf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving",
+        "Title": "Land Ice Calving Flux",
+        "Description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box."
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.lifmassbf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+        "Title": "Land Ice Vertical Front Mass Balance Flux",
+        "Description": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.litempbotfl",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Floating Ice Shelf",
+        "Description": "quantity averaged over floating ice shelf"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.litempbotgr",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded ice sheet"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.litemptop",
+        "Standard Name": "temperature_at_top_of_ice_sheet_model",
+        "Title": "Temperature at Top of Ice Sheet Model",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.mrroLi",
+        "Standard Name": "land_ice_runoff_flux",
+        "Title": "Land Ice Runoff Flux",
+        "Description": "Runoff flux over land ice is the difference between any available liquid water in the snowpack less any refreezing. Computed as the sum of rainfall and melt of snow or ice less any refreezing or water retained in the snowpack"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.sbl",
+        "Standard Name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+        "Title": "Surface Snow and Ice Sublimation Flux",
+        "Description": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere."
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.snc",
+        "Standard Name": "surface_snow_area_fraction",
+        "Title": "Snow Area Percentage",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.snicefreez",
+        "Standard Name": "surface_snow_and_ice_refreezing_flux",
+        "Title": "Surface Snow and Ice Refreeze Flux",
+        "Description": "Mass flux of surface meltwater which refreezes within the snowpack. Computed as the total refreezing on the land ice portion of the grid cell divided by land ice area in the grid cell."
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.snicem",
+        "Standard Name": "surface_snow_and_ice_melt_flux",
+        "Title": "Surface Snow and Ice Melt Flux",
+        "Description": "Loss of snow and ice mass resulting from surface melting. Computed as the total surface melt on the land ice portion of the grid cell divided by land ice area in the grid cell."
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.snm",
+        "Standard Name": "surface_snow_melt_flux",
+        "Title": "Surface Snow Melt",
+        "Description": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land."
+    },
+    {
+        "CMIP6 Compund Name": "ImonGre.tsn",
+        "Standard Name": "temperature_in_surface_snow",
+        "Title": "Snow Internal Temperature on Land Ice",
+        "Description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.acabf",
+        "Standard Name": "land_ice_surface_specific_mass_balance_flux",
+        "Title": "Surface Mass Balance Flux",
+        "Description": "quantity averaged over ice sheet only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.hfgeoubed",
+        "Standard Name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+        "Title": "Geothermal Heat Flux Beneath Land Ice",
+        "Description": "Geothermal Heat Flux Beneath Land Ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.iareafl",
+        "Standard Name": "floating_ice_shelf_area",
+        "Title": "Area Covered by Floating Ice Shelves",
+        "Description": "Antarctica"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.iareagr",
+        "Standard Name": "grounded_ice_sheet_area",
+        "Title": "Area Covered by Grounded Ice Sheet",
+        "Description": "Antarctica"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.libmassbffl",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+        "Description": "quantity averaged over floating land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.libmassbfgr",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.licalvf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving",
+        "Title": "Land Ice Calving Flux",
+        "Description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box."
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.lifmassbf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+        "Title": "Land Ice Vertical Front Mass Balance Flux",
+        "Description": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.lim",
+        "Standard Name": "land_ice_mass",
+        "Title": "Ice Sheet Mass",
+        "Description": "Antarctica"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.limnsw",
+        "Standard Name": "land_ice_mass_not_displacing_sea_water",
+        "Title": "Ice Sheet Mass That Does not Displace Sea Water",
+        "Description": "Antarctica"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.litempbotfl",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Floating Ice Shelf",
+        "Description": "quantity averaged over floating land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.litempbotgr",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.litemptop",
+        "Standard Name": "temperature_at_top_of_ice_sheet_model",
+        "Title": "Temperature at Top of Ice Sheet Model",
+        "Description": "quantity averaged over ice sheet only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.lithk",
+        "Standard Name": "land_ice_thickness",
+        "Title": "Ice Sheet Thickness",
+        "Description": "This is needed in case ice sheet thickness changes in time"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.modelCellAreai",
+        "Standard Name": "cell_area",
+        "Title": "The Cell Area of the Ice Sheet Model",
+        "Description": "When interpolated to a regular grid, it should be interpolated (not summed) with a conservative scheme to preserve total area"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.sftflf",
+        "Standard Name": "floating_ice_shelf_area_fraction",
+        "Title": "Floating Ice Shelf Area Percentage",
+        "Description": "This is needed in case the floating ice sheet area changes in time (NO grounded ice sheet)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.sftgrf",
+        "Standard Name": "grounded_ice_sheet_area_fraction",
+        "Title": "Grounded Ice Sheet Area Percentage",
+        "Description": "This is needed in case the grounded ice sheet area changes in time (NO floating ice shelf)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.snc",
+        "Standard Name": "surface_snow_area_fraction",
+        "Title": "Snow Area Percentage",
+        "Description": "quantity averaged over ice sheet  only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.strbasemag",
+        "Standard Name": "land_ice_basal_drag",
+        "Title": "Land Ice Basal Drag",
+        "Description": "Magnitude of basal drag at land ice base"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.tendacabf",
+        "Standard Name": "tendency_of_land_ice_mass_due_to_surface_mass_balance",
+        "Title": "Total Surface Mass Balance Flux",
+        "Description": "Antarctica"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.tendlibmassbf",
+        "Standard Name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+        "Title": "Total Basal Mass Balance Flux",
+        "Description": "Antarctica"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.tendlicalvf",
+        "Standard Name": "tendency_of_land_ice_mass_due_to_calving",
+        "Title": "Total Calving Flux",
+        "Description": "Antarctica"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.topg",
+        "Standard Name": "bedrock_altitude",
+        "Title": "Bedrock Altitude",
+        "Description": "This is needed in case bed rock elevation changes in time"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.xvelbase",
+        "Standard Name": "land_ice_basal_x_velocity",
+        "Title": "X-Component of Land Ice Basal Velocity",
+        "Description": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. \"basal\" means the lower boundary of the land ice."
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.xvelmean",
+        "Standard Name": "land_ice_vertical_mean_x_velocity",
+        "Title": "X-Component of Land Ice Vertical Mean Velocity",
+        "Description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.xvelsurf",
+        "Standard Name": "land_ice_surface_x_velocity",
+        "Title": "X-Component of Land Ice Surface Velocity",
+        "Description": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called \"surface\" means the lower boundary of the atmosphere."
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.yvelbase",
+        "Standard Name": "land_ice_basal_y_velocity",
+        "Title": "Y-Component of Land Ice Basal Velocity",
+        "Description": "A velocity is a vector quantity. \"y\" indicates a vector component along the grid y-axis, positive with increasing y. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. \"basal\" means the lower boundary of the land ice."
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.yvelmean",
+        "Standard Name": "land_ice_vertical_mean_y_velocity",
+        "Title": "Y-Component of Land Ice Vertical Mean Velocity",
+        "Description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.yvelsurf",
+        "Standard Name": "land_ice_surface_y_velocity",
+        "Title": "Y-Component of Land Ice Surface Velocity",
+        "Description": "A velocity is a vector quantity. \"y\" indicates a vector component along the grid y-axis, positive with increasing y. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called \"surface\" means the lower boundary of the atmosphere.'"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.zvelbase",
+        "Standard Name": "land_ice_basal_upward_velocity",
+        "Title": "Upward Component of Land-Ice Basal Velocity",
+        "Description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). \"basal\" means the lower boundary of the atmosphere"
+    },
+    {
+        "CMIP6 Compund Name": "IyrAnt.zvelsurf",
+        "Standard Name": "land_ice_surface_upward_velocity",
+        "Title": "Upward Component of Land-Ice Surface Velocity",
+        "Description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). The surface called \"surface\" means the lower boundary of the atmosphere"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.acabf",
+        "Standard Name": "land_ice_surface_specific_mass_balance_flux",
+        "Title": "Surface Mass Balance Flux",
+        "Description": "quantity averaged over ice sheet only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.hfgeoubed",
+        "Standard Name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+        "Title": "Geothermal Heat Flux Beneath Land Ice",
+        "Description": "Geothermal Heat Flux Beneath Land Ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.iareafl",
+        "Standard Name": "floating_ice_shelf_area",
+        "Title": "Area Covered by Floating Ice Shelves",
+        "Description": "Greenland"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.iareagr",
+        "Standard Name": "grounded_ice_sheet_area",
+        "Title": "Area Covered by Grounded Ice Sheet",
+        "Description": "Greenland"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.libmassbffl",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+        "Description": "quantity averaged over floating land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.libmassbfgr",
+        "Standard Name": "land_ice_basal_specific_mass_balance_flux",
+        "Title": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.licalvf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving",
+        "Title": "Land Ice Calving Flux",
+        "Description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box."
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.lifmassbf",
+        "Standard Name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+        "Title": "Land Ice Vertical Front Mass Balance Flux",
+        "Description": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.lim",
+        "Standard Name": "land_ice_mass",
+        "Title": "Ice Sheet Mass",
+        "Description": "Greenland"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.limnsw",
+        "Standard Name": "land_ice_mass_not_displacing_sea_water",
+        "Title": "Ice Sheet Mass That Does not Displace Sea Water",
+        "Description": "Greenland"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.litempbotfl",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Floating Ice Shelf",
+        "Description": "quantity averaged over floating land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.litempbotgr",
+        "Standard Name": "land_ice_basal_temperature",
+        "Title": "Basal Temperature of Grounded Ice Sheet",
+        "Description": "quantity averaged over grounded land ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.litemptop",
+        "Standard Name": "temperature_at_top_of_ice_sheet_model",
+        "Title": "Temperature at Top of Ice Sheet Model",
+        "Description": "quantity averaged over ice sheet only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.lithk",
+        "Standard Name": "land_ice_thickness",
+        "Title": "Ice Sheet Thickness",
+        "Description": "This is needed in case ice sheet thickness changes in time"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.modelCellAreai",
+        "Standard Name": "cell_area",
+        "Title": "The Cell Area of the Ice Sheet Model",
+        "Description": "When interpolated to a regular grid, it should be interpolated (not summed) with a conservative scheme to preserve total area"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.sftflf",
+        "Standard Name": "floating_ice_shelf_area_fraction",
+        "Title": "Floating Ice Shelf Area Percentage",
+        "Description": "This is needed in case the floating ice sheet area changes in time (NO grounded ice sheet)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.sftgrf",
+        "Standard Name": "grounded_ice_sheet_area_fraction",
+        "Title": "Grounded Ice Sheet Area Percentage",
+        "Description": "This is needed in case the grounded ice sheet area changes in time (NO floating ice shelf)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.snc",
+        "Standard Name": "surface_snow_area_fraction",
+        "Title": "Snow Area Percentage",
+        "Description": "quantity averaged over ice sheet  only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.strbasemag",
+        "Standard Name": "land_ice_basal_drag",
+        "Title": "Land Ice Basal Drag",
+        "Description": "Magnitude of basal drag at land ice base"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.tendacabf",
+        "Standard Name": "tendency_of_land_ice_mass_due_to_surface_mass_balance",
+        "Title": "Total Surface Mass Balance Flux",
+        "Description": "Greenland"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.tendlibmassbf",
+        "Standard Name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+        "Title": "Total Basal Mass Balance Flux",
+        "Description": "Greenland"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.tendlicalvf",
+        "Standard Name": "tendency_of_land_ice_mass_due_to_calving",
+        "Title": "Total Calving Flux",
+        "Description": "Greenland"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.topg",
+        "Standard Name": "bedrock_altitude",
+        "Title": "Bedrock Altitude",
+        "Description": "This is needed in case bed rock elevation changes in time"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.xvelbase",
+        "Standard Name": "land_ice_basal_x_velocity",
+        "Title": "X-Component of Land Ice Basal Velocity",
+        "Description": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. \"basal\" means the lower boundary of the land ice."
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.xvelmean",
+        "Standard Name": "land_ice_vertical_mean_x_velocity",
+        "Title": "X-Component of Land Ice Vertical Mean Velocity",
+        "Description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.xvelsurf",
+        "Standard Name": "land_ice_surface_x_velocity",
+        "Title": "X-Component of Land Ice Surface Velocity",
+        "Description": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called \"surface\" means the lower boundary of the atmosphere."
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.yvelbase",
+        "Standard Name": "land_ice_basal_y_velocity",
+        "Title": "Y-Component of Land Ice Basal Velocity",
+        "Description": "A velocity is a vector quantity. \"y\" indicates a vector component along the grid y-axis, positive with increasing y. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. \"basal\" means the lower boundary of the land ice."
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.yvelmean",
+        "Standard Name": "land_ice_vertical_mean_y_velocity",
+        "Title": "Y-Component of Land Ice Vertical Mean Velocity",
+        "Description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.yvelsurf",
+        "Standard Name": "land_ice_surface_y_velocity",
+        "Title": "Y-Component of Land Ice Surface Velocity",
+        "Description": "A velocity is a vector quantity. \"y\" indicates a vector component along the grid y-axis, positive with increasing y. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called \"surface\" means the lower boundary of the atmosphere.'"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.zvelbase",
+        "Standard Name": "land_ice_basal_upward_velocity",
+        "Title": "Upward Component of Land-Ice Basal Velocity",
+        "Description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). \"basal\" means the lower boundary of the atmosphere"
+    },
+    {
+        "CMIP6 Compund Name": "IyrGre.zvelsurf",
+        "Standard Name": "land_ice_surface_upward_velocity",
+        "Title": "Upward Component of Land-Ice Surface Velocity",
+        "Description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). The surface called \"surface\" means the lower boundary of the atmosphere"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.acabfIs",
+        "Standard Name": "land_ice_surface_specific_mass_balance_flux",
+        "Title": "Ice Sheet Surface Mass Balance Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.agesno",
+        "Standard Name": "age_of_surface_snow",
+        "Title": "Mean Age of Snow",
+        "Description": "When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.  Reported as \"missing in regions free of snow on land."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.hfdsn",
+        "Standard Name": "surface_downward_heat_flux_in_snow",
+        "Title": "Downward Heat Flux into Snow Where Land over Land",
+        "Description": "the net downward heat flux from the atmosphere into the snow that lies on land divided by the land area in the grid cell; reported as missing for snow-free land regions or where the land fraction is 0."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.hflsIs",
+        "Standard Name": "surface_upward_latent_heat_flux",
+        "Title": "Ice Sheet Surface Upward Latent Heat Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.hfssIs",
+        "Standard Name": "surface_upward_sensible_heat_flux",
+        "Title": "Ice Sheet Surface Upward Sensible Heat Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.icemIs",
+        "Standard Name": "land_ice_surface_melt_flux",
+        "Title": "Ice Sheet Surface Ice Melt Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.litemptopIs",
+        "Standard Name": "temperature_at_top_of_ice_sheet_model",
+        "Title": "Ice Sheet Temperature at Top of Ice Sheet Model",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.lwsnl",
+        "Standard Name": "liquid_water_content_of_surface_snow",
+        "Title": "Liquid Water Content of Snow Layer",
+        "Description": "where land over land: this is computed as the total mass of liquid water contained interstitially within the snow layer of the land portion of a grid cell divided by the area of the land portion of the cell."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.mrroIs",
+        "Standard Name": "runoff_flux",
+        "Title": "Ice Sheet Total Runoff",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.orogIs",
+        "Standard Name": "surface_altitude",
+        "Title": "Ice Sheet Surface Altitude",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.pflw",
+        "Standard Name": "liquid_water_content_of_permafrost_layer",
+        "Title": "Liquid Water Content of Permafrost Layer",
+        "Description": "\"where land over land\", i.e., this is the total mass of liquid water contained within the permafrost layer within the land portion of a grid cell divided by the area of the land portion of the cell."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.prraIs",
+        "Standard Name": "rainfall_flux",
+        "Title": "Ice Sheet Rainfall Rate",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.prsnIs",
+        "Standard Name": "snowfall_flux",
+        "Title": "Ice Sheet Snowfall Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.rldsIs",
+        "Standard Name": "surface_downwelling_longwave_flux_in_air",
+        "Title": "Ice Sheet Surface Downwelling Longwave Radiation",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.rlusIs",
+        "Standard Name": "surface_upwelling_longwave_flux_in_air",
+        "Title": "Ice Sheet Surface Upwelling Longwave Radiation",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.rsdsIs",
+        "Standard Name": "surface_downwelling_shortwave_flux_in_air",
+        "Title": "Ice Sheet Surface Downwelling Shortwave Radiation",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.rsusIs",
+        "Standard Name": "surface_upwelling_shortwave_flux_in_air",
+        "Title": "Ice Sheet Surface Upwelling Shortwave Radiation",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.sbl",
+        "Standard Name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+        "Title": "Surface Snow and Ice Sublimation Flux",
+        "Description": "The snow and ice sublimation flux is the loss of snow and ice mass resulting from their conversion to water vapor.  Computed as the total sublimation on the land portion of the grid cell divided by the land area in the grid cell; reported as missing for snow-free land regions; reported as missing where the land fraction is 0."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.sblIs",
+        "Standard Name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+        "Title": "Ice Sheet Surface Snow and Ice Sublimation Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.sftflf",
+        "Standard Name": "floating_ice_shelf_area_fraction",
+        "Title": "Floating Ice Shelf Area Percentage",
+        "Description": "Percentage of grid cell covered by floating ice shelf, the component of the ice sheet that is flowing over sea water"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.sftgrf",
+        "Standard Name": "grounded_ice_sheet_area_fraction",
+        "Title": "Grounded Ice Sheet Area Percentage",
+        "Description": "Percentage of grid cell covered by grounded ice sheet"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.snc",
+        "Standard Name": "surface_snow_area_fraction",
+        "Title": "Snow Area Percentage",
+        "Description": "Fraction of each grid cell that is occupied by snow that rests on land portion of cell."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.sncIs",
+        "Standard Name": "surface_snow_area_fraction",
+        "Title": "Ice Sheet Snow Cover Percentage",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.snd",
+        "Standard Name": "surface_snow_thickness",
+        "Title": "Snow Depth",
+        "Description": "where land over land, this is computed as the mean thickness of snow in the land portion of the grid cell (averaging over the entire land portion, including the snow-free fraction).  Reported as missing where the land fraction is 0."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.snicefreezIs",
+        "Standard Name": "surface_snow_and_ice_refreezing_flux",
+        "Title": "Ice Sheet Surface Snow and Ice Refreeze Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.snicemIs",
+        "Standard Name": "surface_snow_and_ice_melt_flux",
+        "Title": "Ice Sheet Surface Snow and Ice Melt Flux",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.snm",
+        "Standard Name": "surface_snow_melt_flux",
+        "Title": "Surface Snow Melt",
+        "Description": "Computed as the total surface melt water on the land portion of the grid cell divided by the land area in the grid cell; report as 0.0 for snow-free land regions; report as missing where the land fraction is 0."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.snmIs",
+        "Standard Name": "surface_snow_melt_flux",
+        "Title": "Ice Sheet Surface Snow Melt",
+        "Description": "Loss of snow mass resulting from surface melting. Computed as the surface melt water from snow on the ice sheet portion of the grid cell divided by the ice\\_sheet area in the grid cell; report as 0.0 for snow-free land\\_ice regions; report as missing where the land fraction is 0."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.snw",
+        "Standard Name": "surface_snow_amount",
+        "Title": "Surface Snow Amount",
+        "Description": "Computed as the mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excluded is snow on vegetation canopy or on sea ice."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.sootsn",
+        "Standard Name": "soot_content_of_surface_snow",
+        "Title": "Snow Soot Content",
+        "Description": "the entire land portion of the grid cell is considered, with snow soot content set to 0.0 in regions free of snow."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.tasIs",
+        "Standard Name": "air_temperature",
+        "Title": "Ice Sheet Near-Surface Air Temperature",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.tpf",
+        "Standard Name": "permafrost_layer_thickness",
+        "Title": "Permafrost Layer Thickness",
+        "Description": "where land over land: This is the mean thickness of the permafrost layer in the land portion of the grid cell.  Reported as missing in permafrost-free regions."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.tsIs",
+        "Standard Name": "surface_temperature",
+        "Title": "Ice Sheet Surface Temperature",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "LImon.tsn",
+        "Standard Name": "temperature_in_surface_snow",
+        "Title": "Snow Internal Temperature",
+        "Description": "This temperature is averaged over all the snow in the grid cell that rests on land or land ice.  When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.   Reported as \"missing in regions free of snow on land."
+    },
+    {
+        "CMIP6 Compund Name": "LImon.tsnIs",
+        "Standard Name": "temperature_in_surface_snow",
+        "Title": "Ice Sheet Snow Internal Temperature",
+        "Description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)"
+    },
+    {
+        "CMIP6 Compund Name": "Lmon.mrfso",
+        "Standard Name": "soil_frozen_water_content",
+        "Title": "Soil Frozen Water Content",
+        "Description": "the mass (summed over all all layers) of frozen water."
+    },
+    {
+        "CMIP6 Compund Name": "day.snc",
+        "Standard Name": "surface_snow_area_fraction",
+        "Title": "Snow Area Percentage",
+        "Description": "Percentage of each grid cell that is occupied by snow that rests on land portion of cell."
+    },
+    {
+        "CMIP6 Compund Name": "day.snw",
+        "Standard Name": "surface_snow_amount",
+        "Title": "Surface Snow Amount",
+        "Description": "the mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excludes snow on vegetation canopy or on sea ice."
+    },
+    {
+        "CMIP6 Compund Name": "fx.lithk",
+        "Standard Name": "land_ice_thickness",
+        "Title": "Ice sheet thickness",
+        "Description": "This variable identifies the thickness of a prescribed ice sheet. This information is relevant to better understand how different models treat ice. For models where an ice sheet is just orography + an ice sheet mask, the value should be set to zero. For models that explicitly resolve an ice sheet thickness, the thickness of the ice sheet should be provided."
+    }
+]
