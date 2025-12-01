@@ -11,6 +11,7 @@ import json
 import shutil
 from pathlib import Path
 
+## This script pulls data from the data request API version v1.2.2.2 to estimate the total volume of data to be pulled from the CMIP7 Data Request. 
 
 warnings.simplefilter("ignore", UserWarning)
 
