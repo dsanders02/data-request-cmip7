@@ -7,10 +7,10 @@ import re
 import os
 
 
-## This script pulls data from the data request API version v1.2.2.2 and creates a text file listing all the variable names associated
-## with the following modelling realms: 'Ocean' (ocn) and 'Ocean Biogeochemistry' (ocnBgchem), 'Atmospheric' (atmos), 'Sea Ice' (seaIce), 'Land Surface' (land), and 'Land Ice' (landIce).
-## The output files are named accordingly: 'ocean_and_ocnBgchem_variables.txt', 'atm_variables.txt', 'sea_ice_variables.txt', 'land_surface_variables.txt', and 'land_ice_variables.txt'.
-## Each variable entry includes its standard name, title, and description.
+## This script pulls data from the data request API version v1.2.2.2 and creates csv files listing all the variable names associated with the following
+## modelling realms: 'Ocean' (ocn) and 'Ocean Biogeochemistry' (ocnBgchem), 'Atmospheric' (atmos), 'Sea Ice' (seaIce), 'Land Surface' (land), and 'Land Ice' (landIce).
+## The output files are named accordingly: 'ocean_and_ocnBgchem.csv', 'atmos.csv', 'sea_ice.csv', 'land.csv', and 'land_ice.csv'.
+## Each variable entry includes CMIP6 Compund Name, CF Standard Name, Physical Parameter, Title, and Description
 
 warnings.simplefilter("ignore", UserWarning)
 
@@ -56,51 +56,34 @@ def get_varb_info(variable):
     variable_name   = str(variable.get('cmip6_compound_name'))
     title           = str(variable.get('title'))
     description     = str(variable.get('description'))
+    description     = re.sub(r"\\_", "_", description)
     physical_param  = str(variable.get('physical_parameter'))
     physical_param  = match_field(physical_param)
     standard_name   = str(variable.get('physical_parameter').get('cf_standard_name'))
     standard_name   = match_field(standard_name)
     if modelling_realm.startswith(atm_match):
-        atmVarb = {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description}
+        atmVarb = {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         atmVarbInfo.append(atmVarb)
     if modelling_realm.startswith(ocean_match) or modelling_realm.startswith(ocnBgchem_match):
-        ocnVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description}
+        ocnVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         ocnVarbInfo.append(ocnVarb)
     if modelling_realm.startswith(seaIce_match):
-        seaIceVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description}
+        seaIceVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         seaIceVarbInfo.append(seaIceVarb)
     if modelling_realm.startswith(land_match):
-        landVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description}
+        landVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         landVarbInfo.append(landVarb)
     if modelling_realm.startswith(landIce_match):
-        landIceVarb = {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description}
+        landIceVarb = {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         landIceVarbInfo.append(landIceVarb)
     return atmVarbInfo, ocnVarbInfo, seaIceVarbInfo, landVarbInfo, landIceVarbInfo
-
-
-def write_json_to_file(file_name, varb_info):
-    path = "modelling_realm_variables/"
-    file_path = os.path.join(path, file_name)
-    os.makedirs(path, exist_ok=True)
-    with open(file_path, "w") as file_object:
-        json.dump(varb_info, file_object, indent=4)
-    print(f"{len(varb_info)} variables were wriiten to  {file_path}")
 
 
 def create_and_write_table(file_name, data):
     path = "modelling_realm_variables/"
     file_path = os.path.join(path, file_name)
     table = pd.DataFrame(data)
-    pd.set_option('display.max_rows', None)
-
-    table = table.astype(str)
-    table = table.apply(lambda col: col.str.ljust(col.str.len().max()))
-    # table = df.applymap(lambda x: x.rstrip() if isinstance(x, str) else x)
-    text       = table.to_string(justify='left', index=False)
-    clean_text = "\n".join(line.rstrip() for line in text.splitlines())
-
-    with open(file_path, "w") as f:
-        f.write(clean_text)
+    table.to_csv(file_path, index=False)
     
     print(f"{len(data)} variables were wriiten to  {file_path}")
     return table
@@ -112,10 +95,9 @@ DR, all_variables = get_dr_info()
 for variable in all_variables:
     atmVarbInfo, ocnVarbInfo, seaIceVarbInfo, landVarbInfo, landIceVarbInfo = get_varb_info(variable)
 
-varbInfo  = {'atm': atmVarbInfo, 'ocean_and_ocnBgchem': ocnVarbInfo, 'sea_ice': seaIceVarbInfo, 'land': landVarbInfo, 'land_ice': landIceVarbInfo}
+varbInfo  = {'atmos': atmVarbInfo, 'ocean_and_ocnBgchem': ocnVarbInfo, 'sea_ice': seaIceVarbInfo, 'land': landVarbInfo, 'land_ice': landIceVarbInfo}
 
 for file, varbRealm in varbInfo.items():
-    file_name = file + '_table.txt'
+    file_name = file + '.csv'
     varbRealm = sorted(varbRealm, key=lambda x: x['CMIP6 Compund Name'])
     create_and_write_table(file_name, varbRealm)
-    

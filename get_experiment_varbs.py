@@ -4,6 +4,10 @@ import argparse
 import os
 import warnings
 
+## This script pulls data from the data request API version v1.2.2.2 and retrieves all variables linked to the given 
+## experiment from the data request API. It writes the list of variable names to experiment_variables/<experiment name>.txt. 
+## One experiment can be specified by the command line arguement "--experiment <experiment name>" or it can be run for all
+## experiemts by the option "--experiemt all" in which files relating to every expereiment will be written to the same location. 
 
 warnings.simplefilter("ignore", UserWarning)
 debug = False

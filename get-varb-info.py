@@ -13,6 +13,10 @@ import os
 import shutil
 from pathlib import Path
 
+## This script pulls data from the data request API version v1.2.2.2. It retrieves variable information including
+## variable name, title, description and processing note. There are two options when runninig this script. Firstly,
+## is the option to write all the information for the variables to a single file "variable-info-output.json". Secondly, is 
+## the option to write the individual variable information to separate files, located in "variable-data/<variable name>.json"
 
 warnings.simplefilter("ignore", UserWarning)
 
@@ -71,7 +75,7 @@ def write_each_to_file(data):
 
 
 #### MAIN ####
-parser = argparse.ArgumentParser(description='''This script retrieves variable information from the data request API.''')
+parser = argparse.ArgumentParser(description='''This script retrieves variable information from the data request API and writes to json file(s).''')
 group = parser.add_mutually_exclusive_group(required=True)
 group.add_argument('--all',   '-a', help='Write output to a single file'   , action='store_true')
 group.add_argument('--each',  '-e', help='Write output to individual files', action='store_true')
