@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.osaltpsmadvect",
+    "title": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Submesoscale Advection",
+    "description": "Tendency of salt content for a grid cell from parameterized submesoscale eddy advection.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

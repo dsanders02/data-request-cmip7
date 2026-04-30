@@ -1,0 +1,6 @@
+{
+    "name": "Omon.calcos",
+    "title": "Surface Calcite Concentration",
+    "description": "sum of particulate calcite component concentrations (e.g. Phytoplankton, Detrital, etc.)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

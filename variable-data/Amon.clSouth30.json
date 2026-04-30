@@ -1,0 +1,6 @@
+{
+    "name": "Amon.clSouth30",
+    "title": "Percentage Cloud Cover",
+    "description": "Includes both large-scale and convective cloud.",
+    "processing note": "Report on model layers (not standard pressures). This is a regional subset of the variable. If you are producing the global equivalent of Amon.clSouth30, you should omit this regional South30 version."
+}

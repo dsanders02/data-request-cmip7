@@ -1,0 +1,6 @@
+{
+    "name": "3hrPt.wdirwindsea",
+    "title": "Sea Wave Direction",
+    "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the wind-sea component of the wave energy spectrum (i.e., local wind waves). This variable is usually expressed in degrees relative to true north.",
+    "processing note": "undef"
+}

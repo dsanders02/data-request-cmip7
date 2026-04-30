@@ -1,0 +1,6 @@
+{
+    "name": "Omon.sfxint",
+    "title": "Vertically Integrated Ocean Salt Mass X Transport",
+    "description": "Ocean salt mass x transport vertically integrated over the whole ocean depth. Contains all contributions to 'x-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
+    "processing note": "2d vertically integrated field. If the full 3d transport is preferred, produce Omon.sfx instead.\nReport on native horizontal grid."
+}

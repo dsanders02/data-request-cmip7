@@ -1,0 +1,6 @@
+{
+    "name": "Omon.icfriver",
+    "title": "Flux of Inorganic Carbon into Ocean Surface by Runoff",
+    "description": "Inorganic Carbon supply to ocean through runoff (separate from gas exchange)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time depth0m CMIP7:longitude latitude time"
+}

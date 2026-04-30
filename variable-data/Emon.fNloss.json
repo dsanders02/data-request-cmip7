@@ -1,0 +1,6 @@
+{
+    "name": "Emon.fNloss",
+    "title": "Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",
+    "description": "Not all models split losses into gaseous and leaching",
+    "processing note": "N/A"
+}

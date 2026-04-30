@@ -59,22 +59,24 @@ def get_varb_info(variable):
     description     = re.sub(r"\\_", "_", description)
     physical_param  = str(variable.get('physical_parameter'))
     physical_param  = match_field(physical_param)
+    unit            = str(variable.get('physical_parameter').get('units'))
     standard_name   = str(variable.get('physical_parameter').get('cf_standard_name'))
     standard_name   = match_field(standard_name)
     if modelling_realm.startswith(atm_match):
         atmVarb = {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         atmVarbInfo.append(atmVarb)
     if modelling_realm.startswith(ocean_match) or modelling_realm.startswith(ocnBgchem_match):
-        ocnVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
+        modelling_realm = match_field(modelling_realm)
+        ocnVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Modeling Realm': modelling_realm, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         ocnVarbInfo.append(ocnVarb)
     if modelling_realm.startswith(seaIce_match):
         seaIceVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
         seaIceVarbInfo.append(seaIceVarb)
     if modelling_realm.startswith(land_match):
-        landVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
+        landVarb =  {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Units': unit, 'Title': title, 'Description': description }
         landVarbInfo.append(landVarb)
     if modelling_realm.startswith(landIce_match):
-        landIceVarb = {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Title': title, 'Description': description }
+        landIceVarb = {'CMIP6 Compund Name': variable_name, 'CF Standard Name': standard_name, 'Physical Parameter': physical_param, 'Units': unit, 'Title': title, 'Description': description }
         landIceVarbInfo.append(landIceVarb)
     return atmVarbInfo, ocnVarbInfo, seaIceVarbInfo, landVarbInfo, landIceVarbInfo
 

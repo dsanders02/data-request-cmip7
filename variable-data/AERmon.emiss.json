@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.emiss",
+    "title": "Total Emission Rate of Sea-Salt Aerosol",
+    "description": "Integrate 3D emission field vertically to 2d field.",
+    "processing note": "N/A"
+}

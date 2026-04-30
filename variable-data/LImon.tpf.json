@@ -1,0 +1,6 @@
+{
+    "name": "LImon.tpf",
+    "title": "Permafrost Layer Thickness",
+    "description": "where land over land: This is the mean thickness of the permafrost layer in the land portion of the grid cell.  Reported as missing in permafrost-free regions.",
+    "processing note": "N/A"
+}

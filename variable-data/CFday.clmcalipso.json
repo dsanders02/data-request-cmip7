@@ -1,0 +1,6 @@
+{
+    "name": "CFday.clmcalipso",
+    "title": "CALIPSO Mid Level Cloud Cover Percentage",
+    "description": "Percentage cloud cover in layer centred on 560hPa",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "ImonAnt.tas",
+    "title": "Near-Surface Air Temperature",
+    "description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods",
+    "processing note": "N/A"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.zos",
+    "title": "Sea Surface Height Above Geoid",
+    "description": "This is the dynamic sea level, so should have zero global area mean. It should not include inverse barometer depressions from sea ice.",
+    "processing note": "See OMDP document for details. Report on native horizontal grid as well as on a spherical latitude/longitude grid."
+}

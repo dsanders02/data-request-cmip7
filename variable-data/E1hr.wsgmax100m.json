@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.wsgmax100m",
+    "title": "Maximum Wind Speed of Gust at 100m",
+    "description": "Wind speed gust maximum at 100m above surface",
+    "processing note": "Wind speed gust maximum at 100m above surface - hourly output"
+}

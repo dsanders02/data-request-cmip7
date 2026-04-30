@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.rluscsaf",
+    "title": "Surface Upwelling Clear-Sky, Aerosol-Free Longwave Radiation",
+    "description": "Flux corresponding to rluscs resulting from an aerosol-free call to radiation",
+    "processing note": "N/A"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Amon.hurSouth30",
+    "title": "Relative Humidity",
+    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,\nThis is a regional subset of the variable. If you are producing the global equivalent of Amon.hurSouth30, you should omit this regional South30 version."
+}

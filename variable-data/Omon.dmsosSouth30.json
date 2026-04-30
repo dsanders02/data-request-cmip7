@@ -1,0 +1,6 @@
+{
+    "name": "Omon.dmsosSouth30",
+    "title": "Surface Mole Concentration of Dimethyl Sulphide in Sea Water",
+    "description": "Mole concentration of dimethyl sulphide in water in the near surface layer",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.dmsosSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "SImon.siitdthick",
+    "title": "Sea-Ice Thickness in Ice Thickness Categories",
+    "description": "Actual (floe) thickness of sea ice in each ice thickness category, NOT volume divided by grid area (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of categories as third coordinate axis).",
+    "processing note": "Note that SIMIP requests the area-weighted average for all intensive variables (i.e., variables that are not proportional to area fraction such as albedo, temperature, or heat flux). Hence, all time samples with non-zero sea-ice fraction are first multiplied by area fraction, then summed, and then divided by the sum of the area fractions. See Appendix C of Notz et al. (2016) for more detail. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice (comment: mask=siitdconc) CMIP7:area: time: mean where sea\\_ice (mask=siitdconc),"
+}

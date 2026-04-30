@@ -1,0 +1,6 @@
+{
+    "name": "Amon.cfc11global",
+    "title": "Global Mean Mole Fraction of CFC11",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.  The chemical formula of CFC11 is CFCl3.  The IUPAC name for CFC11 is trichloro-fluoro-methane.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:height: area: time: mean (with all samples weighted by the number of moles of air in the sample),"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "ImonGre.rsds",
+    "title": "Surface Downwelling Shortwave Radiation",
+    "description": "Surface solar irradiance for UV calculations.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.phos",
+    "title": "Surface pH",
+    "description": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.phos, you should omit this regional South30 version. \nCHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

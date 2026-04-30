@@ -1,0 +1,6 @@
+{
+    "name": "Emon.wsgmax10m",
+    "title": "Maximum Wind Speed of Gust at 10m",
+    "description": "Maximum Wind Speed of Gust at 10m, monthly",
+    "processing note": "Maximum instantaneous gust over grid cell, recorded monthly. Input data at the highest available frequency, ideally model timesteps, should be used to compute the maximum. Modellers are requested to leave in a comment in the netcdf metadata stating the frequency of the input data."
+}

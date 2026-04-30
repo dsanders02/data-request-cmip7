@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clcalipso",
+    "title": "CALIPSO Percentage Cloud Cover",
+    "description": "Percentage cloud cover in CALIPSO standard atmospheric layers.",
+    "processing note": "40 height levels. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,"
+}

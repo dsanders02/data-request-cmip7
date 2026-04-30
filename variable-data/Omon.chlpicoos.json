@@ -1,0 +1,6 @@
+{
+    "name": "Omon.chlpicoos",
+    "title": "Surface Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
+    "description": "chlorophyll concentration from the picophytoplankton (<2 um) component alone",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.chlpicoos, you should omit this regional South30 version. \nCHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

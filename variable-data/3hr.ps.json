@@ -1,0 +1,6 @@
+{
+    "name": "3hr.ps",
+    "title": "Surface Air Pressure",
+    "description": "sampled synoptically to diagnose atmospheric tides, this is better than mean sea level pressure.",
+    "processing note": "N/A"
+}

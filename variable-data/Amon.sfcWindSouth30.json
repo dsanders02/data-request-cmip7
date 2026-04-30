@@ -1,0 +1,6 @@
+{
+    "name": "Amon.sfcWindSouth30",
+    "title": "Near-Surface Wind Speed",
+    "description": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
+    "processing note": "normally, the the wind component should be reported at the 10 meter height\nThis is a regional subset of the variable. If you are producing the global equivalent of Amon.sfcWindSouth30, you should omit this regional South30 version."
+}

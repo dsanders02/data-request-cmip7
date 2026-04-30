@@ -1,0 +1,6 @@
+{
+    "name": "Oday.tossq",
+    "title": "Square of Sea Surface Temperature",
+    "description": "Square of temperature of liquid ocean, averaged over the day.",
+    "processing note": "Report on the ocean horizontal native grid."
+}

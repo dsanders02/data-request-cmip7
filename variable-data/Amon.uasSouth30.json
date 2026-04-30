@@ -1,0 +1,6 @@
+{
+    "name": "Amon.uasSouth30",
+    "title": "Eastward Near-Surface Wind",
+    "description": "Eastward component of the near-surface (usually, 10 meters)  wind",
+    "processing note": "normally, the the wind component should be reported at the 10 meter height\nThis is a regional subset of the variable. If you are producing the global equivalent of Amon.uasSouth30, you should omit this regional South30 version."
+}

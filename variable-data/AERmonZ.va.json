@@ -1,0 +1,6 @@
+{
+    "name": "AERmonZ.va",
+    "title": "Northward Wind",
+    "description": "Meridional wind (positive in a northward direction).",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

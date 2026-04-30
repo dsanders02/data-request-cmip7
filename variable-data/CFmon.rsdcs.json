@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.rsdcs",
+    "title": "Downwelling Clear-Sky Shortwave Radiation",
+    "description": "Includes also the fluxes at the surface and TOA.",
+    "processing note": "N/A"
+}

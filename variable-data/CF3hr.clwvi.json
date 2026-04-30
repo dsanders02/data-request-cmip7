@@ -1,0 +1,6 @@
+{
+    "name": "CF3hr.clwvi",
+    "title": "Condensed Water Path",
+    "description": "mass of condensed (liquid + ice) water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating hydrometeors ONLY if the precipitating hydrometeor affects the calculation of radiative transfer in model.",
+    "processing note": "N/A"
+}

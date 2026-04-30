@@ -1,0 +1,6 @@
+{
+    "name": "Ofx.hfgeou",
+    "title": "Upward Geothermal Heat Flux at Sea Floor",
+    "description": "Upward geothermal heat flux per unit area on the sea floor",
+    "processing note": "Variable value should be reported as the upward flux at bottom of the deepest ocean layer\nIf this field is time-dependent then save it instead as one of your Omon fields (see the Omon table)"
+}

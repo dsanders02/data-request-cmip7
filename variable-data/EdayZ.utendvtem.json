@@ -1,0 +1,6 @@
+{
+    "name": "EdayZ.utendvtem",
+    "title": "Tendency of Eastward Wind Due to TEM Northward Advection and Coriolis Term",
+    "description": "Zonal mean tendency of eastward wind due to TEM northward advection and Coriolis term",
+    "processing note": "CHANGE SINCE CMIP6 in Units (from Physical Parameter) - CMIP6:m s-1 d-1 CMIP7:m s-2, CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

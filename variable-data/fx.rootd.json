@@ -1,0 +1,6 @@
+{
+    "name": "fx.rootd",
+    "title": "Maximum Root Depth",
+    "description": "report the maximum soil depth reachable by plant roots (if defined in model), i.e., the maximum soil depth from which they can extract moisture; report as \"missing\" where the land fraction is 0.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean CMIP7:area: mean where land,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Amon.cltSouth30",
+    "title": "Total Cloud Cover Percentage",
+    "description": "for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Include both large-scale and convective cloud.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.cltSouth30, you should omit this regional South30 version."
+}

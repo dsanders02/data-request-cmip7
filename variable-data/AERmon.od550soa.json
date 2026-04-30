@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.od550soa",
+    "title": "Particulate Organic Aerosol Optical Depth at 550nm",
+    "description": "total organic aerosol AOD due to secondary aerosol formation",
+    "processing note": "CHANGE SINCE CMIP6 in CF Standard Name - CMIP6: atmosphere\\_optical\\_thickness\\_due\\_to\\_particulate\\_organic\\_matter\\_ambient\\_aerosol\\_particles, CMIP7: atmosphere\\_optical\\_thickness\\_due\\_to\\_secondary\\_particulate\\_organic\\_matter\\_ambient\\_aerosol\\_particles,"
+}

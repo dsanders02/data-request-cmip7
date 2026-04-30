@@ -1,0 +1,6 @@
+{
+    "name": "Emon.sw18O",
+    "title": "Isotopic Ratio of Oxygen-18 in Sea Water",
+    "description": "Ratio of abundance of oxygen-18 (18O) atoms to oxygen-16 (16O) atoms in sea water",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Measures - CMIP6:area: areacella CMIP7:area: areacello, CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude alevel time CMIP7:longitude latitude olevel time, CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: mean where sea time: mean,"
+}

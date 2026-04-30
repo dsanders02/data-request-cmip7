@@ -1,0 +1,6 @@
+{
+    "name": "IfxAnt.lithk",
+    "title": "Ice Sheet Thickness",
+    "description": "The thickness of the ice sheet",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant CMIP7:latitude longitude,"
+}

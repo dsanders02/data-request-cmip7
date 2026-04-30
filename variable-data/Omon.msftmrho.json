@@ -1,0 +1,6 @@
+{
+    "name": "Omon.msftmrho",
+    "title": "Ocean Meridional Overturning Mass Streamfunction",
+    "description": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized.",
+    "processing note": "Function of latitude, rho, basin. For a model with a cartesian latxlon grid, this is the same as the \"Ocean Y Overturning Mass Streamfunction\" (msftyrho), which should in this case be omitted.  For other models, this transport should be approximated as the transport across zig-zag paths corresponding to latitudes with spacing between latitudes appropriate to the model's resolution. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean CMIP7:depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean,"
+}

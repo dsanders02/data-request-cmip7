@@ -1,0 +1,6 @@
+{
+    "name": "Emon.tslsiLut",
+    "title": "Surface Temperature on Landuse Tile",
+    "description": "Surface temperature (i.e. temperature at which long-wave radiation emitted)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude landUse time CMIP7:longitude latitude landuse time,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CF3hr.clis",
+    "title": "Mass Fraction of Stratiform Cloud Ice",
+    "description": "Calculate as the mass of stratiform cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  Include precipitating hydrometeors ONLY if the precipitating hydrometeor affects the calculation of radiative transfer in model.",
+    "processing note": "N/A"
+}

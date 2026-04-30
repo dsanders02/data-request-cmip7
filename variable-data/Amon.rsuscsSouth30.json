@@ -1,0 +1,6 @@
+{
+    "name": "Amon.rsuscsSouth30",
+    "title": "Surface Upwelling Clear-Sky Shortwave Radiation",
+    "description": "Surface Upwelling Clear-sky Shortwave Radiation",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.rsuscsSouth30, you should omit this regional South30 version."
+}

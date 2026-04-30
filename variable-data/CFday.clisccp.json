@@ -1,0 +1,6 @@
+{
+    "name": "CFday.clisccp",
+    "title": "ISCCP Cloud Area Percentage",
+    "description": "Percentage cloud cover in optical depth categories.",
+    "processing note": "dimensions. 7 levels x 7 tau. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

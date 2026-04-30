@@ -1,0 +1,6 @@
+{
+    "name": "3hr.hfds",
+    "title": "Downward Heat Flux at Sea Water Surface",
+    "description": "Net flux of heat entering the liquid water column through its upper surface (excluding any 'flux adjustment').",
+    "processing note": "undef"
+}

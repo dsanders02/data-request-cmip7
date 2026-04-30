@@ -1,0 +1,6 @@
+{
+    "name": "3hr.mrsos",
+    "title": "Moisture in Upper Portion of Soil Column",
+    "description": "the mass of water in all phases in a thin surface soil layer.",
+    "processing note": "integrate over uppermost 10 cm. CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time sdepth1 CMIP7:longitude latitude time sdepth10cm,"
+}

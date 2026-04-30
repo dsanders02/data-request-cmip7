@@ -1,0 +1,6 @@
+{
+    "name": "ImonAnt.snicefreez",
+    "title": "Surface Snow and Ice Refreeze Flux",
+    "description": "Mass flux of surface meltwater which refreezes within the snowpack. Computed as the total refreezing on the land ice portion of the grid cell divided by land ice area in the grid cell.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

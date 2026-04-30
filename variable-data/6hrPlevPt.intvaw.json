@@ -1,0 +1,6 @@
+{
+    "name": "6hrPlevPt.intvaw",
+    "title": "6 hourly instantaneous integral of meridional moisture flux",
+    "description": "Vertically integrated northward moisture transport (Mass\\_weighted\\_vertical integral of the product of northward wind by total water mass per unit mass)",
+    "processing note": "I don't think 6hrPlevPt is the appropriate table but I didn't know what table to select"
+}

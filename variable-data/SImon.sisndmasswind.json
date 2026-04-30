@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sisndmasswind",
+    "title": "Snow Mass Rate of Change Through Wind Drift of Snow",
+    "description": "Rate of change of snow mass due to wind-driven transport into the ocean divided by grid-cell area.",
+    "processing note": "CHANGE SINCE CMIP6: compound name,"
+}

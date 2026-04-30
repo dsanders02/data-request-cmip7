@@ -1,0 +1,6 @@
+{
+    "name": "Emon.grassFracC4",
+    "title": "C4 Natural Grass Area Percentage",
+    "description": "Percentage of entire grid cell covered by C4 natural grass.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "3hr.mrro",
+    "title": "Total Runoff",
+    "description": "the total runoff (including \"drainage\" through the base of the soil model) leaving the land portion of the grid cell divided by the land area in the grid cell, averaged over the 3-hour interval.",
+    "processing note": "N/A"
+}

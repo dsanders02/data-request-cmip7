@@ -1,0 +1,6 @@
+{
+    "name": "Omon.obvfsq",
+    "title": "Square of Brunt Vaisala Frequency in Sea Water",
+    "description": "The phrase \"square\\_of\\_X\" means X\\*X. Frequency is the number of oscillations of a wave per unit time. Brunt-Vaisala frequency is also sometimes called \"buoyancy frequency\" and is a measure of the vertical stratification of the medium.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

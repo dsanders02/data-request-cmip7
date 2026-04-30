@@ -1,0 +1,6 @@
+{
+    "name": "Eday.sbl",
+    "title": "Surface Snow and Ice Sublimation Flux",
+    "description": "surface upward flux of water vapor due to sublimation of surface snow and ice",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land time: mean CMIP7:area: time: mean,"
+}

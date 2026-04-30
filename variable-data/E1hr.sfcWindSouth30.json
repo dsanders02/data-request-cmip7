@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.sfcWindSouth30",
+    "title": "Hourly surface wind speed",
+    "description": "Hourly near-surface wind speed at 10m above the ground",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of E1hr.sfcWindSouth30, you should omit this regional South30 version."
+}

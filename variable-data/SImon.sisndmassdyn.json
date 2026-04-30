@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sisndmassdyn",
+    "title": "Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics",
+    "description": "Rate of change of snow mass due to sea ice dynamics (advection, divergence, etc.) divided by grid-cell area.",
+    "processing note": "CHANGE SINCE CMIP6: compound name,"
+}

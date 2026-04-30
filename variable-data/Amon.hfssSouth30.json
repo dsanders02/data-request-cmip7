@@ -1,0 +1,6 @@
+{
+    "name": "Amon.hfssSouth30",
+    "title": "Surface Upward Sensible Heat Flux",
+    "description": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.hfssSouth30, you should omit this regional South30 version."
+}

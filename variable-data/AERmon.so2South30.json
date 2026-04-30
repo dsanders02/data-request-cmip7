@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.so2South30",
+    "title": "SO2 Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.so2South30, you should omit this regional South30 version."
+}

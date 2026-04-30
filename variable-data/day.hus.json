@@ -1,0 +1,6 @@
+{
+    "name": "day.hus",
+    "title": "Specific Humidity",
+    "description": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude plev8 time CMIP7:longitude latitude plev19 time,"
+}

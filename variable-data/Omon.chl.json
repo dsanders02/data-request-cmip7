@@ -1,0 +1,6 @@
+{
+    "name": "Omon.chl",
+    "title": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "description": "sum of chlorophyll from all phytoplankton group concentrations.  In most models this is equal to chldiat+chlmisc, that is the sum of \"Diatom Chlorophyll Mass Concentration\" plus \"Other Phytoplankton Chlorophyll Mass Concentration\"",
+    "processing note": "Concentrations of all 3D tracers in the uppermost ocean layer. See first table in Oyr for a complete list of these tracers.  \"Tracer\"  concentations should be reported even if they are diagnosed rather than prognostically calculated."
+}

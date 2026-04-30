@@ -1,0 +1,6 @@
+{
+    "name": "Amon.clwSouth30",
+    "title": "Mass Fraction of Cloud Liquid Water",
+    "description": "Includes both large-scale and convective cloud.  Calculate as the mass of cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cells. Precipitating hydrometeors are included ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "processing note": "Report on model layers (not standard pressures). This is a regional subset of the variable. If you are producing the global equivalent of Amon.clwSouth30, you should omit this regional South30 version."
+}

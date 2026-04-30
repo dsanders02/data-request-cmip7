@@ -1,0 +1,6 @@
+{
+    "name": "AERmonZ.ua",
+    "title": "Eastward Wind",
+    "description": "Zonal wind (positive in a eastward direction).",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clc",
+    "title": "Convective Cloud Area Percentage",
+    "description": "Include only convective cloud.",
+    "processing note": "N/A"
+}

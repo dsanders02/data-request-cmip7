@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clivimodisSouth30",
+    "title": "MODIS Ice Water Path",
+    "description": "Mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column) as seen by the MODIS instrument simulator.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.clivimodisSouth30, you should omit this regional South30 version."
+}

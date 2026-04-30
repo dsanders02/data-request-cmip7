@@ -1,0 +1,6 @@
+{
+    "name": "Amon.rlutSouth30",
+    "title": "TOA Outgoing Longwave Radiation",
+    "description": "at the top of the atmosphere (to be compared with satellite measurements)",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.rlutSouth30, you should omit this regional South30 version."
+}

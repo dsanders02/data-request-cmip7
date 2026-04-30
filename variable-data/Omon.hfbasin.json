@@ -1,0 +1,6 @@
+{
+    "name": "Omon.hfbasin",
+    "title": "Northward Ocean Heat Transport",
+    "description": "Contains contributions from all physical processes affecting the northward heat transport, including resolved advection, parameterized advection, lateral diffusion, etc. Diagnosed here as a function of latitude and basin.   Use Celsius for temperature scale.",
+    "processing note": "For models which do not have a Cartesian lat-long grid, this transport can be approximated as the transport across zig-zag paths corresponding to latitudes with spacing between latitudes appropriate to the model's resolution, as is done for the ocean meridional overturning mass streamfunction. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean CMIP7:depth: longitude: sum where sea (along a zig-zag grid path spanning a basin) where sea time: mean,"
+}

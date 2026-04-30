@@ -1,0 +1,6 @@
+{
+    "name": "EmonZ.tntscp",
+    "title": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
+    "description": "zonal mean; hence YZT",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

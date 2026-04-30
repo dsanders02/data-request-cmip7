@@ -1,0 +1,6 @@
+{
+    "name": "ImonGre.snicem",
+    "title": "Surface Snow and Ice Melt Flux",
+    "description": "Loss of snow and ice mass resulting from surface melting. Computed as the total surface melt on the land ice portion of the grid cell divided by land ice area in the grid cell.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.yvelsurf",
+    "title": "Y-Component of Land Ice Surface Velocity",
+    "description": "A velocity is a vector quantity. \"y\" indicates a vector component along the grid y-axis, positive with increasing y. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called \"surface\" means the lower boundary of the atmosphere.'",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

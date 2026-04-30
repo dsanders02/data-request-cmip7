@@ -1,0 +1,6 @@
+{
+    "name": "LImon.tsnIs",
+    "title": "Ice Sheet Snow Internal Temperature",
+    "description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where ice\\_sheet CMIP7:depth: area: time: mean where ice\\_sheet (weighted by snow mass on ice\\_sheet),"
+}

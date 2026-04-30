@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sidmassgrowthsi",
+    "title": "Sea-Ice Mass Change Through Snow-to-Ice Conversion",
+    "description": "Rate of change of sea-ice mass due to transformation of snow to sea ice divided by grid-cell area. Always positive or zero.",
+    "processing note": "CHANGE SINCE CMIP6: compound name,"
+}

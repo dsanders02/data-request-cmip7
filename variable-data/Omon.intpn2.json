@@ -1,0 +1,6 @@
+{
+    "name": "Omon.intpn2",
+    "title": "Nitrogen Fixation Rate in Ocean",
+    "description": "Vertically integrated nitrogen fixation",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea depth: sum where sea time: mean CMIP7:area: mean where sea depth: sum where sea (over entire ocean column) time: mean,\nThis is a regional subset of the variable. If you are producing the global equivalent of Omon.intpn2, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Amon.tasmin",
+    "title": "Daily Minimum Near-Surface Air Temperature",
+    "description": "monthly mean of the daily-minimum near-surface air temperature.",
+    "processing note": "Normally, this should be reported at the 2 meter height. CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time height2m CMIP7:longitude latitude time4 height2m,"
+}

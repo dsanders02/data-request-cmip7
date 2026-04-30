@@ -1,0 +1,6 @@
+{
+    "name": "Odec.masso",
+    "title": "Sea Water Mass",
+    "description": "Total mass of liquid sea water. For Boussinesq models, report this diagnostic as Boussinesq reference density times total volume.",
+    "processing note": "N/A"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.tob",
+    "title": "Sea Water Potential Temperature at Sea Floor",
+    "description": "Potential temperature at the ocean bottom-most grid cell.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid."
+}

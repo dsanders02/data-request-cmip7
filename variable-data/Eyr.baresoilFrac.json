@@ -1,0 +1,6 @@
+{
+    "name": "Eyr.baresoilFrac",
+    "title": "Bare Soil Percentage Area Coverage",
+    "description": "Percentage of entire grid cell  that is covered by bare soil.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all_area_types time: mean CMIP7:area: time: mean,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Emon.nppTree",
+    "title": "Net Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total NPP of trees in the grid cell",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where trees (comment: mask=treeFrac) CMIP7:area: time: mean where trees (mask=treeFrac),"
+}

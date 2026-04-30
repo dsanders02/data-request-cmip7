@@ -1,0 +1,6 @@
+{
+    "name": "Omon.hfdsSouth30",
+    "title": "Downward Heat Flux at Sea Water Surface",
+    "description": "This is the net flux of heat entering the liquid water column through its upper surface (excluding any \"flux adjustment\") .",
+    "processing note": "Report on native horizontal grid as well as remapped onto a latitude/longitude grid.\nThis is a regional subset of the variable. If you are producing the global equivalent of Omon.hfdsSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.chlos",
+    "title": "Surface Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "description": "sum of chlorophyll from all phytoplankton group concentrations.  In most models this is equal to chldiat+chlmisc, that is the sum of \"Diatom Chlorophyll Mass Concentration\" plus \"Other Phytoplankton Chlorophyll Mass Concentration\"",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

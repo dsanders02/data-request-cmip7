@@ -1,0 +1,6 @@
+{
+    "name": "Eday.raVgt",
+    "title": "Autotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]. Calculated on vegetation type.",
+    "processing note": "undef"
+}

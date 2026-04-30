@@ -1,0 +1,6 @@
+{
+    "name": "Omon.zoocos",
+    "title": "Surface Zooplankton Carbon Concentration",
+    "description": "sum of zooplankton carbon component concentrations",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.zoocos, you should omit this regional South30 version. \nCHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFsubhr.sci",
+    "title": "Fraction of Time Shallow Convection Occurs",
+    "description": "Fraction of time that shallow convection occurs in the grid cell. Variable is\u00a0binary, indicating whether at each time step convection occurs (1.0), or not (0.0).",
+    "processing note": "This table includes the 2-D variables listed in the \"Amon\" spreadsheet, omitting, however, the daily maximum and minimum temperatures.  All variables should be reported as synoptic fields, not daily means."
+}

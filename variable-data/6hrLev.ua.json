@@ -1,0 +1,6 @@
+{
+    "name": "6hrLev.ua",
+    "title": "Eastward Wind",
+    "description": "Zonal wind (positive in a eastward direction).",
+    "processing note": "on all model levels. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: point CMIP7:area: mean time: point,"
+}

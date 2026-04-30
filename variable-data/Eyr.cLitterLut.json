@@ -1,0 +1,6 @@
+{
+    "name": "Eyr.cLitterLut",
+    "title": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
+    "description": "end of year values (not annual mean)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude landUse time1 CMIP7:longitude latitude landuse time1,"
+}

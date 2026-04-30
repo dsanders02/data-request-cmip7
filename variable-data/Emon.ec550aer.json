@@ -1,0 +1,6 @@
+{
+    "name": "Emon.ec550aer",
+    "title": "Aerosol Extinction Coefficient",
+    "description": "Aerosol Extinction at 550nm",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean (weighted by downwelling solar radiation),"
+}

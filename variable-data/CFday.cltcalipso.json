@@ -1,0 +1,6 @@
+{
+    "name": "CFday.cltcalipso",
+    "title": "CALIPSO Total Cloud Cover Percentage",
+    "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud.",
+    "processing note": "N/A"
+}

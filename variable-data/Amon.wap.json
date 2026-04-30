@@ -1,0 +1,6 @@
+{
+    "name": "Amon.wap",
+    "title": "Omega (=dp/dt)",
+    "description": "commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,"
+}

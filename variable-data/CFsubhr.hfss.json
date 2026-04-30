@@ -1,0 +1,6 @@
+{
+    "name": "CFsubhr.hfss",
+    "title": "Surface Upward Sensible Heat Flux",
+    "description": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
+    "processing note": "This table includes the 2-D variables listed in the \"Amon\" spreadsheet, omitting, however, the daily maximum and minimum temperatures.  All variables should be reported as synoptic fields, not daily means."
+}

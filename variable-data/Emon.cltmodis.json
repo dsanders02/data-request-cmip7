@@ -1,0 +1,6 @@
+{
+    "name": "Emon.cltmodis",
+    "title": "MODIS Total Cloud Cover Percentage",
+    "description": "Percentage of total cloud cover as seen by the MODIS instrument simulator.",
+    "processing note": "N/A"
+}

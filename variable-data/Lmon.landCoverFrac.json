@@ -1,0 +1,6 @@
+{
+    "name": "Lmon.landCoverFrac",
+    "title": "Percentage of Area by Vegetation or Land-Cover Category",
+    "description": "The categories may differ from model to model, depending on their  PFT definitions.   This may include natural PFTs, anthropogenic PFTs, bare soil, lakes, urban areas, etc.   Sum of all should equal the fraction of the grid-cell that is land.",
+    "processing note": "need to explain how to define vegtype.  To facilitate model comparison, it is also requested that the aggregated land cover types called for in lines 28 to 35 be archived (but not in this variable).  Note that if this variable is independent of time, it should be stored only for a single time (user choice).   Note that the \"types\" will be model dependent and for each type there should be a full description of the PFT (plant functional type).  CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

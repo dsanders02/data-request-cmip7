@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.mmrsoaSouth30",
+    "title": "Secondary Organic Aerosol Mass Mixing Ratio",
+    "description": "Mass fraction in the atmosphere of secondary organic aerosols (particulate organic matter formed within the atmosphere from gaseous precursors; dry mass).",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.mmrsoaSouth30, you should omit this regional South30 version."
+}

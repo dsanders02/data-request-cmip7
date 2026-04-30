@@ -1,0 +1,6 @@
+{
+    "name": "Eyr.treeFrac",
+    "title": "Tree Cover Percentage",
+    "description": "Percentage of entire grid cell  that is covered by trees.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

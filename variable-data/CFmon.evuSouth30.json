@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.evuSouth30",
+    "title": "Eddy Viscosity Coefficient for Momentum",
+    "description": "Vertical diffusion coefficient for momentum due to parametrised eddies",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.evuSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Ofx.sftof",
+    "title": "Sea Area Percentage",
+    "description": "This is the area fraction at the ocean surface.",
+    "processing note": "Should this be recorded as a function of depth?  Report on the same grid that ocean fields are reported (i.e., the ocean native grid, or the grid that ocean data has been provided to CMIP.  For completeness, provide this even if the ocean grid is the same as the atmospheric grid."
+}

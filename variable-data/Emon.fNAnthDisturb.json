@@ -1,0 +1,6 @@
+{
+    "name": "Emon.fNAnthDisturb",
+    "title": "Nitrogen Mass Flux out of Land Due to any Human Activity",
+    "description": "will require some careful definition to make sure we capture everything - any human activity that releases nitrogen from land  instead of into product pool goes here. E.g. Deforestation fire, harvest assumed to decompose straight away, grazing...",
+    "processing note": "N/A"
+}

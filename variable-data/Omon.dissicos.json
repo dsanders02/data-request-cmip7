@@ -1,0 +1,6 @@
+{
+    "name": "Omon.dissicos",
+    "title": "Surface Dissolved Inorganic Carbon Concentration",
+    "description": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.dissicos, you should omit this regional South30 version. \nCHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

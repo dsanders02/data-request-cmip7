@@ -1,0 +1,6 @@
+{
+    "name": "day.wap",
+    "title": "Omega (=dp/dt)",
+    "description": "commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude plev8 time CMIP7:longitude latitude plev19 time,"
+}

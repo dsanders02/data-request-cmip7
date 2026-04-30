@@ -1,0 +1,6 @@
+{
+    "name": "IyrAnt.sftflf",
+    "title": "Floating Ice Shelf Area Percentage",
+    "description": "This is needed in case the floating ice sheet area changes in time (NO grounded ice sheet)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

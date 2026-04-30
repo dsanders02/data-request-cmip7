@@ -1,0 +1,6 @@
+{
+    "name": "Amon.uas",
+    "title": "Eastward Near-Surface Wind",
+    "description": "Eastward component of the near-surface (usually, 10 meters)  wind",
+    "processing note": "normally, the the wind component should be reported at the 10 meter height"
+}

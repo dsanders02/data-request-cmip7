@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.rld",
+    "title": "Downwelling Longwave Radiation",
+    "description": "Includes also the fluxes at the surface and TOA.",
+    "processing note": "N/A"
+}

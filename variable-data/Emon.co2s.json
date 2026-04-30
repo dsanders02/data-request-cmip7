@@ -1,0 +1,6 @@
+{
+    "name": "Emon.co2s",
+    "title": "Atmosphere CO2",
+    "description": "As co2, but only at the surface",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time height2m,"
+}

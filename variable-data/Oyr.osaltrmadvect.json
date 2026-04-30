@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.osaltrmadvect",
+    "title": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection",
+    "description": "Tendency of salt content for a grid cell from residual mean  (sum of Eulerian mean + parameterized eddy-induced)  advection.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "E3hrPt.ua6",
+    "title": "Eastward wind",
+    "description": "Zonal wind (positive in a eastward direction) on 6 pressure levels in the lower troposphere",
+    "processing note": "950 hPa to 700 hPa with an interval of 50h Pa for vertical layers (6 vertical layers)"
+}

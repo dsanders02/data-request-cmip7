@@ -1,0 +1,6 @@
+{
+    "name": "Omon.froc",
+    "title": "Downward Organic Carbon Flux at Ocean Bottom",
+    "description": "Organic Carbon loss to sediments",
+    "processing note": "Variable value should be reported as the flux exiting the bottom of the deepest ocean layer."
+}

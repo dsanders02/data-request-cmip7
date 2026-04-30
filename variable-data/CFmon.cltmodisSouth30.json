@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.cltmodisSouth30",
+    "title": "MODIS Total Cloud Area Percentage",
+    "description": "Percentage of total cloud cover as seen by the MODIS instrument simulator.",
+    "processing note": "Latitude x longitude x time. \nThis is a regional subset of the variable. If you are producing the global equivalent of CFmon.cltmodisSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Emon.raOther",
+    "title": "Total Respiration from Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "added for completeness with Ra\\_root",
+    "processing note": "N/A"
+}

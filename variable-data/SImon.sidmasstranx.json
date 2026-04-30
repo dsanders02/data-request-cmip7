@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sidmasstranx",
+    "title": "X-Component of Sea-Ice Mass Transport",
+    "description": "X-component of the sea-ice drift-induced transport of snow and sea ice mass.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.tosSouth30",
+    "title": "Sea Surface Temperature",
+    "description": "This may differ from \"surface temperature\" in regions of sea ice or floating ice shelves. For models using conservative temperature as the prognostic field, they should report the top ocean layer as surface potential temperature, which is the same as surface in situ temperature.",
+    "processing note": "Note change from CMIP5 K to CMIP6 C. Report on native horizontal grid as well as on a spherical latitude/longitude grid.\nCHANGE SINCE CMIP6: compound name,\nThis is a regional subset of the variable. If you are producing the global equivalent of Omon.tosSouth30, you should omit this regional South30 version."
+}

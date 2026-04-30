@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.stratch4loss",
+    "title": "Loss of Stratospheric Methane by all chemical destruction",
+    "description": "This is the loss rate of stratospheric methane by all chemical destruction. The distinction between the stratosphere and troposphere should be consistent with the tropopause as used in the calculation of the tropopause pressure (ptp). It should have zero values in the troposphere.",
+    "processing note": "undef"
+}

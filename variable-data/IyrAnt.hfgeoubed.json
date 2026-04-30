@@ -1,0 +1,6 @@
+{
+    "name": "IyrAnt.hfgeoubed",
+    "title": "Geothermal Heat Flux Beneath Land Ice",
+    "description": "Geothermal Heat Flux Beneath Land Ice",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where grounded\\_ice\\_sheet (comment: mask=sfgrlf) CMIP7:area: time: mean where grounded\\_ice\\_sheet (mask=sfgrlf),\nCHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

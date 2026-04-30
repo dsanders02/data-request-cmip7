@@ -1,0 +1,6 @@
+{
+    "name": "Omon.fsfe",
+    "title": "Surface Downward Net Flux of Iron",
+    "description": "Iron supply through deposition flux onto sea surface, runoff, coasts, sediments, etc",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time depth0m CMIP7:longitude latitude time,"
+}

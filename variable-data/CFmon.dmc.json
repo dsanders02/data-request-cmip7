@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.dmc",
+    "title": "Deep Convective Mass Flux",
+    "description": "The net mass flux  represents the difference between the updraft and downdraft components.   This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
+    "processing note": "Report on model half-levels (i.e., model layer bounds and not standard pressures)."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Lmon.tsl",
+    "title": "Temperature of Soil",
+    "description": "Temperature of each soil layer.  Reported as \"missing\" for grid cells occupied entirely by \"sea\".",
+    "processing note": "If soil layer thicknesses vary from one location to another, interpolate to a standard set of depths.  Ideally, the interpolation should preserve the vertical integral."
+}

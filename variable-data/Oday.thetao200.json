@@ -1,0 +1,6 @@
+{
+    "name": "Oday.thetao200",
+    "title": "Sea Water Potential Temperature at 200 meters",
+    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
+    "processing note": "The variable at the depth of 200 meters is requested."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sicompstren",
+    "title": "Compressive Sea Ice Strength",
+    "description": "Computed strength of the ice pack, defined as the energy (J m-2) dissipated per unit area removed from the ice pack under compression, and assumed proportional to the change in potential energy caused by ridging. For Hibler-type models, this is P = P\\* h exp(-C(1-A)) where P\\* is compressive strength, h is ice thickness, A is compactness and C is strength reduction constant.",
+    "processing note": "Note that SIMIP requests the area-weighted average for all intensive variables (i.e., variables that are not proportional to area fraction such as albedo, temperature, or heat flux). Hence, all time samples with non-zero sea-ice fraction are first multiplied by area fraction, then summed, and then divided by the sum of the area fractions. See Appendix C of Notz et al. (2016) for more detail. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice (comment: mask=siconc) CMIP7:area: time: mean where sea\\_ice (mask=siconc),"
+}

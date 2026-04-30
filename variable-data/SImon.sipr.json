@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sipr",
+    "title": "Rainfall Rate over Sea Ice",
+    "description": "Mass of liquid precipitation falling onto sea ice divided by grid-cell area. If the rain is directly put into the ocean, it should not be counted towards sipr. Always positive or zero.",
+    "processing note": "Note that SIMIP requests the area-weighted average for all intensive variables (i.e., variables that are not proportional to area fraction such as albedo, temperature, or heat flux). Hence, all time samples with non-zero sea-ice fraction are first multiplied by area fraction, then summed, and then divided by the sum of the area fractions. See Appendix C of Notz et al. (2016) for more detail. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice (comment: mask=siconc) CMIP7:area: time: mean where sea\\_ice (mask=siconc),"
+}

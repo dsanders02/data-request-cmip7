@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.mmrbcSouth30",
+    "title": "Elemental Carbon Mass Mixing Ratio",
+    "description": "Dry mass fraction of black carbon aerosol particles in air.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.mmrbcSouth30, you should omit this regional South30 version."
+}

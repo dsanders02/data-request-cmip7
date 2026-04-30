@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.o3prod",
+    "title": "O3 Production Rate",
+    "description": "ONLY provide the sum of all the HO2/RO2 + NO reactions (as k\\*[HO2]\\*[NO])",
+    "processing note": "N/A"
+}

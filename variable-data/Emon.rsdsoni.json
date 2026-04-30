@@ -1,0 +1,6 @@
+{
+    "name": "Emon.rsdsoni",
+    "title": "Surface Downwelling Shortwave Radiation over Ocean Not Covered by Sea Ice",
+    "description": "Surface Downwelling Shortwave Radiation over the portion of an ocean grid cell not covered by sea ice. Can be used for computation of surface albedo.",
+    "processing note": "other than the different rule for spatial averaging, the variable is equivalent to Amon.rsds"
+}

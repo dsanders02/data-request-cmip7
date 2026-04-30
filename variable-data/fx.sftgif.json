@@ -1,0 +1,6 @@
+{
+    "name": "fx.sftgif",
+    "title": "Land Ice Area Percentage",
+    "description": "fraction of grid cell occupied by \"permanent\" ice (i.e., glaciers).",
+    "processing note": "For atmospheres with more than 1 mesh (e.g., staggered grids), report areas that apply to surface vertical fluxes of energy."
+}

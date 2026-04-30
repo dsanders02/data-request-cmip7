@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clmcalipsoSouth30",
+    "title": "CALIPSO Mid Level Cloud Cover Percentage",
+    "description": "Percentage cloud cover in layer centred on 560hPa",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,\nThis is a regional subset of the variable. If you are producing the global equivalent of CFmon.clmcalipsoSouth30, you should omit this regional South30 version."
+}

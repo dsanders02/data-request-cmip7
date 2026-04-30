@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sidconcdyn",
+    "title": "Sea-Ice Area Fraction Tendency Due to Dynamics",
+    "description": "Total rate of change in sea-ice area fraction through dynamics-related processes (advection, divergence, etc.).",
+    "processing note": "N/A"
+}

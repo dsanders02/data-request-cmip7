@@ -1,0 +1,6 @@
+{
+    "name": "EmonZ.utendnogw",
+    "title": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
+    "description": "Zonal mean tendency of eastward wind induced by the parameterized non-orographic gravity wave drag",
+    "processing note": "This is the total tendency due to parameterized non-orographic gravity wave drag, which is the sum of all possible components of the parameterization (where applicable). We ask that in the Essential Model Documentation modelling centers specify the parameterization scheme used and the specific values of its tunable parameters used for the simulation, and a specification of the part of the gravity wave spectrum that is targeted by the parameterization (e.g., minimally, the effective resolution of the model). CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

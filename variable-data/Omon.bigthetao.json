@@ -1,0 +1,6 @@
+{
+    "name": "Omon.bigthetao",
+    "title": "Sea Water Conservative Temperature",
+    "description": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",
+    "processing note": "N/A"
+}

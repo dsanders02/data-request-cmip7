@@ -1,0 +1,6 @@
+{
+    "name": "Eday.rhVgt",
+    "title": "Heterotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers), calculated on vegetation type.",
+    "processing note": "undef"
+}

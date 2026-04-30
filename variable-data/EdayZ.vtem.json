@@ -1,0 +1,6 @@
+{
+    "name": "EdayZ.vtem",
+    "title": "Transformed Eulerian Mean Northward Wind",
+    "description": "zonal mean; hence YZT",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Amon.pfullSouth30",
+    "title": "Pressure at Model Full-Levels",
+    "description": "Air pressure on model levels",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.pfullSouth30, you should omit this regional South30 version."
+}

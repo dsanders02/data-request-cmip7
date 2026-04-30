@@ -1,0 +1,6 @@
+{
+    "name": "SIday.siflcondbot",
+    "title": "Net Conductive Heat Flux in Sea Ice at the Base",
+    "description": "Net heat conduction flux at the ice base, i.e. the conductive heat flux from the centre of the lowermost vertical sea-ice grid box to the base of the sea ice\u00a0(energy flow per sea ice area). Positive for a downward heat flux.",
+    "processing note": "Note that SIMIP requests the area-weighted average for all intensive variables (i.e., variables that are not proportional to area fraction such as albedo, temperature, or heat flux). Hence, all time samples with non-zero sea-ice fraction are first multiplied by area fraction, then summed, and then divided by the sum of the area fractions. See Appendix C of Notz et al. (2016) for more detail."
+}

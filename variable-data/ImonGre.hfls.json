@@ -1,0 +1,6 @@
+{
+    "name": "ImonGre.hfls",
+    "title": "Surface Upward Latent Heat Flux",
+    "description": "The surface called \"surface\" means the lower boundary of the atmosphere. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Emon.nLitterCwd",
+    "title": "Nitrogen Mass in Coarse Woody Debris",
+    "description": "\"Content\" indicates a quantity per unit area. \"Wood debris\" means dead organic matter composed of coarse wood. It is distinct from fine litter. The precise distinction between \"fine\" and \"coarse\" is model dependent. The sum of the quantities with standard names wood\\_debris\\_mass\\_content\\_of\\_nitrogen, surface\\_litter\\_mass\\_content\\_of\\_nitrogen and subsurface\\_litter\\_mass\\_content\\_of\\_nitrogen is the total nitrogen mass content of dead plant material.",
+    "processing note": "N/A"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clisccpSouth30",
+    "title": "ISCCP Cloud Area Percentage",
+    "description": "Percentage cloud cover in optical depth categories.",
+    "processing note": "7 levels x 7 tau. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air, \nThis is a regional subset of the variable. If you are producing the global equivalent of CFmon.clisccpSouth30, you should omit this regional South30 version."
+}

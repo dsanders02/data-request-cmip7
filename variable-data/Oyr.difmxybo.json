@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.difmxybo",
+    "title": "Ocean Momentum XY Biharmonic Diffusivity",
+    "description": "Lateral biharmonic viscosity applied to the momentum equations.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

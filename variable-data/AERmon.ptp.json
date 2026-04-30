@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.ptp",
+    "title": "Tropopause Air Pressure",
+    "description": "2D monthly mean thermal tropopause calculated using WMO tropopause definition on 3d temperature",
+    "processing note": "N/A"
+}

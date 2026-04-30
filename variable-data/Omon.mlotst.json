@@ -1,0 +1,6 @@
+{
+    "name": "Omon.mlotst",
+    "title": "Ocean Mixed Layer Thickness Defined by Delta Sigma T of 0.03 kg m-3 referenced to the model level closest to 10 m depth",
+    "description": "Sigma T is potential density referenced to ocean surface. Defined by Sigma T of 0.03 kg m-3 wrt to model level closest to 10 m depth.",
+    "processing note": "dsigmat coordinate added to clarify definition. Report on native horizontal grid as well as on a spherical latitude/longitude grid. CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time deltasigt,"
+}

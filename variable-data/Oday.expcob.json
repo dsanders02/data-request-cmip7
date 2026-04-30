@@ -1,0 +1,6 @@
+{
+    "name": "Oday.expcob",
+    "title": "Sinking Flux of Particulate Organic Carbon Reaching the Ocean Bottom",
+    "description": "Downward sinking flux of particulate organic carbon at sea floor. Reported at the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells.",
+    "processing note": "Variable value should be reported as the flux exiting the bottom of the deepest ocean layer"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "AERday.minpblz",
+    "title": "Minimum PBL Height",
+    "description": "minimum boundary layer height during the day (add cell\\_methods attribute: \"time: minimum\")",
+    "processing note": "N/A"
+}

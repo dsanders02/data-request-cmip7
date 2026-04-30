@@ -1,0 +1,6 @@
+{
+    "name": "Omon.thetaoga",
+    "title": "Global Average Sea Water Potential Temperature",
+    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:time CMIP7:olevel time,"
+}

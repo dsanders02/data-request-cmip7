@@ -1,0 +1,6 @@
+{
+    "name": "Emon.fNLandToOcean",
+    "title": "Lateral Transfer of Nitrogen out of Grid Cell That Eventually Goes into Ocean",
+    "description": "leached nitrogen etc that goes into run off or river routing and finds its way into ocean should be reported here.",
+    "processing note": "N/A"
+}

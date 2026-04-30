@@ -1,0 +1,6 @@
+{
+    "name": "Emon.gppGrass",
+    "title": "Gross Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total GPP of grass in the grid cell",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where natural\\_grasses (comment: mask=grassFrac) CMIP7:area: time: mean where natural\\_grasses (mask=grassFrac),"
+}

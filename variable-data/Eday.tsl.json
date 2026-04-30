@@ -1,0 +1,6 @@
+{
+    "name": "Eday.tsl",
+    "title": "Temperature of Soil",
+    "description": "Temperature of each soil layer.  Reported as \"missing\" for grid cells occupied entirely by \"sea\".",
+    "processing note": "N/A"
+}

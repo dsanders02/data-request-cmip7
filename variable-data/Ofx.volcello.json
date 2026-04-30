@@ -1,0 +1,6 @@
+{
+    "name": "Ofx.volcello",
+    "title": "Ocean Grid-Cell Volume",
+    "description": "For oceans with more than 1 mesh (e.g. staggered grids), report areas that apply to surface vertical fluxes of energy. If this field is time-dependent then save it instead as one of your Omon and Odec fields",
+    "processing note": "a 3-d field: For oceans with more than 1 mesh, report on grid that applies to temperature. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: sum CMIP7:area: sum where sea time: mean,\nCHANGE SINCE CMIP6 in Cell Measures - CMIP6:area: areacello volume: volcello CMIP7:area: areacello,"
+}

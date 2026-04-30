@@ -1,0 +1,6 @@
+{
+    "name": "AERday.wetnoy",
+    "title": "Daily Wet Deposition Rate of NOy",
+    "description": "Daily Wet Deposition Rate of NOy at surface. Vertically integrated throughout the column to the surface.",
+    "processing note": "undef"
+}

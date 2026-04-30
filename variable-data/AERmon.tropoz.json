@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.tropoz",
+    "title": "Tropospheric Ozone Column",
+    "description": "Tropospheric ozone column, should be consistent with definition of tropopause used to calculate the pressure of the tropopause (ptp).",
+    "processing note": "N/A"
+}

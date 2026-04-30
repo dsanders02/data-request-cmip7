@@ -1,0 +1,6 @@
+{
+    "name": "Emon.vegFrac",
+    "title": "Total Vegetated Percentage Cover",
+    "description": "Percentage of grid cell that is covered by vegetation.This SHOULD be the sum of tree, grass (natural and pasture), crop and shrub fractions.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

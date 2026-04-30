@@ -1,0 +1,6 @@
+{
+    "name": "Omon.thkcellvo",
+    "title": "Ocean Model Cell Thickness at v-points",
+    "description": "The time varying thickness of ocean cells centered at v-points (points for velocity in the y-direction). \"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid-cell.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

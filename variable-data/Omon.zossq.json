@@ -1,0 +1,6 @@
+{
+    "name": "Omon.zossq",
+    "title": "Square of Sea Surface Height Above Geoid",
+    "description": "Surface ocean geoid defines z=0.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid."
+}

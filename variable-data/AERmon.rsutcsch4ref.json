@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.rsutcsch4ref",
+    "title": "TOA outgoing shortwave flux assuming clear-sky and reference methane field",
+    "description": "This is the outgoing shortwave flux at the top-of-atmosphere for clear-sky conditions from a diagnostic call to the radiation scheme with a reference methane field",
+    "processing note": "undef"
+}

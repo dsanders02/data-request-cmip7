@@ -1,0 +1,6 @@
+{
+    "name": "ImonGre.snm",
+    "title": "Surface Snow Melt",
+    "description": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

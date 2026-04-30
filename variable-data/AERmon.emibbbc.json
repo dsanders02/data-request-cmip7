@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.emibbbc",
+    "title": "total emission rate of black carbon aerosol mass from all biomass burning",
+    "description": "Total emission rate of black carbon aerosol into the atmosphere from all biomass burning (natural and anthropogenic)",
+    "processing note": "Vertical integral"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.taSouth30",
+    "title": "Air Temperature",
+    "description": "Air Temperature",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.taSouth30, you should omit this regional South30 version."
+}

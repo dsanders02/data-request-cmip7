@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sivoln",
+    "title": "Sea-Ice Volume North",
+    "description": "Total integrated volume of sea ice in the Northern Hemisphere.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: sum time: mean,"
+}

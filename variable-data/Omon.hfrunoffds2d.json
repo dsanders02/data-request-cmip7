@@ -1,0 +1,6 @@
+{
+    "name": "Omon.hfrunoffds2d",
+    "title": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
+    "description": "Heat flux associated with liquid water which drains from land. It is calculated relative to the heat that would be transported by runoff water entering the sea at zero degrees Celsius.",
+    "processing note": "If only the vertically integrated runoff flux is available, report as this 2-d field; otherwise hfrunoffds should be used."
+}

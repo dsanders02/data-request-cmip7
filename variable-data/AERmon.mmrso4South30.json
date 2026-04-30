@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.mmrso4South30",
+    "title": "Aerosol Sulfate Mass Mixing Ratio",
+    "description": "Dry mass of sulfate (SO4) in aerosol particles as a fraction of air mass.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.mmrso4South30, you should omit this regional South30 version."
+}

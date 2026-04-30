@@ -1,0 +1,6 @@
+{
+    "name": "Emon.thetaot",
+    "title": "Vertically Averaged Sea Water Potential Temperature",
+    "description": "Vertically averaged ocean temperature",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: depth: time: mean CMIP7:area: depth: time: mean where sea,"
+}

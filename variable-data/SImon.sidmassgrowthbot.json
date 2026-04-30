@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sidmassgrowthbot",
+    "title": "Sea-Ice Mass Change Through Basal Growth",
+    "description": "Rate of change of sea-ice mass due to vertical growth of existing sea ice at its base divided by grid-cell area. Note that this number is always positive or zero since sea-ice melt is collected in sidmassmeltbot. This is to account for differential growth and melt in models with a sub-grid scale ice thickness distribution.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea time: mean CMIP7:area: mean where sea\\_ice over all_\\__area\\_types time: mean\t,"
+}

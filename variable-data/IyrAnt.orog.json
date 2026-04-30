@@ -1,0 +1,6 @@
+{
+    "name": "IyrAnt.orog",
+    "title": "Surface Altitude",
+    "description": "This is needed in case the ice sheet elevation changes in time",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

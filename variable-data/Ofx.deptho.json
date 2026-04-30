@@ -1,0 +1,6 @@
+{
+    "name": "Ofx.deptho",
+    "title": "Sea Floor Depth Below Geoid",
+    "description": "Ocean bathymetry. Reported here is the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells.",
+    "processing note": "Save both native and spherical."
+}

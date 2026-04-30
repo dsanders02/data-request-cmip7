@@ -1,0 +1,6 @@
+{
+    "name": "Eday.tsn",
+    "title": "Snow Internal Temperature",
+    "description": "This temperature is averaged over all the snow in the grid cell that rests on land or land ice.  When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.   Reported as \"missing in regions free of snow on land.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land time: mean (with samples weighted by snow mass) CMIP7:depth: area: time: mean where land (weighted by snow mass on land),"
+}

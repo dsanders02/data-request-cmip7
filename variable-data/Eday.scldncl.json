@@ -1,0 +1,6 @@
+{
+    "name": "Eday.scldncl",
+    "title": "Cloud Droplet Number Concentration of Stratiform Cloud Tops",
+    "description": "Droplets are liquid only.  Report concentration \"as seen from space\" over stratiform liquid cloudy portion of grid cell.  This is the value from uppermost model layer with liquid cloud or, if available, it is better to sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere. Weight by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where stratiform\\_cloud,"
+}

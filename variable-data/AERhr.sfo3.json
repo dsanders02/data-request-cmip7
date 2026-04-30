@@ -1,0 +1,6 @@
+{
+    "name": "AERhr.sfo3",
+    "title": "O3 Volume Mixing Ratio in Lowest Model Layer",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time height2m,"
+}

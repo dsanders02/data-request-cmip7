@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sistrxubot",
+    "title": "X-Component of Ocean Stress on Sea Ice",
+    "description": "X-component of the ocean stress on the sea ice bottom divided by grid-cell area.",
+    "processing note": "Note that SIMIP requests the area-weighted average for all intensive variables (i.e., variables that are not proportional to area fraction such as albedo, temperature, or heat flux). Hence, all time samples with non-zero sea-ice fraction are first multiplied by area fraction, then summed, and then divided by the sum of the area fractions. See Appendix C of Notz et al. (2016) for more detail.\nCHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice (comment: mask=siconc) CMIP7:area: time: mean where sea\\_ice (mask=siconc),"
+}

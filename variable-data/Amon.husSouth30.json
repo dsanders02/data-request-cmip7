@@ -1,0 +1,6 @@
+{
+    "name": "Amon.husSouth30",
+    "title": "Specific Humidity",
+    "description": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.husSouth30, you should omit this regional South30 version."
+}

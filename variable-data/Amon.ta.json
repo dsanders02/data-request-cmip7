@@ -1,0 +1,6 @@
+{
+    "name": "Amon.ta",
+    "title": "Air Temperature",
+    "description": "Air Temperature",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,"
+}

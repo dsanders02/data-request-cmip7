@@ -1,0 +1,6 @@
+{
+    "name": "ImonAnt.orog",
+    "title": "Surface Altitude",
+    "description": "The surface called \"surface\" means the lower boundary of the atmosphere. Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

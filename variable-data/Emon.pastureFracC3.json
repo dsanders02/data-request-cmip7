@@ -1,0 +1,6 @@
+{
+    "name": "Emon.pastureFracC3",
+    "title": "C3 Pasture Area Percentage",
+    "description": "Percentage of entire grid cell covered by C3 pasture",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

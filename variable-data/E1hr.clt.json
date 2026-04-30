@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.clt",
+    "title": "Total Cloud Cover Percentage",
+    "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of E1hr.clt, you should omit this regional South30 version."
+}

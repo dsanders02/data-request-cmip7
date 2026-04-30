@@ -1,0 +1,6 @@
+{
+    "name": "Omon.phycosSouth30",
+    "title": "Sea Surface Phytoplankton Carbon Concentration",
+    "description": "sum of phytoplankton carbon component concentrations.  In most (all?) cases this is the sum of phycdiat and phycmisc (i.e., \"Diatom Carbon Concentration\" and \"Non-Diatom Phytoplankton Carbon Concentration\"",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.phycosSouth30, you should omit this regional South30 version."
+}

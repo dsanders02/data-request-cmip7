@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.od550csaer",
+    "title": "Ambient Aerosol Optical Thickness at 550nm",
+    "description": "AOD from the ambient aerosols in clear skies if od550aer is for all-sky (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 550 nm\"",
+    "processing note": "CHANGE SINCE CMIP6 in CF Standard Name - CMIP6: atmosphere\\_optical\\_thickness\\_due\\_to\\_secondary\\_particulate\\_organic\\_matter\\_ambient\\_aerosol\\_particles, CMIP7: atmosphere\\_optical\\_thickness\\_due\\_to\\_ambient\\_aerosol\\_particles\\_assuming\\_clear\\_sky,"
+}

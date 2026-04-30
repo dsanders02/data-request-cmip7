@@ -1,0 +1,6 @@
+{
+    "name": "SImon.siconca",
+    "title": "Sea-Ice Area Percentage (Atmospheric Grid)",
+    "description": "Percentage of a given grid cell that is covered by sea ice on the atmosphere grid, independent of the thickness of that ice.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time typesi CMIP7:longitude latitude time,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.no3os",
+    "title": "Surface Dissolved Nitrate Concentration",
+    "description": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole\\_concentration\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

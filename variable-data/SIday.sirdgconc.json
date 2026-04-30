@@ -1,0 +1,6 @@
+{
+    "name": "SIday.sirdgconc",
+    "title": "Fraction of Ridged Sea Ice",
+    "description": "Area fraction of sea-ice surface that is ridged sea ice.",
+    "processing note": "Fraction of sea ice, by area, which is covered by sea ice ridges, giving equal weight to every square metre of sea ice."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.vas",
+    "title": "Surface wind speed Northward Component",
+    "description": "Meridional wind (positive in a northward direction) at 10 meters above the surface.",
+    "processing note": "undef"
+}

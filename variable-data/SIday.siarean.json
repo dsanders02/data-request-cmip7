@@ -1,0 +1,6 @@
+{
+    "name": "SIday.siarean",
+    "title": "Sea-Ice Area North",
+    "description": "Total integrated area of sea ice in the Northern Hemisphere (where siconc > 0). Does not include grid cells partially covered by land.",
+    "processing note": "undef"
+}

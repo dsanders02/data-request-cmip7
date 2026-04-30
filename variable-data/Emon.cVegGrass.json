@@ -1,0 +1,6 @@
+{
+    "name": "Emon.cVegGrass",
+    "title": "Carbon Mass in Vegetation on Grass Tiles",
+    "description": "\"Content\" indicates a quantity per unit area. \"Vegetation\" means any plants e.g. trees, shrubs, grass. Plants are autotrophs i.e. \"producers\" of biomass using carbon obtained from carbon dioxide.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where natural\\_grasses (comment: mask=grassFrac) CMIP7:area: time: mean where natural\\_grasses (mask=grassFrac),"
+}

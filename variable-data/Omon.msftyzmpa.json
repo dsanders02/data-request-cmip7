@@ -1,0 +1,6 @@
+{
+    "name": "Omon.msftyzmpa",
+    "title": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+    "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
+    "processing note": "Function of Y, rho, basin. For a model with a cartesian latxlon grid, this is the same as the \"Ocean Meridional Overturning Mass Streamfunction\" (msftmrho) and so the y-overturning variable should in this case be omitted. For a model where these are distinct, this variable should contain a grid-oriented quasi-meridional overturning, in contrast with msftmrho, which is the actual \\*meridional\\* overturning (with north-south flow about an east-west axis).\nCHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean grid\\_longitude: mean CMIP7:grid\\_longitude: sum where sea time: mean,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.hfibthermds2d",
+    "title": "Heat Flux into Sea Water Due to Iceberg Thermodynamics",
+    "description": "Heat Flux into Sea Water Due to Iceberg Thermodynamics",
+    "processing note": "If only the vertically integrated heat flux is available, report as this 2-d field; otherwise hfibthermds should be used."
+}

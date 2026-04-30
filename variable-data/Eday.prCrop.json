@@ -1,0 +1,6 @@
+{
+    "name": "Eday.prCrop",
+    "title": "Precipitation over Crop Tile",
+    "description": "includes both liquid and solid phases",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where crops (comment: mask=cropFrac) CMIP7:area: time: mean where crops (mask=cropFrac),"
+}

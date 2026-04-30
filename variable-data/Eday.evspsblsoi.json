@@ -1,0 +1,6 @@
+{
+    "name": "Eday.evspsblsoi",
+    "title": "Daily water evaporation flux from soil",
+    "description": "Water evaporation flux from soil but for daily averages i.e., the evspsblsoi variable, which is only currently defined for monthly averages",
+    "processing note": "undef"
+}

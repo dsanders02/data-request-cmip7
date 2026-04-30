@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.ps",
+    "title": "Surface Air Pressure",
+    "description": "Surface pressure.",
+    "processing note": "Instantaneous value (i.e. synoptic or time-step value), Global field (single level) [XY-na] [amn-tpt]"
+}

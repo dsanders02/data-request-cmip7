@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.mcuSouth30",
+    "title": "Convective Updraft Mass Flux",
+    "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
+    "processing note": "Report on model half-levels (i.e., model layer bounds and not standard pressures).\nThis is a regional subset of the variable. If you are producing the global equivalent of CFmon.mcuSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "3hr.sfdsi",
+    "title": "Downward Sea Ice Basal Salt Flux",
+    "description": "Basal salt flux into ocean from sea ice. This field is physical, and it arises since sea ice has a nonzero salt content, so it exchanges salt with the liquid ocean upon melting and freezing.",
+    "processing note": "Report on native horizontal grid as well as mapped onto sphere."
+}

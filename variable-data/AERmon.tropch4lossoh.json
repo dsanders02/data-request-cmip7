@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.tropch4lossoh",
+    "title": "Tropospheric loss of methane by OH",
+    "description": "This is the loss rate of tropospheric methane due to reaction with the hydroxy (OH) radical. The distinction between stratosphere and troposphere should be consistent with the tropopause used to calculate the pressure of the tropopause (ptp).  It should have zero values in the stratosphere.",
+    "processing note": "N/A"
+}

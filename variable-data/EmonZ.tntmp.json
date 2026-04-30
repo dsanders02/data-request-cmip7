@@ -1,0 +1,6 @@
+{
+    "name": "EmonZ.tntmp",
+    "title": "Tendency of Air Temperature Due to Model Physics",
+    "description": "Zonal mean tendency of air temperature due to model physics, with the extended number of vertical levels",
+    "processing note": "This is the total temperature tendency due to parameterized physics, which is the sum of contributes from all relevant parameterizations. We ask that in the Essential Model Documentation modelling centers specify the parameterized process contributing to this tendency, and (where applicable) specific values of their tunable parameters used for the simulation. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

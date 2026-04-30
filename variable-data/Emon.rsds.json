@@ -1,0 +1,6 @@
+{
+    "name": "Emon.rsds",
+    "title": "Surface Downwelling Shortwave Radiation over Land",
+    "description": "Surface Downwelling Shortwave Radiation over land. Can be used for computation of surface albedo.",
+    "processing note": "This quantity is necessary to derive fluxes and albedo over portions of land grid cells that are snow-free or ice-free (see https://github.com/CMIP-Data-Request/Harmonised-Public-Consultation/issues/90#issuecomment-3323267867)"
+}

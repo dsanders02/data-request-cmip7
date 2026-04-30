@@ -1,0 +1,6 @@
+{
+    "name": "Oday.phyc200",
+    "title": "Phytoplankton Carbon Concentration",
+    "description": "sum of phytoplankton carbon component concentrations. In most (all?) cases this is the sum of phycdiat and phycmisc (i.e., \"Diatom Carbon Concentration\" and \"Non-Diatom Phytoplankton Carbon Concentration\"",
+    "processing note": "The variable at the depth of 200 meters is requested"
+}

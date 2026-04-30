@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.cltisccpSouth30",
+    "title": "ISCCP Total Cloud Cover Percentage",
+    "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the International Satellite Cloud Climatology Project (ISCCP) analysis. Includes both large-scale and convective cloud.  (MODIS). Includes both large-scale and convective cloud.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.cltisccpSouth30, you should omit this regional South30 version."
+}

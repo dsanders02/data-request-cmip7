@@ -1,0 +1,6 @@
+{
+    "name": "Omon.vsf",
+    "title": "Virtual Salt Flux into Sea Water",
+    "description": "It is set to zero in models which receive a real water flux.",
+    "processing note": "If this does not vary from one year to the next, report only a single year.  Positive flux implies correction increases salinity of water.  This includes all virtual salt flux, including that due to a salt flux correction.  Report on native horizontal grid."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "ImonGre.sbl",
+    "title": "Surface Snow and Ice Sublimation Flux",
+    "description": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

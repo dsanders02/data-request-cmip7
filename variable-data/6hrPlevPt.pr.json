@@ -1,0 +1,6 @@
+{
+    "name": "6hrPlevPt.pr",
+    "title": "surface precipitation",
+    "description": "Total precipitation rate at the surface",
+    "processing note": "This variable is being requested as instantaneous fields every 6 hours. Was unsure which Table to select! I think I want something like 6hrPt rather than 6hrPlevPt"
+}

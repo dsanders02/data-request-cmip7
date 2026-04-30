@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.uas",
+    "title": "Surface wind speed Eastward Components",
+    "description": "Zonal wind (positive in a eastward direction) at 10 meters above the surface.",
+    "processing note": "undef"
+}

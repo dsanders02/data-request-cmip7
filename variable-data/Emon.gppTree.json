@@ -1,0 +1,6 @@
+{
+    "name": "Emon.gppTree",
+    "title": "Gross Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total GPP of trees in the grid cell",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where trees (comment: mask=treeFrac) CMIP7:area: time: mean where trees (mask=treeFrac),"
+}

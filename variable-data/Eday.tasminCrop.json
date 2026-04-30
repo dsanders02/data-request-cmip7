@@ -1,0 +1,6 @@
+{
+    "name": "Eday.tasminCrop",
+    "title": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
+    "description": "minimum near-surface (usually, 2 meter) air temperature (add cell\\_method attribute \"time: min\")",
+    "processing note": "N/A"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.tasSouth30",
+    "title": "Hourly Temperature at Surface",
+    "description": "Hourly Temperature at 2m above the surface",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of E1hr.tasSouth30, you should omit this regional South30 version."
+}

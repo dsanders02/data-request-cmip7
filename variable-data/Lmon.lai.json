@@ -1,0 +1,6 @@
+{
+    "name": "Lmon.lai",
+    "title": "Leaf Area Index",
+    "description": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows.",
+    "processing note": "Note that if this variable is independent of time, it should be stored only for a single time (user choice)."
+}

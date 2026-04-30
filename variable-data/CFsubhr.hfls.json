@@ -1,0 +1,6 @@
+{
+    "name": "CFsubhr.hfls",
+    "title": "Surface Upward Latent Heat Flux",
+    "description": "includes both evaporation and sublimation",
+    "processing note": "This table includes the 2-D variables listed in the \"Amon\" spreadsheet, omitting, however, the daily maximum and minimum temperatures.  All variables should be reported as synoptic fields, not daily means."
+}

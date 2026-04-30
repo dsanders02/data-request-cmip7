@@ -1,0 +1,6 @@
+{
+    "name": "Emon.vegHeightTree",
+    "title": "Height of Trees",
+    "description": "Vegetation height averaged over the tree fraction of a grid cell.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where trees (comment: mask=treeFrac) CMIP7:area: time: mean where trees (mask=treeFrac),"
+}

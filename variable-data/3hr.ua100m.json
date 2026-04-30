@@ -1,0 +1,6 @@
+{
+    "name": "3hr.ua100m",
+    "title": "3-hourly u-wind at 100m",
+    "description": "Zonal wind (positive in a eastward direction) at 100m",
+    "processing note": "undef"
+}

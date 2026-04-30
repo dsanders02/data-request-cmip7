@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sisndmassmelt",
+    "title": "Snow Mass Rate of Change Through Melt",
+    "description": "Rate of change of snow mass through melt divided by grid-cell area. Always negative or zero.",
+    "processing note": "CHANGE SINCE CMIP6: compound name,"
+}

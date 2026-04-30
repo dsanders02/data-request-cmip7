@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.ccnSouth30",
+    "title": "Cloud Condensation Nuclei Concentration at Liquid Cloud Top",
+    "description": "proposed name: number\\_concentration\\_of\\_ambient\\_aerosol\\_in\\_air\\_at\\_liquid\\_water\\_cloud\\_top",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where convective\\_cloud (mean over the portion of the cell containing liquid topped cloud, as seen from top of atmosphere),\nThis is a regional subset of the variable. If you are producing the global equivalent of AERmon.ccnSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.cllcalipso",
+    "title": "CALIPSO Low Level Cloud Cover Percentage",
+    "description": "Percentage cloud cover in layer centred on 840hPa",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

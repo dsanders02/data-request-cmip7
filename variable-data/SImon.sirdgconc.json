@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sirdgconc",
+    "title": "Fraction of Ridged Sea Ice",
+    "description": "Area fraction of sea-ice surface that is ridged sea ice.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice (comment: mask=siconc) CMIP7:area: time: mean where sea\\_ice (mask=siconc), CHANGE SINCE CMIP6 in Units (from Physical Parameter) - CMIP6:1 CMIP7:%,"
+}

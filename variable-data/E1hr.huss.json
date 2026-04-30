@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.huss",
+    "title": "Near-Surface Specific Humidity",
+    "description": "Specific humidity at 2m.",
+    "processing note": "This is sampled synoptically (instantaneous)"
+}

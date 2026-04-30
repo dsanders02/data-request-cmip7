@@ -1,0 +1,6 @@
+{
+    "name": "AERmonZ.vt100",
+    "title": "Northward Eddy Temperature Flux",
+    "description": "Zonally averaged eddy temperature flux at 100hPa as monthly means derived from daily (or higher frequency) fields.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

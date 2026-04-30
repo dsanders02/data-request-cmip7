@@ -1,0 +1,6 @@
+{
+    "name": "Amon.zgSouth30",
+    "title": "Geopotential Height",
+    "description": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,\nThis is a regional subset of the variable. If you are producing the global equivalent of Amon.zgSouth30, you should omit this regional South30 version."
+}

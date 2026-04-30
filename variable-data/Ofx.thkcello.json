@@ -1,0 +1,6 @@
+{
+    "name": "Ofx.thkcello",
+    "title": "Ocean Model Cell Thickness",
+    "description": "Thickness of ocean cells. \"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid-cell.",
+    "processing note": "If this field is time-dependent then save it instead as one of your Omon fields (see the Omon table) CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean CMIP7:area: mean where sea,"
+}

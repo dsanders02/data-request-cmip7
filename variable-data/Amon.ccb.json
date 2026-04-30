@@ -1,0 +1,6 @@
+{
+    "name": "Amon.ccb",
+    "title": "Air Pressure at Convective Cloud Base",
+    "description": "Where convective cloud is present in the grid cell, the instantaneous cloud base altitude should be that of the bottom of the lowest level containing convective cloud. Missing data should be reported in the absence of convective cloud. The time mean should be calculated from these quantities averaging over occasions when convective cloud is present only, and should contain missing data for occasions when no convective cloud is present during the meaning period.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where convective\\_cloud (weighted by total convective cloud area),"
+}

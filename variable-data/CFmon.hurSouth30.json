@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.hurSouth30",
+    "title": "Relative Humidity",
+    "description": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.hurSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Amon.psSouth30",
+    "title": "Surface Air Pressure",
+    "description": "not, in general, the same as mean sea-level pressure",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.psSouth30, you should omit this regional South30 version."
+}

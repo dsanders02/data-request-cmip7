@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.pfull",
+    "title": "Pressure at Model Full-Levels",
+    "description": "The atmospheric pressure at the model layer midpoints for all times and levels in the associated output variables",
+    "processing note": "N/A"
+}

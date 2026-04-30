@@ -1,0 +1,6 @@
+{
+    "name": "day.tslsi",
+    "title": "Surface Temperature Where Land or Sea Ice",
+    "description": "Surface temperature of all surfaces except open ocean.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean (comment: over land and sea ice) CMIP7:area: time: mean (over land and sea ice),"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "day.tas",
+    "title": "Near-Surface Air Temperature",
+    "description": "near-surface (usually, 2 meter) air temperature",
+    "processing note": "normally report this at 2 meters above the surface"
+}

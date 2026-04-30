@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clcSouth30",
+    "title": "Convective Cloud Area Percentage",
+    "description": "Include only convective cloud.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.clcSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.edtSouth30",
+    "title": "Eddy Diffusivity Coefficient for Temperature",
+    "description": "Vertical diffusion coefficient for temperature due to parametrised eddies",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.edtSouth30, you should omit this regional South30 version."
+}

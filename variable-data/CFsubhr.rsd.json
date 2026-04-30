@@ -1,0 +1,6 @@
+{
+    "name": "CFsubhr.rsd",
+    "title": "Downwelling Shortwave Radiation",
+    "description": "Downwelling shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
+    "processing note": "Report on model half-levels (i.e., interfaces between model layers)."
+}

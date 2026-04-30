@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sisnmass",
+    "title": "Snow Mass per Area",
+    "description": "Total mass of snow on sea ice divided by grid-cell area. This then allows one to analyse the storage of latent heat in the snow, and to calculate the snow-water equivalent.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice (comment: mask=siconc) CMIP7:area: time: mean where sea_\\__ice over all\\_area_\\__types,"
+}

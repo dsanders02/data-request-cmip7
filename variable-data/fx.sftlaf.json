@@ -1,0 +1,6 @@
+{
+    "name": "fx.sftlaf",
+    "title": "Fraction of the Grid Cell Occupied by Lake",
+    "description": "Fraction of horizontal land grid cell area occupied by lake.",
+    "processing note": "New area type 'lake\\_and\\_inland\\_sea': <https://github.com/cf-convention/vocabularies/issues/65>"
+}

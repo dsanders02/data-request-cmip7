@@ -1,0 +1,6 @@
+{
+    "name": "Oday.dissoc",
+    "title": "Dissolved Organic Carbon Concentration",
+    "description": "Sum of dissolved carbon component concentrations explicitly represented (i.e. not ~40 uM refractory unless explicit)",
+    "processing note": "undef"
+}

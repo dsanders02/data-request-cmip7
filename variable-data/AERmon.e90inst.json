@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.e90inst",
+    "title": "Artificial tracer with 90 day lifetime",
+    "description": "Mole fraction of an artificial tracer with a 90-day lifetime (e90)",
+    "processing note": "Note that this variable is an instantaneous field, sampled on the first day of each month, and not time-meaned over the month"
+}

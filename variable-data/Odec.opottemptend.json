@@ -1,0 +1,6 @@
+{
+    "name": "Odec.opottemptend",
+    "title": "Tendency of Sea Water Potential Temperature Expressed as Heat Content",
+    "description": "Tendency of heat content for a grid cell from all processes. Reported only for models that use potential temperature as prognostic field.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

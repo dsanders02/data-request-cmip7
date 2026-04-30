@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.mmrno3South30",
+    "title": "NO3 Aerosol Mass Mixing Ratio",
+    "description": "Dry mass fraction of nitrate aerosol particles in air.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.mmrno3South30, you should omit this regional South30 version."
+}

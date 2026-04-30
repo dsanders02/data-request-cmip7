@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.difvso",
+    "title": "Ocean Vertical Salt Diffusivity",
+    "description": "Vertical/dianeutral diffusivity applied to prognostic salinity field.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

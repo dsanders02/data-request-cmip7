@@ -1,0 +1,6 @@
+{
+    "name": "Emon.irrLut",
+    "title": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
+    "description": "Mass flux of water due to irrigation.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude landUse time CMIP7:longitude latitude landuse time,"
+}

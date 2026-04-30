@@ -1,0 +1,6 @@
+{
+    "name": "ImonGre.lifmassbf",
+    "title": "Land Ice Vertical Front Mass Balance Flux",
+    "description": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFsubhr.rldcs",
+    "title": "Downwelling Clear-Sky Longwave Radiation",
+    "description": "Downwelling clear-sky longwave radiation (includes the fluxes at the surface and TOA)",
+    "processing note": "Report on model half-levels (i.e., interfaces between model layers)."
+}

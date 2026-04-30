@@ -1,0 +1,6 @@
+{
+    "name": "Emon.clmisr",
+    "title": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
+    "description": "MISR cloud area fraction",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

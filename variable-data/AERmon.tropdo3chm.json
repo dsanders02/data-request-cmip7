@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.tropdo3chm",
+    "title": "Net Chemistry Tendency of O3 in troposphere",
+    "description": "This is the net chemical tendency of ozone in the troposphere. The distinction between the stratosphere and troposphere should be consistent with the definition of the tropopause used in the calculation of the tropopause pressure (ptp). It should have zero values in the stratosphere.",
+    "processing note": "undef"
+}

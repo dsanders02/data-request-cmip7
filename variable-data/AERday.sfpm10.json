@@ -1,0 +1,6 @@
+{
+    "name": "AERday.sfpm10",
+    "title": "Daily mean surface PM10",
+    "description": "Daily mean PM10 mass mixing ratio in lowest model layer",
+    "processing note": "undef"
+}

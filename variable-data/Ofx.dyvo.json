@@ -1,0 +1,6 @@
+{
+    "name": "Ofx.dyvo",
+    "title": "Cell Length in the Y Direction at v-points",
+    "description": "The linear extent of the cell in the y direction of the horizontal grid centered at v-points (points for velocity in the y-direction). Not applicable to unstructured grids.",
+    "processing note": "N/A"
+}

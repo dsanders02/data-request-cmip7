@@ -1,0 +1,6 @@
+{
+    "name": "Emon.vegHeight",
+    "title": "Height of the Vegetation Canopy",
+    "description": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where vegetation (comment: mask=vegFrac) CMIP7:area: time: mean where vegetation (mask=vegFrac),"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.mmroaSouth30",
+    "title": "Total Organic Aerosol Mass Mixing Ratio",
+    "description": "We recommend a scale factor of POM=1.4\\*OC, unless your model has more detailed info available.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.mmroaSouth30, you should omit this regional South30 version."
+}

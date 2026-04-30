@@ -1,0 +1,6 @@
+{
+    "name": "Emon.wetlandFrac",
+    "title": "Wetland Percentage Cover",
+    "description": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFday.wap500",
+    "title": "Pressure Tendency",
+    "description": "at 500 hPa level; commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

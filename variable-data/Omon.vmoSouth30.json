@@ -1,0 +1,6 @@
+{
+    "name": "Omon.vmoSouth30",
+    "title": "Ocean Mass Y Transport",
+    "description": "Y-ward mass transport from residual mean (resolved plus parameterized) advective transport.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: mean where sea time: mean, CHANGE SINCE CMIP6 in Cell Measures - CMIP6:::OPT CMIP7:area: areacello volume: volcello,\nThis is a regional subset of the variable. If you are producing the global equivalent of Omon.vmoSouth30, you should omit this regional South30 version."
+}

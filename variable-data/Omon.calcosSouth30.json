@@ -1,0 +1,6 @@
+{
+    "name": "Omon.calcosSouth30",
+    "title": "Surface Calcite Concentration",
+    "description": "sum of particulate calcite component concentrations (e.g. Phytoplankton, Detrital, etc.)",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.calcosSouth30, you should omit this regional South30 version."
+}

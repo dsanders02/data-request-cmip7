@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.limnsw",
+    "title": "Ice Sheet Mass That Does not Displace Sea Water",
+    "description": "Greenland",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where grounded\\_ice\\_sheet (comment: mask=sfgrlf) CMIP7:area: sum where ice\\_sheet time: mean,"
+}

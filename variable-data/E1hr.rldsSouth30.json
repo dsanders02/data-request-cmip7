@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.rldsSouth30",
+    "title": "Surface Downwelling Longwave Radiation",
+    "description": "Surface Downwelling Longwave Radiation",
+    "processing note": "This is the 3-hour mean flux.\nThis is a regional subset of the variable. If you are producing the global equivalent of E1hr.rldsSouth30, you should omit this regional South30 version."
+}

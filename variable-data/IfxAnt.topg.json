@@ -1,0 +1,6 @@
+{
+    "name": "IfxAnt.topg",
+    "title": "Bedrock Altitude",
+    "description": "The bedrock topography beneath the land ice",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant CMIP7:latitude longitude,"
+}

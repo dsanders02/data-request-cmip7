@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clmodisSouth30",
+    "title": "MODIS Cloud Area Percentage",
+    "description": "Percentage of total cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by the ISCCP instrument simulator. This is the equivalent MODIS version of the ISCCP _clisccp _variable.",
+    "processing note": "7 pressure levels x 7 optical depth levels (x latitude x longitude x time).\nThis is a regional subset of the variable. If you are producing the global equivalent of CFmon.clmodisSouth30, you should omit this regional South30 version."
+}

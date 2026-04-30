@@ -1,0 +1,6 @@
+{
+    "name": "Omon.sfyint",
+    "title": "Vertically Integrated Ocean Salt Mass Y Transport",
+    "description": "Ocean salt mass y transport vertically integrated over the whole ocean depth. Contains all contributions to 'y-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
+    "processing note": "2d vertically integrated field. If the full 3d transport is preferred, produce Omon.sfy instead.\nReport on native horizontal grid."
+}

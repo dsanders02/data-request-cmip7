@@ -1,0 +1,6 @@
+{
+    "name": "AERday.wetnh3",
+    "title": "Daily Wet Deposition Rate of NH3",
+    "description": "Daily Wet Deposition Rate of NH3 at surface. Vertically integrated throughout the column to the surface.",
+    "processing note": "undef"
+}

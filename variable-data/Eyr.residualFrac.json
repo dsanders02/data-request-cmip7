@@ -1,0 +1,6 @@
+{
+    "name": "Eyr.residualFrac",
+    "title": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
+    "description": "Percentage of entire grid cell  that is land and is covered by  neither vegetation nor bare-soil (e.g., urban, ice, lakes, etc.)",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.albisccpSouth30",
+    "title": "ISCCP Mean Cloud Albedo",
+    "description": "Time-means are weighted by the ISCCP Total Cloud Fraction - see  <https://www.cfmip.org/tools-and-data/cosp>. Values will be missing where there are no clouds or no sunlight.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where cloud CMIP7:area: mean where cloud time: mean,\nThis is a regional subset of the variable. If you are producing the global equivalent of CFmon.albisccpSouth30, you should omit this regional South30 version."
+}

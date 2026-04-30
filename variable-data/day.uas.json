@@ -1,0 +1,6 @@
+{
+    "name": "day.uas",
+    "title": "Eastward Near-Surface Wind",
+    "description": "Eastward component of the near-surface (usually, 10 meters)  wind",
+    "processing note": "normally report this at 10 meters above the surface"
+}

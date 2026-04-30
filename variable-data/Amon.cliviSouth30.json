@@ -1,0 +1,6 @@
+{
+    "name": "Amon.cliviSouth30",
+    "title": "Ice Water Path",
+    "description": "mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeor affects the calculation of radiative transfer in model.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.cliviSouth30, you should omit this regional South30 version."
+}

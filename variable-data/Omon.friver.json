@@ -1,0 +1,6 @@
+{
+    "name": "Omon.friver",
+    "title": "Water Flux into Sea Water from Rivers",
+    "description": "computed as the river flux of water into the ocean divided by the area of the ocean portion of the grid cell.",
+    "processing note": "N/A"
+}

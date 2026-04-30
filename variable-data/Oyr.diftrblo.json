@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.diftrblo",
+    "title": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
+    "description": "Ocean tracer diffusivity associated with parameterized eddy-induced advective transport. Sometimes this diffusivity is called the \"thickness\" diffusivity. For CMIP5, this diagnostic was called \"ocean tracer bolus laplacian diffusivity\".  The CMIP6 name is physically more relevant.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.cltcalipsoSouth30",
+    "title": "CALIPSO Total Cloud Cover Percentage",
+    "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.cltcalipsoSouth30, you should omit this regional South30 version."
+}

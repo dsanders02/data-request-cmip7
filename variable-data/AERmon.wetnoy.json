@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.wetnoy",
+    "title": "Wet Deposition Rate of NOy Including Aerosol Nitrate",
+    "description": "NOy is the sum of all simulated oxidized nitrogen species, out of NO, NO2, HNO3, HNO4, NO3aerosol, NO3(radical), N2O5, PAN, other organic nitrates.",
+    "processing note": "N/A"
+}

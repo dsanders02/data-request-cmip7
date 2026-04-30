@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.mmrdustSouth30",
+    "title": "Dust Aerosol Mass Mixing Ratio",
+    "description": "Dry mass fraction of dust aerosol particles in air.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.mmrdustSouth30, you should omit this regional South30 version."
+}

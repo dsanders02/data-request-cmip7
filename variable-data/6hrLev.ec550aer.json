@@ -1,0 +1,6 @@
+{
+    "name": "6hrLev.ec550aer",
+    "title": "Aerosol Extinction Coefficient",
+    "description": "Aerosol Extinction @550nm",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude alevel time1 lambda550nm CMIP7:longitude latitude time1 lambda550nm, nCHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean time: point CMIP7:area: mean (weighted by downwelling solar radiation) time: point,"
+}

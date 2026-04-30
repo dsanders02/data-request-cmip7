@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.osaltpmdiff",
+    "title": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Mesoscale Diffusion",
+    "description": "Tendency of salt content for a grid cell from parameterized mesoscale eddy diffusion.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

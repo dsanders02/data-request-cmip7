@@ -1,0 +1,6 @@
+{
+    "name": "Omon.scint",
+    "title": "Integral wrt depth of seawater practical salinity expressed as salt mass content",
+    "description": "This is a fundamental aspect of the changes in the hydrological cycle and their impact on the oceans, and due to new numerical schemes and vertical discretizations, it is important to calculate it consistently with the model formulation.",
+    "processing note": "CHANGE: This is a new variable, which aids in understanding hydrological change.\u00a0It is preferable to calculate it online, due to difficulties with vertical discretizations.\u00a0It is calculated as an integral over hydrostatic pressure ranges, which makes it directly comparable with observations."
+}

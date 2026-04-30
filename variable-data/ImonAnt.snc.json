@@ -1,0 +1,6 @@
+{
+    "name": "ImonAnt.snc",
+    "title": "Snow Area Percentage",
+    "description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

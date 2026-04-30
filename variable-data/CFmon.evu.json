@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.evu",
+    "title": "Eddy Viscosity Coefficient for Momentum",
+    "description": "Vertical diffusion coefficient for momentum due to parametrised eddies",
+    "processing note": "N/A"
+}

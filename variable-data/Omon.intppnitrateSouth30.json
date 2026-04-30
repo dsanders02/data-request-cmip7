@@ -1,0 +1,6 @@
+{
+    "name": "Omon.intppnitrateSouth30",
+    "title": "Primary Organic Carbon Production by Phytoplankton Based on Nitrate Uptake Alone",
+    "description": "Vertically integrated primary (organic carbon) production by phytoplankton based on nitrate uptake alone",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea depth: sum where sea time: mean CMIP7:area: mean where sea depth: sum where sea (over entire ocean column) time: mean,\nThis is a regional subset of the variable. If you are producing the global equivalent of Omon.intppnitrateSouth30, you should omit this regional South30 version."
+}

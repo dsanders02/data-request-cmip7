@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clmodisliquidReff",
+    "title": "MODIS Liquid Topped Cloud Area Percentage",
+    "description": "Percentage liquid-cloud cover as seen by the MODIS instrument simulator. Dimensions of LWP (cloud liquid water path) and r\\_eff (droplet effective radius). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
+    "processing note": "7 LWP levels x 6 effective radius levels."
+}

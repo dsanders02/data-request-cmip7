@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.rsuto3ref",
+    "title": "TOA shortwave flux assuming reference ozone field",
+    "description": "This is top-of-atmosphere outgoing shortwave flux for all-sky conditions from a diagnostic call to the radiation scheme, using a reference ozone field",
+    "processing note": "undef"
+}

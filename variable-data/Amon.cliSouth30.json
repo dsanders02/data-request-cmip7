@@ -1,0 +1,6 @@
+{
+    "name": "Amon.cliSouth30",
+    "title": "Mass Fraction of Cloud Ice",
+    "description": "Includes both large-scale and convective cloud.  This is calculated as the mass of cloud ice in the grid cell divided by the mass of air (including the water in all phases) in the grid cell. It includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "processing note": "Report on model layers (not standard pressures). This is a regional subset of the variable. If you are producing the global equivalent of Amon.cliSouth30, you should omit this regional South30 version."
+}

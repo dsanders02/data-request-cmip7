@@ -1,0 +1,6 @@
+{
+    "name": "Omon.vsfcorr",
+    "title": "Virtual Salt Flux Correction",
+    "description": "It is set to zero in models which receive a real water flux.",
+    "processing note": "N/A"
+}

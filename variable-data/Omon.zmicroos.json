@@ -1,0 +1,6 @@
+{
+    "name": "Omon.zmicroos",
+    "title": "Surface Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
+    "description": "carbon  concentration from the microzooplankton (<20 um) component alone",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.zmicroos, you should omit this regional South30 version. \nCHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

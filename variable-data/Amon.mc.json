@@ -1,0 +1,6 @@
+{
+    "name": "Amon.mc",
+    "title": "Convective Mass Flux",
+    "description": "The net mass flux should represent the difference between the updraft and downdraft components.  The flux is computed as the mass divided by the area of the grid cell.",
+    "processing note": "Report on model half-levels (i.e., model layer bounds and not standard pressures)."
+}

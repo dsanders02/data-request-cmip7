@@ -1,0 +1,6 @@
+{
+    "name": "Omon.sob",
+    "title": "Sea Water Salinity at Sea Floor",
+    "description": "Model prognostic salinity at bottom-most model grid cell",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longititude grid.\nCHANGE SINCE CMIP6 in Units (from Physical Parameter) - CMIP6:0.001 CMIP7:1E-03,"
+}

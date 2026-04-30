@@ -1,0 +1,6 @@
+{
+    "name": "Omon.sfx",
+    "title": "3D Ocean Salt Mass X Transport",
+    "description": "Contains all contributions to 'x-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
+    "processing note": "3d field. If only the 2d vertically integrated transport is available or is preferred, produce Omon.sfxint instead.\nOnline mapping to depth/pressure vertical grid if depth or pressure are not native. Report on native horizontal grid."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Eday.hursminCrop",
+    "title": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
+    "description": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "processing note": "N/A"
+}

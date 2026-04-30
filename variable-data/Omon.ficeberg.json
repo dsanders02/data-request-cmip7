@@ -1,0 +1,6 @@
+{
+    "name": "Omon.ficeberg",
+    "title": "Water Flux into Sea Water from Icebergs",
+    "description": "computed as the iceberg melt water  flux into the ocean divided by the area of the ocean portion of the grid cell.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

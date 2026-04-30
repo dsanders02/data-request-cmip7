@@ -1,0 +1,6 @@
+{
+    "name": "Eday.esn",
+    "title": "Snow Evaporation",
+    "description": "The flux due to conversion of liquid or solid water into vapor at the surface where there is snow on land",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land time: mean CMIP7:area: mean where snow (on land only) time: mean,"
+}

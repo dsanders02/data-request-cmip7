@@ -1,0 +1,6 @@
+{
+    "name": "3hr.huss",
+    "title": "Near-Surface Specific Humidity",
+    "description": "This is sampled synoptically.",
+    "processing note": "normally report this at 2 meters above the surface"
+}

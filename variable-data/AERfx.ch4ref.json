@@ -1,0 +1,6 @@
+{
+    "name": "AERfx.ch4ref",
+    "title": "Reference mole fraction of methane in air",
+    "description": "This is the methane mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when a methane double call is active in the model.",
+    "processing note": "undef"
+}

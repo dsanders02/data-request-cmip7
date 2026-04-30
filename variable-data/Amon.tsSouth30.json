@@ -1,0 +1,6 @@
+{
+    "name": "Amon.tsSouth30",
+    "title": "Surface Temperature",
+    "description": "Surface temperature (skin for open ocean)",
+    "processing note": "CHANGE SINCE CMIP6: compound name,\nThis is a regional subset of the variable. If you are producing the global equivalent of Amon.tsSouth30, you should omit this regional South30 version."
+}

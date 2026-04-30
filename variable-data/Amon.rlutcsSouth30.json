@@ -1,0 +1,6 @@
+{
+    "name": "Amon.rlutcsSouth30",
+    "title": "TOA Outgoing Clear-Sky Longwave Radiation",
+    "description": "Upwelling clear-sky longwave radiation at top of atmosphere",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.rlutcsSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Oday.vos",
+    "title": "Daily Surface Sea Water Y Velocity",
+    "description": "Daily surface prognostic y-ward velocity component resolved by the model.",
+    "processing note": "Report on native horizontal grid. Surface values only."
+}

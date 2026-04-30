@@ -1,0 +1,6 @@
+{
+    "name": "CFday.clivi",
+    "title": "Ice Water Path",
+    "description": "calculate mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). This includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "processing note": "N/A"
+}

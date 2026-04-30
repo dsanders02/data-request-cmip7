@@ -1,0 +1,6 @@
+{
+    "name": "SIday.siitdconc",
+    "title": "Sea-Ice Area Percentages in Ice Thickness Categories",
+    "description": "Percentage of grid cell covered by each ice thickness category (vector with one entry for each ice thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis).",
+    "processing note": "undef"
+}

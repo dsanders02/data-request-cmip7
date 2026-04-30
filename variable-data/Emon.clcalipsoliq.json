@@ -1,0 +1,6 @@
+{
+    "name": "Emon.clcalipsoliq",
+    "title": "CALIPSO Liquid Cloud Percentage",
+    "description": "CALIPSO Liquid Cloud Fraction",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,"
+}

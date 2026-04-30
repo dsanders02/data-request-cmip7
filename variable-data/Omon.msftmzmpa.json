@@ -1,0 +1,6 @@
+{
+    "name": "Omon.msftmzmpa",
+    "title": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+    "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
+    "processing note": "Function of latitude, Z, basin. For a model with a cartesian latxlon grid, this is the same as the \"Ocean Y Overturning Mass Streamfunction\" (msftyzmpa), which should in this case be omitted.  For other models, this transport should be approximated as the transport across zig-zag paths corresponding to latitudes with spacing between latitudes appropriate to the model's resolution. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean CMIP7:depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean,"
+}

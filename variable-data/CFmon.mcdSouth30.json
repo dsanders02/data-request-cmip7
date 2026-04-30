@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.mcdSouth30",
+    "title": "Downdraft Convective Mass Flux",
+    "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
+    "processing note": "Report on model half-levels (i.e., model layer bounds and not standard pressures).\nThis is a regional subset of the variable. If you are producing the global equivalent of CFmon.mcdSouth30, you should omit this regional South30 version."
+}

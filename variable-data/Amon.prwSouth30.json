@@ -1,0 +1,6 @@
+{
+    "name": "Amon.prwSouth30",
+    "title": "Water Vapor Path",
+    "description": "Vertically integrated mass of water vapour through the atmospheric column",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.prwSouth30, you should omit this regional South30 version."
+}

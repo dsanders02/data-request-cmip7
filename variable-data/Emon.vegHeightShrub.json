@@ -1,0 +1,6 @@
+{
+    "name": "Emon.vegHeightShrub",
+    "title": "Height of Shrubs",
+    "description": "Vegetation height averaged over the shrub fraction of a grid cell.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where shrubs (comment: mask=shrubFrac) CMIP7:area: time: mean where shrubs (mask=shrubFrac),"
+}

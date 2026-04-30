@@ -1,0 +1,6 @@
+{
+    "name": "Oday.ph200",
+    "title": "pH",
+    "description": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
+    "processing note": "The variable at the depth of 200 meters is requested."
+}

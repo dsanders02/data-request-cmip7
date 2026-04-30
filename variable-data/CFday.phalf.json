@@ -1,0 +1,6 @@
+{
+    "name": "CFday.phalf",
+    "title": "Pressure on Model Half-Levels",
+    "description": "Air pressure on model half-levels",
+    "processing note": "This field is needed only for models in which the pressure cannot be calculated from the vertical coordinate information stored already for each variable.  Thus, the pressures are needed for height or theta-coordinate models, for example, but not sigma- or eta-coordinate models."
+}

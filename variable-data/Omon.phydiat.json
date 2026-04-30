@@ -1,0 +1,6 @@
+{
+    "name": "Omon.phydiat",
+    "title": "Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
+    "description": "carbon from the diatom phytoplankton component concentration alone",
+    "processing note": "Concentrations of all 3D tracers in the uppermost ocean layer. See first table in Oyr for a complete list of these tracers.  \"Tracer\"  concentations should be reported even if they are diagnosed rather than prognostically calculated."
+}

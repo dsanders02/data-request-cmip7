@@ -1,0 +1,6 @@
+{
+    "name": "CFday.ta700",
+    "title": "Air Temperature",
+    "description": "Air temperature at 700hPa",
+    "processing note": "at 700 hPa level. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

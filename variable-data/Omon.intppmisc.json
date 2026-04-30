@@ -1,0 +1,6 @@
+{
+    "name": "Omon.intppmisc",
+    "title": "Net Primary Organic Carbon Production by Other Phytoplankton",
+    "description": "Vertically integrated total primary (organic carbon) production by other phytoplankton components alone",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea depth: sum where sea time: mean CMIP7:area: mean where sea depth: sum where sea (over entire ocean column) time: mean,"
+}

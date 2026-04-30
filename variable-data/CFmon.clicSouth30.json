@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clicSouth30",
+    "title": "Mass Fraction of Convective Cloud Ice",
+    "description": "Calculated as the mass of convective cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.clicSouth30, you should omit this regional South30 version."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Amon.cl",
+    "title": "Percentage Cloud Cover",
+    "description": "Includes both large-scale and convective cloud.",
+    "processing note": "Report on model layers (not standard pressures)."
+}

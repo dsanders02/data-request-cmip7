@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sivol",
+    "title": "Sea-Ice Volume per Area",
+    "description": "Total volume of sea ice divided by grid-cell area, also known as the equivalent thickness of sea ice.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea time: mean CMIP7:area: mean where sea\\_ice over all\\_area\\_types time: mean"
+}

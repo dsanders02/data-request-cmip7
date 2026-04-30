@@ -1,0 +1,6 @@
+{
+    "name": "Amon.tasSouth30",
+    "title": "Near-Surface Air Temperature",
+    "description": "near-surface (usually, 2 meter) air temperature",
+    "processing note": "normally, the temperature should be reported at the 2 meter height. This is a regional subset of the variable. If you are producing the global equivalent of Amon.tasSouth30, you should omit this regional South30 version."
+}

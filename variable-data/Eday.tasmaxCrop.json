@@ -1,0 +1,6 @@
+{
+    "name": "Eday.tasmaxCrop",
+    "title": "Daily Maximum Near-Surface Air Temperature over Crop Tile",
+    "description": "maximum near-surface (usually, 2 meter) air temperature (add cell\\_method attribute \"time: max\")",
+    "processing note": "N/A"
+}

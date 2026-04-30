@@ -1,0 +1,6 @@
+{
+    "name": "Oday.phycos",
+    "title": "Sea Surface Phytoplankton Carbon Concentration",
+    "description": "sum of phytoplankton organic carbon component concentrations at the sea surface",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

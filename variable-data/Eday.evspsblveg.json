@@ -1,0 +1,6 @@
+{
+    "name": "Eday.evspsblveg",
+    "title": "Daily water evaporation flux from canopy",
+    "description": "The same as the current variable evspsblveg but defined on daily timescales.",
+    "processing note": "undef"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Emon.treeFracNdlEvg",
+    "title": "Needleleaf Evergreen Tree Area Percentage",
+    "description": "This is the percentage of the entire grid cell that is covered by needleleaf evergreen trees.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

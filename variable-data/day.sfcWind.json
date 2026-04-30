@@ -1,0 +1,6 @@
+{
+    "name": "day.sfcWind",
+    "title": "Daily-Mean Near-Surface Wind Speed",
+    "description": "near-surface (usually, 10 meters) wind speed.",
+    "processing note": "normally report this at 10 meters above the surface"
+}

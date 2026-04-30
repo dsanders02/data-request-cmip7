@@ -1,0 +1,6 @@
+{
+    "name": "SImon.simpconc",
+    "title": "Fraction of Sea Ice Covered by Melt Pond",
+    "description": "Area fraction of sea-ice surface that is covered by melt ponds.",
+    "processing note": "CHANGE SINCE CMIP6 in Units (from Physical Parameter) - CMIP6:% CMIP7:1, CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice (comment: mask=siconc) CMIP7:area: time: mean where sea\\_ice (mask=siconc),"
+}

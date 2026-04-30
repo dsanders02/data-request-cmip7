@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sidmassth",
+    "title": "Sea-Ice Mass Change from Thermodynamics",
+    "description": "Total rate of change in sea-ice mass from thermodynamic processes divided by grid-cell area.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea time: mean CMIP7:area: mean where sea\\_ice over all_\\__area\\_types time: mean\t,"
+}

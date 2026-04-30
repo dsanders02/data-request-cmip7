@@ -1,0 +1,6 @@
+{
+    "name": "Amon.rsutSouth30",
+    "title": "TOA Outgoing Shortwave Radiation",
+    "description": "at the top of the atmosphere",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.rsutSouth30, you should omit this regional South30 version."
+}

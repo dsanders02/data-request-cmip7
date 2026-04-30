@@ -1,0 +1,6 @@
+{
+    "name": "Emon.nppShrub",
+    "title": "Net Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total NPP of shrubs in the grid cell",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where shrubs (comment: mask=shrubFrac) CMIP7:area: time: mean where shrubs (mask=shrubFrac),"
+}

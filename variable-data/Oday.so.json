@@ -1,0 +1,6 @@
+{
+    "name": "Oday.so",
+    "title": "Sea water salinity",
+    "description": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native"
+}

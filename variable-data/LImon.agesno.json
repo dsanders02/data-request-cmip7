@@ -1,0 +1,6 @@
+{
+    "name": "LImon.agesno",
+    "title": "Mean Age of Snow",
+    "description": "When computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.  Reported as \"missing in regions free of snow on land.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land time: mean (with samples weighted by snow mass) CMIP7:area: mean where land time: mean (weighted by snow mass on land),"
+}

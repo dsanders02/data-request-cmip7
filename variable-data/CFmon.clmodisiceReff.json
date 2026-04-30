@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.clmodisiceReff",
+    "title": "MODIS Ice Topped Cloud Area Percentage",
+    "description": "Percentage ice-cloud cover as seen by the MODIS instrument simulator. Dimensions of cloud IWP (cloud ice water path) and r\\_eff (effective droplet size). The effective radius bin edges are defined in the COSP simulator (see lines 134-152 of cosp\\_config.F90: <https://github.com/CFMIP/COSPv2.0/blob/master/src/cosp_config.F90>)",
+    "processing note": "7 IWP levels x 6 effective radius levels.  Metric is further described in [Pincus 2023](https://essd.copernicus.org/articles/15/2483/2023/essd-15-2483-2023-discussion.html)"
+}

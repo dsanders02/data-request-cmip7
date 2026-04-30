@@ -1,0 +1,6 @@
+{
+    "name": "Oday.hfxint",
+    "title": "Vertically Integrated Ocean Heat X Transport",
+    "description": "Ocean heat x transport vertically integrated over the whole ocean depth. Contains all contributions to 'x-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale. Report on native horizontal grid.",
+    "processing note": "2d vertically integrated field. Report on native horizontal grid."
+}

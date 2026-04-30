@@ -1,0 +1,6 @@
+{
+    "name": "Emon.rsdss",
+    "title": "Surface Downwelling Shortwave Radiation over Snow",
+    "description": "Surface Downwelling Shortwave Radiation over the portion of a land grid cell covered by snow but not by ice. Can be used for computation of surface albedo.",
+    "processing note": "other than the different rule for spatial averaging, the variable is equivalent to Amon.rsds"
+}

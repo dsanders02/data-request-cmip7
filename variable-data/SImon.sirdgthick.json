@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sirdgthick",
+    "title": "Ridged Ice Thickness",
+    "description": "Total volume of ridged sea ice divided by area of ridges, i.e. mean thickness of ridged sea ice.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where sea\\_ice\\_ridges (comment: mask=sirdgconc) CMIP7:area: time: mean where sea\\_ice\\_ridges (mask=sirdgconc),"
+}

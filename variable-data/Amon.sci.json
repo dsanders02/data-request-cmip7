@@ -1,0 +1,6 @@
+{
+    "name": "Amon.sci",
+    "title": "Fraction of Time Shallow Convection Occurs",
+    "description": "Fraction of time that convection occurs in the grid cell. If native cell data is regridded, the area-weighted mean of the contributing cells should be reported.",
+    "processing note": "For models with a distinct shallow convection scheme only."
+}

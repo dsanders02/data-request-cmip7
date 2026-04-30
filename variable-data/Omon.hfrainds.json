@@ -1,0 +1,6 @@
+{
+    "name": "Omon.hfrainds",
+    "title": "Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water",
+    "description": "This is defined as \"where ice\\_free\\_sea over sea\"; i.e., the total flux (considered here) entering the ice-free portion of the grid cell divided by the area of the ocean portion of the grid cell.  All such heat fluxes are computed based on Celsius scale.",
+    "processing note": "Report on native horizontal grid. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where ice\\_free\\_sea over sea time: mean CMIP7:area: time: mean where ice\\_free\\_sea over sea,"
+}

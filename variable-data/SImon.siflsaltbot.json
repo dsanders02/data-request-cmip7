@@ -1,0 +1,6 @@
+{
+    "name": "SImon.siflsaltbot",
+    "title": "Salt Flux from Sea Ice",
+    "description": "Total flux of salt from water into sea ice. This flux is upward (negative) during ice growth when salt is embedded into the ice and downward (positive) during melt when salt from sea ice is again released to the ocean.",
+    "processing note": "Identical to the now-deprecated CMIP6 variable SImon.sfdsi\nNote that SIMIP requests the area-weighted average for all intensive variables (i.e., variables that are not proportional to area fraction such as albedo, temperature, or heat flux). Hence, all time samples with non-zero sea-ice fraction are first multiplied by area fraction, then summed, and then divided by the sum of the area fractions. See Appendix C of Notz et al. (2016) for more detail."
+}

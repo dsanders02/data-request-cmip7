@@ -1,0 +1,6 @@
+{
+    "name": "Emon.cfadLidarsr532",
+    "title": "CALIPSO Scattering Ratio CFAD",
+    "description": "CALIPSO Scattering Ratio",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

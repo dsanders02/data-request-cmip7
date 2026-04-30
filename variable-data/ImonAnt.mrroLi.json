@@ -1,0 +1,6 @@
+{
+    "name": "ImonAnt.mrroLi",
+    "title": "Land Ice Runoff Flux",
+    "description": "Runoff flux over land ice is the difference between any available liquid water in the snowpack less any refreezing. Computed as the sum of rainfall and melt of snow or ice less any refreezing or water retained in the snowpack",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

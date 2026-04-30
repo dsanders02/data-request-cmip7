@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.topg",
+    "title": "Bedrock Altitude",
+    "description": "This is needed in case bed rock elevation changes in time",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,\nCHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where ice\\_sheet CMIP7:area: time: mean where grounded\\_ice\\_sheet (mask=sfgrlf),"
+}

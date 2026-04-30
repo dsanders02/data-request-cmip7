@@ -1,0 +1,6 @@
+{
+    "name": "Amon.rsdscsSouth30",
+    "title": "Surface Downwelling Clear-Sky Shortwave Radiation",
+    "description": "Surface solar irradiance clear sky for UV calculations",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.rsdscsSouth30, you should omit this regional South30 version."
+}

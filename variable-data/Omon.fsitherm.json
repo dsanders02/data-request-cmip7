@@ -1,0 +1,6 @@
+{
+    "name": "Omon.fsitherm",
+    "title": "Water Flux into Sea Water Due to Sea Ice Thermodynamics",
+    "description": "computed as the sea ice thermodynamic water flux into the ocean divided by the area of the ocean portion of the grid cell.",
+    "processing note": "OMDP has this as priority=2. The sea-ice folks requested that the priority be raised to 1. Report on native horizontal grid as well as mapped onto sphere."
+}

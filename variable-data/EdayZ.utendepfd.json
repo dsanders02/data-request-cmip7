@@ -1,0 +1,6 @@
+{
+    "name": "EdayZ.utendepfd",
+    "title": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
+    "description": "Called \"acceldivf\" in CCMI table; we suggest new name. zonal mean; hence YZT",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

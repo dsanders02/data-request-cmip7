@@ -1,0 +1,6 @@
+{
+    "name": "Omon.chlmiscos",
+    "title": "Surface Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "description": "chlorophyll from additional phytoplankton component concentrations alone",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.chlmiscos, you should omit this regional South30 version. \nCHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

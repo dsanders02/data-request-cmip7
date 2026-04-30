@@ -1,0 +1,6 @@
+{
+    "name": "Omon.hfyint",
+    "title": "Vertically Integrated Ocean Heat Y Transport",
+    "description": "Ocean heat y transport vertically integrated over the whole ocean depth. Contains all contributions to 'y-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale. Report on native horizontal grid.",
+    "processing note": "2d field for CMIP6. Report on native horizontal grid. CHANGE SINCE CMIP6: compound name, 'int' Disambiguation added to allow for both Omon.hfy (3d) and Omon.hfyint (2d). 2d vertically integrated field. If the full 3d transport is preferred, produce Omon.hfy instead."
+}

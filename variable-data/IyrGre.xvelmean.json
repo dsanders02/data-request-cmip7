@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.xvelmean",
+    "title": "X-Component of Land Ice Vertical Mean Velocity",
+    "description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

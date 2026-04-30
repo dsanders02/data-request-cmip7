@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.pod0",
+    "title": "Phytotoxic Ozone Dose",
+    "description": "Accumulated stomatal ozone flux over the threshold of 0 mol m-2 s-1; Computation: Time Integral of (hourly above canopy ozone concentration \\* stomatal conductance \\* Rc/(Rb+Rc) )",
+    "processing note": "N/A"
+}

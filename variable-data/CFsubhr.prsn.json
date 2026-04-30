@@ -1,0 +1,6 @@
+{
+    "name": "CFsubhr.prsn",
+    "title": "Snowfall Flux",
+    "description": "at surface; includes precipitation of all forms of water in the solid phase",
+    "processing note": "This table includes the 2-D variables listed in the \"Amon\" spreadsheet, omitting, however, the daily maximum and minimum temperatures.  All variables should be reported as synoptic fields, not daily means."
+}

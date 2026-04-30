@@ -1,0 +1,6 @@
+{
+    "name": "Omon.dissi13cos",
+    "title": "Surface Dissolved Inorganic Carbon-13 Concentration",
+    "description": "Dissolved inorganic 14carbon (CO3+HCO3+H2CO3) concentration",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time depth0m,"
+}

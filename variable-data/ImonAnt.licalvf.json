@@ -1,0 +1,6 @@
+{
+    "name": "ImonAnt.licalvf",
+    "title": "Land Ice Calving Flux",
+    "description": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box.",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xant yant time CMIP7:latitude longitude time,"
+}

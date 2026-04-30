@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sistressmax",
+    "title": "Maximum Shear Stress in Sea Ice",
+    "description": "Maximum shear stress in sea ice (second stress invariant). Requested as instantaneous value at the center of the month (i.e., first timestep of the 15th day of the month).",
+    "processing note": "CHANGE SINCE CMIP6: compound name,"
+}

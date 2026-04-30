@@ -1,0 +1,6 @@
+{
+    "name": "Emon.thetaot700",
+    "title": "Depth Average Potential Temperature of Upper 700m",
+    "description": "Upper 700m, 2D field",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: depth: time: mean CMIP7:area: depth: time: mean where sea, CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time depth700m CMIP7:longitude latitude time olayer700m,"
+}

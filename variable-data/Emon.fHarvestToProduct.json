@@ -1,0 +1,6 @@
+{
+    "name": "Emon.fHarvestToProduct",
+    "title": "Harvested Biomass That Goes into Product Pool",
+    "description": "be it food or wood harvest, any carbon that is subsequently stored is reported here",
+    "processing note": "N/A"
+}

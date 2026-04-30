@@ -1,0 +1,6 @@
+{
+    "name": "SIday.siflsenstop",
+    "title": "Net Downward Sensible Heat Flux over Sea Ice",
+    "description": "Net sensible heat flux over sea ice\u00a0(energy flow per sea ice area). Positive for a downward heat flux.",
+    "processing note": "CHANGE SINCE CMIP6 in Positive Direction - CMIP6:up CMIP7:down\nNote that SIMIP requests the area-weighted average for all intensive variables (i.e., variables that are not proportional to area fraction such as albedo, temperature, or heat flux). Hence, all time samples with non-zero sea-ice fraction are first multiplied by area fraction, then summed, and then divided by the sum of the area fractions. See Appendix C of Notz et al. (2016) for more detail."
+}

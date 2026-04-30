@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.od550aer",
+    "title": "Ambient Aerosol Optical Thickness at 550nm",
+    "description": "AOD from ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 550 nm\"",
+    "processing note": "N/A"
+}

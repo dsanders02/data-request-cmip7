@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.mmrpm1South30",
+    "title": "PM1.0 Mass Mixing Ratio",
+    "description": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 1 micrometers",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.mmrpm1South30, you should omit this regional South30 version."
+}

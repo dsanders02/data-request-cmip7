@@ -1,0 +1,6 @@
+{
+    "name": "SIday.siconc",
+    "title": "Sea-Ice Area Percentage (Ocean Grid)",
+    "description": "Percentage of a given grid cell that is covered by sea ice on the ocean grid, independent of the thickness of that ice.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea time: mean CMIP7:area: time: mean, CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time typesi CMIP7:longitude latitude time,"
+}

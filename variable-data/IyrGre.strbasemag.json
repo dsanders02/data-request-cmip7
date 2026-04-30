@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.strbasemag",
+    "title": "Land Ice Basal Drag",
+    "description": "Magnitude of basal drag at land ice base",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

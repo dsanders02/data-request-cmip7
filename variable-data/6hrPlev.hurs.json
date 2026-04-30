@@ -1,0 +1,6 @@
+{
+    "name": "6hrPlev.hurs",
+    "title": "Near-Surface Relative Humidity",
+    "description": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "processing note": "N/A"
+}

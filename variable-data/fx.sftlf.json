@@ -1,0 +1,6 @@
+{
+    "name": "fx.sftlf",
+    "title": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
+    "description": "Percentage of horizontal area occupied by land.",
+    "processing note": "For atmospheres with more than 1 mesh (e.g., staggered grids), report areas that apply to surface vertical fluxes of energy."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.cdncSouth30",
+    "title": "Cloud Liquid Droplet Number Concentration",
+    "description": "Cloud Droplet Number Concentration in liquid water clouds.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of AERmon.cdncSouth30, you should omit this regional South30 version."
+}

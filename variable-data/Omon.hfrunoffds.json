@@ -1,0 +1,6 @@
+{
+    "name": "Omon.hfrunoffds",
+    "title": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
+    "description": "Heat flux associated with liquid water which drains from land. It is calculated relative to the heat that would be transported by runoff water entering the sea at zero degrees Celsius.",
+    "processing note": "In general this should be reported as a function of depth, (i.e.,  it will be a function of the generic \"XYZ\" dimensions).  Include enough depth levels to represent  the non-zero values of this field everywhere on the globe. Report on native horizontal grid. If a function of depth, perform online remapping to depth or pressure, if not native vertical grid."
+}

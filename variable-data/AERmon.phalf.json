@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.phalf",
+    "title": "Pressure on Model Half-Levels",
+    "description": "The atmospheric pressure at the model layer interfaces for all times and levels in the associated output variables",
+    "processing note": "N/A"
+}

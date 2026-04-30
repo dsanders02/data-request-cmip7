@@ -1,0 +1,6 @@
+{
+    "name": "Amon.hcfc22global",
+    "title": "Global Mean Mole Fraction of HCFC22",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.  A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox\\_expressed\\_as\\_nitrogen'. The chemical formula for HCFC22 is CHClF2.  The IUPAC name for HCFC22 is chloro-difluoro-methane.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:height: area: time: mean (with all samples weighted by the number of moles of air in the sample),"
+}

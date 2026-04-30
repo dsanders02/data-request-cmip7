@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.emioa",
+    "title": "Primary Emission and Chemical Production of Dry Aerosol Organic Matter",
+    "description": "This is the sum of total emission of POA and total production of SOA (emipoa+chepsoa). \"Mass\" refers to the mass of organic matter, not mass of organic carbon alone. We recommend a scale factor of POM=1.4\\*OC, unless your model has more detailed info available.  Integrate 3D chemical production and emission field vertically to 2d field.",
+    "processing note": "N/A"
+}

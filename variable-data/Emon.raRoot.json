@@ -1,0 +1,6 @@
+{
+    "name": "Emon.raRoot",
+    "title": "Total Respiration from Roots as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "Total autotrophic respiration from all belowground plant parts.  This has benchmarking value because the sum of Rh and root respiration can be compared to observations of total soil respiration.",
+    "processing note": "N/A"
+}

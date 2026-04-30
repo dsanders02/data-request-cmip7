@@ -1,0 +1,6 @@
+{
+    "name": "CF3hr.dtaus",
+    "title": "Stratiform Cloud Optical Depth",
+    "description": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean time: point CMIP7:area: mean where stratiform\\_cloud time: point,"
+}

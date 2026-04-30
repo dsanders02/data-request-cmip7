@@ -1,0 +1,6 @@
+{
+    "name": "fx.areacellr",
+    "title": "Grid-Cell Area for River Model Variables",
+    "description": "Cell areas for any grid used to report river model variables (may be the same as for atmospheric variables). These cell areas should be defined to enable exact calculation of area integrals (e.g., of vertical fluxes of energy at the surface and top of the atmosphere).",
+    "processing note": "N/A"
+}

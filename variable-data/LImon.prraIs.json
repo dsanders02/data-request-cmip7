@@ -1,0 +1,6 @@
+{
+    "name": "LImon.prraIs",
+    "title": "Ice Sheet Rainfall Rate",
+    "description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "processing note": "N/A"
+}

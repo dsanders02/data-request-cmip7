@@ -1,0 +1,6 @@
+{
+    "name": "LImon.sootsn",
+    "title": "Snow Soot Content",
+    "description": "the entire land portion of the grid cell is considered, with snow soot content set to 0.0 in regions free of snow.",
+    "processing note": "N/A"
+}

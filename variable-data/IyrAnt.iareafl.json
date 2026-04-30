@@ -1,0 +1,6 @@
+{
+    "name": "IyrAnt.iareafl",
+    "title": "Area Covered by Floating Ice Shelves",
+    "description": "Antarctica",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where floating\\_ice\\_shelf (comment: mask=sftflf) CMIP7:area: sum where floating\\_ice\\_shelf (mask=sftflf) time: mean,"
+}

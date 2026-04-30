@@ -1,0 +1,6 @@
+{
+    "name": "Amon.co2mass",
+    "title": "Total Atmospheric Mass of CO2",
+    "description": "Total atmospheric mass of Carbon Dioxide",
+    "processing note": "For some simulations (e.g., prescribed concentration pi-control run), this will not vary from one year to the next, and so report instead the variable described in the next table entry.  If CO2 is spatially nonuniform, omit this field, but report Mole Fraction of CO2 (see the table entry before the previous one). CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:height: sum (through atmospheric column) area: sum time: mean,"
+}

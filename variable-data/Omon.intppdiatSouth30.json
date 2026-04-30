@@ -1,0 +1,6 @@
+{
+    "name": "Omon.intppdiatSouth30",
+    "title": "Net Primary Organic Carbon Production by Diatoms",
+    "description": "Vertically integrated primary (organic carbon) production by the diatom phytoplankton component alone",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea depth: sum where sea time: mean CMIP7:area: mean where sea depth: sum where sea (over entire ocean column) time: mean,\nThis is a regional subset of the variable. If you are producing the global equivalent of Omon.intppdiatSouth30, you should omit this regional South30 version."
+}

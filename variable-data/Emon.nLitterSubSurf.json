@@ -1,0 +1,6 @@
+{
+    "name": "Emon.nLitterSubSurf",
+    "title": "Nitrogen Mass in Below-Ground Litter (non CWD)",
+    "description": "\"Content\" indicates a quantity per unit area. \"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Subsurface litter\" means the part of the litter mixed within the soil below the surface. The sum of the quantities with standard names wood\\_debris\\_mass\\_content\\_of\\_nitrogen, surface\\_litter\\_mass\\_content\\_of\\_nitrogen and subsurface\\_litter\\_mass\\_content\\_of\\_nitrogen is the total nitrogen mass content of dead plant material.",
+    "processing note": "N/A"
+}

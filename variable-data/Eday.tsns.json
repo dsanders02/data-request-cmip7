@@ -1,0 +1,6 @@
+{
+    "name": "Eday.tsns",
+    "title": "Snow Surface Temperature",
+    "description": "Snow Surface Temperature",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land time: mean CMIP7:area: mean where land time: mean (weighted by snow area),\nCHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land time: mean CMIP7:area: time: mean where snow (on land),"
+}

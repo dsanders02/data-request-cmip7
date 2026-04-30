@@ -1,0 +1,6 @@
+{
+    "name": "Omon.swhmax",
+    "title": "Maximum Significant Wave Height",
+    "description": "Highest value of the significant wave height simulated within a given time range (e.g., daily or monthly). The significant wave height (swh) is derived from the wave spectrum using spectral moments. Specifically, swh is four times the square root of the integral over all directions and all frequencies of the two-dimensional wave spectrum.",
+    "processing note": "undef"
+}

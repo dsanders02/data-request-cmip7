@@ -1,0 +1,6 @@
+{
+    "name": "Amon.wapSouth30",
+    "title": "Omega (=dp/dt)",
+    "description": "commonly referred to as \"omega\", this represents the vertical component of velocity in pressure coordinates (positive down)",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,\nThis is a regional subset of the variable. If you are producing the global equivalent of Amon.wapSouth30, you should omit this regional South30 version."
+}

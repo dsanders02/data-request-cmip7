@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.abs550dust",
+    "title": "dust absorption aerosol optical depth @550nm",
+    "description": "This is the dust aerosol optical depth at 550nm due to absorption",
+    "processing note": "undef"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "day.wbgt2m",
+    "title": "mean 2m daily wet bulb globe temperature",
+    "description": "mean 2m daily wet bulb globe temperature (WBGT). \nWet Bulb Globe Temperature (WBGT) is a particularly effective indicator of heat stress for active populations such as outdoor workers and athletes.\nThe calculation should be done with: \nWBGT = 0.567 \\* T\\_C + 0.393 \\* e/100 + 3.94, where T\\_C is temperature in degrees C, and e = huss \\* p \\* M\\_air / M\\_H2O, where \"huss=specific humidity in kg/kg\", M\\_H2O = 18.01528/1000\u00a0# kg/mol, M\\_air = 28.964/1000\u00a0# kg/mol for dry air and \"P = surface pressure in Pa\"",
+    "processing note": "The calculation should be done with: \nWBGT = 0.567 \\* T\\_C + 0.393 \\* e/100 + 3.94, \nwhere T\\_C is temperature in degrees C, \nand e = huss \\* p \\* M\\_air / M\\_H2O, \nwhere \"huss=specific humidity in kg/kg\", \nM\\_H2O = 18.01528/1000\u00a0# kg/mol, \nM\\_air = 28.964/1000\u00a0# kg/mol for dry air,\nand \"P = surface pressure in Pa\""
+}

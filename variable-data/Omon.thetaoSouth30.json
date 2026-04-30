@@ -1,0 +1,6 @@
+{
+    "name": "Omon.thetaoSouth30",
+    "title": "Sea Water Potential Temperature",
+    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native.\nThis is a regional subset of the variable. If you are producing the global equivalent of Omon.thetaoSouth30, you should omit this regional South30 version."
+}

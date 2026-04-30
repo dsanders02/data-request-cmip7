@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.difvho",
+    "title": "Ocean Vertical Heat Diffusivity",
+    "description": "Vertical/dianeutral diffusivity applied to prognostic temperature field.",
+    "processing note": "Report on native horizontal grid as well. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.thetao",
+    "title": "Sea Water Potential Temperature",
+    "description": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "EdayZ.ta",
+    "title": "Zonal mean air temperature",
+    "description": "Zonal mean temperature of air with the extended number of vertical levels.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air, CHANGE SINCE CMIP6 in Dimensions - CMIP6:latitude plev19 time CMIP7:latitude plev39 time,"
+}

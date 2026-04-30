@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.o3inst",
+    "title": "O3 volume mixing ratio",
+    "description": "This is the mole fraction of ozone in air, sampled on the first day of the month as an instantaneous field.",
+    "processing note": "Note that this variable is an instantaneous field, sampled on the first day of each month, and not time-meaned over the month"
+}

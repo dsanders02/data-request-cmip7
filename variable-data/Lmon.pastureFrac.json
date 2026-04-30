@@ -1,0 +1,6 @@
+{
+    "name": "Lmon.pastureFrac",
+    "title": "Percentage of Land Which Is Anthropogenic Pasture",
+    "description": "fraction of entire grid cell  that is covered by anthropogenic pasture.",
+    "processing note": "add scalar coordinate typepasture and add \"pasture\" to the CF area type table. Note that if this variable is independent of time, it should be stored only for a single time (user choice). CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

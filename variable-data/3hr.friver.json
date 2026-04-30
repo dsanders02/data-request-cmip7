@@ -1,0 +1,6 @@
+{
+    "name": "3hr.friver",
+    "title": "Water Flux into Sea Water from Rivers",
+    "description": "Computed as the river flux of water into the ocean divided by the area of the ocean portion of the grid cell.",
+    "processing note": "Report on native horizontal grid."
+}

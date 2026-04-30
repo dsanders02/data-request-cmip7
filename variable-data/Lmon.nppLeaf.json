@@ -1,0 +1,6 @@
+{
+    "name": "Lmon.nppLeaf",
+    "title": "Net Primary Production Allocated to Leaves as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "This is the rate of carbon uptake by leaves due to NPP",
+    "processing note": "N/A"
+}

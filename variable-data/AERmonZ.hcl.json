@@ -1,0 +1,6 @@
+{
+    "name": "AERmonZ.hcl",
+    "title": "HCl Volume Mixing Ratio",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.  The chemical formula of hydrogen chloride is HCl.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:longitude: mean time: mean CMIP7:longitude: time: mean where air,"
+}

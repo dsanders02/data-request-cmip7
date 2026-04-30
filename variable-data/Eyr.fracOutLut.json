@@ -1,0 +1,6 @@
+{
+    "name": "Eyr.fracOutLut",
+    "title": "Annual Gross Percentage of Land-Use Tile That Was Transferred into Other Land-Use Tiles",
+    "description": "Cumulative percentage transitions over the year; note that percentage should be reported as percentage of atmospheric grid cell",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude landUse time CMIP7:longitude latitude landuse time,"
+}

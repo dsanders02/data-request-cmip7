@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sitimefracSouth30",
+    "title": "Fraction of Time Steps with Sea Ice",
+    "description": "Fraction of time steps of the averaging period during which sea ice is present (siconc > 0) in a grid cell.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of SImon.sitimefracSouth30, you should omit this regional South30 version."
+}

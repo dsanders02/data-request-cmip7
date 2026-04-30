@@ -1,0 +1,6 @@
+{
+    "name": "AERday.sfo3max",
+    "title": "Daily Maximum O3 Volume Mixing Ratio in Lowest Model Layer",
+    "description": "maximum near-surface ozone  (add cell\\_methods attribute \"time: maximum\")",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time CMIP7:longitude latitude time height2m,"
+}

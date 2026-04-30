@@ -1,0 +1,6 @@
+{
+    "name": "Omon.chcint",
+    "title": "Depth Integrated Seawater Conservative Temperature Expressed As Heat Content",
+    "description": "This is the vertically-integrated heat content derived from conservative temperature (bigthetao).",
+    "processing note": "CHANGE: This is a new variable, which aids in calculation of energy budgets.\u00a0It is preferable to calculate it online, due to difficulties with vertical discretizations.\u00a0It is calculated as an integral over hydrostatic pressure ranges, which makes it directly comparable with observations so long as integrals are over 0-300m, 300m-700m, 700m-2000m, total depth."
+}

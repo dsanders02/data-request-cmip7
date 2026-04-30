@@ -1,0 +1,6 @@
+{
+    "name": "Oday.chl200",
+    "title": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water at 200 meters",
+    "description": "Sum of chlorophyll from all phytoplankton group concentrations. In most models this is equal to chldiat+chlmisc, that is the sum of Diatom Chlorophyll Mass Concentration and Other Phytoplankton Chlorophyll Mass Concentration",
+    "processing note": "The variable at the depth of 200 meters is requested."
+}

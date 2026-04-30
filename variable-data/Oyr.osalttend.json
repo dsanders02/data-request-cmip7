@@ -1,0 +1,6 @@
+{
+    "name": "Oyr.osalttend",
+    "title": "Tendency of Sea Water Salinity Expressed as Salt Content",
+    "description": "Tendency of salt content for a grid cell from all processes.",
+    "processing note": "Report on native horizontal grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Lmon.burntFractionAll",
+    "title": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
+    "description": "Percentage of grid cell burned due to all fires including natural and anthropogenic fires and those associated with anthropogenic land use change",
+    "processing note": "Note that if this variable is independent of time, it should be stored only for a single time (user choice).CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all_area_types time: mean CMIP7:area: time: mean,"
+}

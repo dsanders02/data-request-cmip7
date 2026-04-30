@@ -1,0 +1,6 @@
+{
+    "name": "day.irrSurf",
+    "title": "irrigation water withdrawal from surface water",
+    "description": "the amount of water withdrawal for irrigation from surface water, including rivers, lakes, reservoirs, etc.)",
+    "processing note": "undef"
+}

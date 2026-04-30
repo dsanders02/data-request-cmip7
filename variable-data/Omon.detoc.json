@@ -1,0 +1,6 @@
+{
+    "name": "Omon.detoc",
+    "title": "Detrital Organic Carbon Concentration",
+    "description": "sum of detrital organic carbon component concentrations",
+    "processing note": "Concentrations of all 3D tracers in the uppermost ocean layer. See first table in Oyr for a complete list of these tracers.  \"Tracer\"  concentations should be reported even if they are diagnosed rather than prognostically calculated."
+}

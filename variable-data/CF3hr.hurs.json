@@ -1,0 +1,6 @@
+{
+    "name": "CF3hr.hurs",
+    "title": "Near-Surface Relative Humidity",
+    "description": "This is the relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "processing note": "express as a percentage.  Normally, the relative humidity  should be reported at the 2 meter height"
+}

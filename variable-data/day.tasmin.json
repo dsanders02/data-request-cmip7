@@ -1,0 +1,6 @@
+{
+    "name": "day.tasmin",
+    "title": "Daily Minimum Near-Surface Air Temperature",
+    "description": "minimum near-surface (usually, 2 meter) air temperature (add cell\\_method attribute \"time: min\")",
+    "processing note": "normally report this at 2 meters above the surface"
+}

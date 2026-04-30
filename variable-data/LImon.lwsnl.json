@@ -1,0 +1,6 @@
+{
+    "name": "LImon.lwsnl",
+    "title": "Liquid Water Content of Snow Layer",
+    "description": "where land over land: this is computed as the total mass of liquid water contained interstitially within the snow layer of the land portion of a grid cell divided by the area of the land portion of the cell.",
+    "processing note": "N/A"
+}

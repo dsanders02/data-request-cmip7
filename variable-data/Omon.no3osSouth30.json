@@ -1,0 +1,6 @@
+{
+    "name": "Omon.no3osSouth30",
+    "title": "Surface Dissolved Nitrate Concentration",
+    "description": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole\\_concentration\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.no3osSouth30, you should omit this regional South30 version."
+}

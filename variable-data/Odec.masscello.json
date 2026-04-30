@@ -1,0 +1,6 @@
+{
+    "name": "Odec.masscello",
+    "title": "Ocean Grid-Cell Mass per Area",
+    "description": "For Boussinesq models, report this diagnostic as Boussinesq reference density times grid celll volume.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native. Do not use this field if masscello is fixed: use Ofx.masscello instead. CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: sum where sea time: mean CMIP7:area: mean where sea time: mean,"
+}

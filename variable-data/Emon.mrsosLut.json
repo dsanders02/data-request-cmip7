@@ -1,0 +1,6 @@
+{
+    "name": "Emon.mrsosLut",
+    "title": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
+    "description": "the mass of water in all phases in a thin surface layer; integrate over uppermost 10cm",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude landUse time sdepth1 CMIP7:longitude latitude landuse time sdepth10cm,"
+}

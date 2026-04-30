@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.rsdsSouth30",
+    "title": "Hourly downward solar radiation flux at the surface",
+    "description": "Hourly downward solar radiation flux at the surface",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of E1hr.rsdsSouth30, you should omit this regional South30 version."
+}

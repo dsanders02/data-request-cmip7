@@ -1,0 +1,6 @@
+{
+    "name": "6hrPlevPt.rv850",
+    "title": "Relative Vorticity at 850hPa",
+    "description": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean time: point CMIP7:area: mean where air time: point,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.litempbotfl",
+    "title": "Basal Temperature of Floating Ice Shelf",
+    "description": "quantity averaged over floating land ice",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where floating\\_ice\\_shelf (comment: mask=sftflf) CMIP7:area: time: mean where floating\\_ice\\_shelf (mask=sftflf),\nCHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

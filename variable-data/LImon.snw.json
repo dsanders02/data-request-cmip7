@@ -1,0 +1,6 @@
+{
+    "name": "LImon.snw",
+    "title": "Surface Snow Amount",
+    "description": "Computed as the mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excluded is snow on vegetation canopy or on sea ice.",
+    "processing note": "N/A"
+}

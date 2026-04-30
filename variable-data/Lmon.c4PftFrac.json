@@ -1,0 +1,6 @@
+{
+    "name": "Lmon.c4PftFrac",
+    "title": "Percentage Cover by C4 Plant Functional Type",
+    "description": "Percentage of entire grid cell  that is covered by C4 PFTs (including grass and crops).",
+    "processing note": "Note that if this variable is independent of time, it should be stored only for a single time (user choice). CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all_area_types time: mean CMIP7:area: time: mean,"
+}

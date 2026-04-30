@@ -1,0 +1,6 @@
+{
+    "name": "AERday.zg500",
+    "title": "Geopotential Height at 500hPa",
+    "description": "geopotential height on the 500 hPa surface",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

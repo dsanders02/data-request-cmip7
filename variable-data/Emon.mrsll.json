@@ -1,0 +1,6 @@
+{
+    "name": "Emon.mrsll",
+    "title": "Liquid Water Content of Soil Layer",
+    "description": "in each soil layer, the mass of water in liquid phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
+    "processing note": "N/A"
+}

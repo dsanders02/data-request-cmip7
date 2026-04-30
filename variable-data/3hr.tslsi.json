@@ -1,0 +1,6 @@
+{
+    "name": "3hr.tslsi",
+    "title": "Surface Temperature Where Land or Sea Ice",
+    "description": "Surface temperature of all surfaces except open ocean, sampled synoptically.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean (comment: over land and sea ice) time: point CMIP7:area: mean (over land and sea ice) time: point,"
+}

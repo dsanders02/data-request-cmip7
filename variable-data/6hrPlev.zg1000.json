@@ -1,0 +1,6 @@
+{
+    "name": "6hrPlev.zg1000",
+    "title": "Geopotential Height at 1000hPa",
+    "description": "Geopotential height on the 1000 hPa surface",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean CMIP7:area: time: mean where air,"
+}

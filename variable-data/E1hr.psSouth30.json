@@ -1,0 +1,6 @@
+{
+    "name": "E1hr.psSouth30",
+    "title": "Surface Air Pressure",
+    "description": "Surface pressure.",
+    "processing note": "Instantaneous value (i.e. synoptic or time-step value), Global field (single level) [XY-na] [amn-tpt]\nThis is a regional subset of the variable. If you are producing the global equivalent of E1hr.psSouth30, you should omit this regional South30 version."
+}

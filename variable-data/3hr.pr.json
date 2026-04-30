@@ -1,0 +1,6 @@
+{
+    "name": "3hr.pr",
+    "title": "Precipitation",
+    "description": "at surface; includes both liquid and solid phases.  This is the 3-hour mean precipitation flux.",
+    "processing note": "N/A"
+}

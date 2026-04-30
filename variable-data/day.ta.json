@@ -1,0 +1,6 @@
+{
+    "name": "day.ta",
+    "title": "Air Temperature",
+    "description": "Air Temperature",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude plev8 time CMIP7:longitude latitude plev19 time, CHANGE SINCE CMIP6 in Cell Methods - CMIP6:time: mean CMIP7:area: time: mean where air,"
+}

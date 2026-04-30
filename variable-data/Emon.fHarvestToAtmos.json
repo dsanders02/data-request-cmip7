@@ -1,0 +1,6 @@
+{
+    "name": "Emon.fHarvestToAtmos",
+    "title": "Harvested Biomass That Goes Straight into Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "any harvested carbon that is assumed to decompose immediately into the atmosphere is reported here",
+    "processing note": "N/A"
+}

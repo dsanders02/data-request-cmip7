@@ -1,0 +1,6 @@
+{
+    "name": "3hr.tas",
+    "title": "Near-Surface Air Temperature",
+    "description": "This is sampled synoptically.",
+    "processing note": "normally report this at 2 meters above the surface"
+}

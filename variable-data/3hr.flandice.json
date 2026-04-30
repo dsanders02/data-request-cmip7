@@ -1,0 +1,6 @@
+{
+    "name": "3hr.flandice",
+    "title": "Water Flux into Sea Water from Land Ice",
+    "description": "Computed as the water flux into the ocean due to land ice (runoff water from surface and base of land ice or melt from base of ice shelf or vertical ice front) into the ocean divided by the area ocean portion of the grid cell.",
+    "processing note": "undef"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.sftgrf",
+    "title": "Grounded Ice Sheet Area Percentage",
+    "description": "This is needed in case the grounded ice sheet area changes in time (NO floating ice shelf)",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

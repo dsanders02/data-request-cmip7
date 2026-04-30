@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.albisccp",
+    "title": "ISCCP Mean Cloud Albedo",
+    "description": "Time-means are weighted by the ISCCP Total Cloud Fraction - see  <https://www.cfmip.org/tools-and-data/cosp>. Values will be missing where there are no clouds or no sunlight.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where cloud CMIP7:area: time: mean where cloud (weighted by ISCCP total cloud area),"
+}

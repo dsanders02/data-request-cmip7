@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sishearvel",
+    "title": "Maximum Shear of Sea-Ice Velocity Field",
+    "description": "Maximum shear of sea-ice velocity field (second shear strain invariant). Requested as instantaneous value at the center of the month (i.e., first timestep of the 15th day of the month).",
+    "processing note": "CHANGE SINCE CMIP6: compound name,"
+}

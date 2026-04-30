@@ -1,0 +1,6 @@
+{
+    "name": "Omon.fsn",
+    "title": "Surface Downward Net Flux of Nitrogen",
+    "description": "Flux of nitrogen into the ocean due to deposition (sum of dry and wet deposition), fixation (the production of ammonia from nitrogen gas by diazotrophs) and runoff (liquid water which drains from land).",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:longitude latitude time depth0m CMIP7:longitude latitude time,"
+}

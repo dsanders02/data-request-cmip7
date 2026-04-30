@@ -1,0 +1,6 @@
+{
+    "name": "Emon.cropFracC4",
+    "title": "Percentage Cover by C4 Crops",
+    "description": "Percentage of entire grid cell covered by C4 crops",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where land over all\\_area\\_types time: mean CMIP7:area: time: mean,"
+}

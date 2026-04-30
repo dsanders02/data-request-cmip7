@@ -1,0 +1,6 @@
+{
+    "name": "Odec.thkcello",
+    "title": "Ocean Model Cell Thickness",
+    "description": "The time varying thickness of ocean cells. \"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid-cell.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid. Online mapping to depth/pressure vertical grid if depth or pressure are not native."
+}

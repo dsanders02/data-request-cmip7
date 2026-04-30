@@ -1,0 +1,6 @@
+{
+    "name": "Amon.prcSouth30",
+    "title": "Convective Precipitation",
+    "description": "at surface; includes both liquid and solid phases.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.prcSouth30, you should omit this regional South30 version."
+}

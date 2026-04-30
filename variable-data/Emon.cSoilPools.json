@@ -1,0 +1,6 @@
+{
+    "name": "Emon.cSoilPools",
+    "title": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
+    "description": "For models with multiple soil carbon pools, report each pool here. If models also have vertical discretisation these should be aggregated",
+    "processing note": "N/A"
+}

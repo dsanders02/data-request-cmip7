@@ -1,0 +1,6 @@
+{
+    "name": "AERday.maxpblz",
+    "title": "Maximum PBL Height",
+    "description": "maximum boundary layer height during the day (add cell\\_methods attribute: \"time: maximum\")",
+    "processing note": "N/A"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "day.tasmax",
+    "title": "Daily Maximum Near-Surface Air Temperature",
+    "description": "maximum near-surface (usually, 2 meter) air temperature (add cell\\_method attribute \"time: max\")",
+    "processing note": "normally report this at 2 meters above the surface"
+}

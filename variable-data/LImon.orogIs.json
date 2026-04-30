@@ -1,0 +1,6 @@
+{
+    "name": "LImon.orogIs",
+    "title": "Ice Sheet Surface Altitude",
+    "description": "quantity averaged over ice\\_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+    "processing note": "N/A"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.pctisccp",
+    "title": "ISCCP Mean Cloud Top Pressure",
+    "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where cloud CMIP7:area: time: mean where cloud (weighted by ISCCP total cloud area),"
+}

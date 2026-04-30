@@ -1,0 +1,6 @@
+{
+    "name": "CFmon.pctisccpSouth30",
+    "title": "ISCCP Mean Cloud Top Pressure",
+    "description": "time-means weighted by the ISCCP Total Cloud Fraction - see <https://www.cfmip.org/tools-and-data/cosp>",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of CFmon.pctisccpSouth30, you should omit this regional South30 version."
+}

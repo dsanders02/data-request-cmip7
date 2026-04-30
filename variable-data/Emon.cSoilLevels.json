@@ -1,0 +1,6 @@
+{
+    "name": "Emon.cSoilLevels",
+    "title": "Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level)",
+    "description": "for models with vertically discretised soil carbon, report total soil carbon for each level",
+    "processing note": "N/A"
+}

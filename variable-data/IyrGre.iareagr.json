@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.iareagr",
+    "title": "Area Covered by Grounded Ice Sheet",
+    "description": "Greenland",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: time: mean where grounded\\_ice\\_sheet (comment: mask=sfgrlf) CMIP7:area: sum where grounded\\_ice\\_sheet (mask=sfgrlf) time: mean,"
+}

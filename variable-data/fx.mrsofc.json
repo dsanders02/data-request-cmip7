@@ -1,0 +1,6 @@
+{
+    "name": "fx.mrsofc",
+    "title": "Capacity of Soil to Store Water (Field Capacity)",
+    "description": "reported \"where land\": divide the total water holding capacity of all the soil in the grid cell by the land area in the grid cell;  reported as \"missing\" where the land fraction is 0.",
+    "processing note": "This variable should exclude lake water and must refer to soil water only.\nCHANGE: processing clarified."
+}

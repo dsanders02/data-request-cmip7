@@ -1,0 +1,6 @@
+{
+    "name": "Omon.grazSouth30",
+    "title": "Total Grazing of Phytoplankton by Zooplankton",
+    "description": "Total grazing of phytoplankton by zooplankton defined as tendency of moles of carbon per cubic metre.",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Omon.grazSouth30, you should omit this regional South30 version."
+}

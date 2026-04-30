@@ -1,0 +1,6 @@
+{
+    "name": "Eday.snd",
+    "title": "Snow Depth",
+    "description": "where land over land, this is computed as the mean thickness of snow in the land portion of the grid cell (averaging over the entire land portion, including the snow-free fraction).  Reported as 0.0 where the land fraction is 0.",
+    "processing note": "N/A"
+}

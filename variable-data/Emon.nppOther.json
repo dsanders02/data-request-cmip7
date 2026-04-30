@@ -1,0 +1,6 @@
+{
+    "name": "Emon.nppOther",
+    "title": "Net Primary Production Allocated to Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
+    "description": "added for completeness with npp\\_root",
+    "processing note": "N/A"
+}

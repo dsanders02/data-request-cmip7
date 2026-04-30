@@ -1,0 +1,6 @@
+{
+    "name": "Amon.sfcWind",
+    "title": "Near-Surface Wind Speed",
+    "description": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
+    "processing note": "normally, the the wind component should be reported at the 10 meter height"
+}

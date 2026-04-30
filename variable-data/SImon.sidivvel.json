@@ -1,0 +1,6 @@
+{
+    "name": "SImon.sidivvel",
+    "title": "Divergence of the Sea-Ice Velocity Field",
+    "description": "Divergence of sea-ice velocity field (first shear strain invariant). Requested as instantaneous value at the center of the month (i.e., first timestep of the 15th day of the month).",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea\\_ice (comment: mask=siconc) time: point CMIP7:area: mean where sea\\_ice (mask=siconc) time: point,"
+}

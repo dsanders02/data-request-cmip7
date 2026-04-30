@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.co2",
+    "title": "Mole Fraction of CO2",
+    "description": "Mole fraction is used in the construction mole\\_fraction\\_of\\_X\\_in\\_Y, where X is a material constituent of Y.",
+    "processing note": "N/A"
+}

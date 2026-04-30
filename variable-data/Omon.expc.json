@@ -1,0 +1,6 @@
+{
+    "name": "Omon.expc",
+    "title": "Downward Flux of Particulate Organic Carbon",
+    "description": "Downward flux of particulate organic carbon",
+    "processing note": "Those who wish to record vertical velocities and vertical fluxes on ocean half-levels may do so. If using CMOR3 you will be required to specify artificial bounds (e.g. located at full model levels) to avoid an error exit."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Omon.intppdiaz",
+    "title": "Net Primary Mole Productivity of Carbon by Diazotrophs",
+    "description": "Vertically integrated primary (organic carbon) production by the diazotrophs alone",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean where sea depth: sum where sea time: mean CMIP7:area: mean where sea depth: sum where sea (over entire ocean column) time: mean,"
+}

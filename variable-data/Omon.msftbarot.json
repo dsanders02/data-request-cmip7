@@ -1,0 +1,6 @@
+{
+    "name": "Omon.msftbarot",
+    "title": "Ocean Barotropic Mass Streamfunction",
+    "description": "Streamfunction or its approximation for free surface models. See OMDP document for details.",
+    "processing note": "Report on native horizontal grid as well as on a spherical latitude/longitude grid."
+}

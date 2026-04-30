@@ -1,0 +1,6 @@
+{
+    "name": "AERmon.od550bb",
+    "title": "Aerosol Optical Depth at 550nm Due to Biomass Burning",
+    "description": "total organic aerosol AOD due to biomass burning (excluding so4, nitrate BB components)",
+    "processing note": "CHANGE SINCE CMIP6 in CF Standard Name - CMIP6: atmosphere\\_optical\\_thickness\\_due\\_to\\_particulate\\_organic\\_matter\\_ambient\\_aerosol\\_particles, CMIP7: atmosphere\\_optical\\_thickness\\_due\\_to\\_biomass\\_burning\\_particulate\\_matter\\_ambient\\_aerosol\\_particles,"
+}

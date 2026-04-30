@@ -1,0 +1,6 @@
+{
+    "name": "3hrPt.wppwindsea",
+    "title": "Wind Sea Wave Peak Period",
+    "description": "Wave period associated with the most energetic wind-sea waves (i.e., local wind waves).\u00a0In spectral wind wave models,\u00a0this represents the spectral peak\u00a0across part of the two-dimensional wave spectrum, incorporating just wind-sea waves.",
+    "processing note": "undef"
+}

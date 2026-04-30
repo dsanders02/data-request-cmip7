@@ -1,0 +1,6 @@
+{
+    "name": "Emon.prhmax",
+    "title": "Maximum Hourly Precipitation Rate",
+    "description": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.",
+    "processing note": "CHANGE SINCE CMIP6 in Cell Methods - CMIP6:area: mean time: mean within hours time: maximum over hours CMIP7:area: mean time: maximum,"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Amon.prsnSouth30",
+    "title": "Snowfall Flux",
+    "description": "at surface; includes precipitation of all forms of water in the solid phase",
+    "processing note": "This is a regional subset of the variable. If you are producing the global equivalent of Amon.prsnSouth30, you should omit this regional South30 version."
+}

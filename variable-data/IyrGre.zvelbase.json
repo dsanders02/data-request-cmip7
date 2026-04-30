@@ -1,0 +1,6 @@
+{
+    "name": "IyrGre.zvelbase",
+    "title": "Upward Component of Land-Ice Basal Velocity",
+    "description": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward). \"basal\" means the lower boundary of the atmosphere",
+    "processing note": "CHANGE SINCE CMIP6 in Dimensions - CMIP6:xgre ygre time CMIP7:latitude longitude time,"
+}

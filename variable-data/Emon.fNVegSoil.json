@@ -1,0 +1,6 @@
+{
+    "name": "Emon.fNVegSoil",
+    "title": "Total Nitrogen Mass Flux from Vegetation Directly to Soil",
+    "description": "In some models part of nitrogen (e.g., root exudate) can go directly into the soil pool without entering litter.",
+    "processing note": "N/A"
+}

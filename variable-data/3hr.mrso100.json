@@ -1,0 +1,6 @@
+{
+    "name": "3hr.mrso100",
+    "title": "Soil moisture in the top 1 m of the soil column",
+    "description": "Soil moisture at 3hr but for 0-1m",
+    "processing note": "undef"
+}
